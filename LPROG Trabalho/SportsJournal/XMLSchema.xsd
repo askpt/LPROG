@@ -51,6 +51,65 @@
 		</xsd:sequence>
 	</xsd:element>
 	
+	<xsd:element name="sourceType">
+		<xsd:sequence>
+			<xsd:element name="sourceName" type="xsd:string" />
+			<xsd:element name="sourceURL" type="xsd:anyURI" />
+		</xsd:sequence>
+	</xsd:element>
 	
+	<xsd:element name="photosType">
+		<xsd:sequence>
+			<!-- restrict this to one cover photo only -->
+			<xsd:element name="coverPhoto" type="xsd:anyURI" />
+			<!-- allow more than one photo -->
+			<xsd:element name="otherPhoto" type="xsd:anyURI" />
+		</xsd:sequence>
+	</xsd:element>
+	
+	<xsd:element name="otherLanguages">
+		<xsd:sequence>
+			<xsd:element name="language">
+				<xsd:all>
+					<xsd:element name="link" type="xsd:anyURI" />
+				</xsd:all>
+			</xsd:element>
+		</xsd:sequence>
+		<!-- use enumeration ?? -->
+		<xsd:attribute name="lan" type="xsd:string" />
+	</xsd:element>
+	
+	<xsd:element name="clubsType">
+		<xsd:all>
+			<xsd:element name="club">
+				<xsd:sequence>
+					<xsd:element name="name" type="xsd:string" />
+					<!-- add constraint to 3 letters only -->
+					<xsd:element name="shortname" type="xsd:string" />
+					<!-- add constraint to 3 letters only -->
+					<xsd:element name="country" type="xsd:string" />
+				</xsd:sequence>
+			</xsd:element>
+		</xsd:all>
+	</xsd:element>
+	
+	<xsd:element name="otherNewsType">
+		<xsd:sequence>
+			<xsd:element name="relatedNews">
+				<xsd:all>
+					<xsd:element name="relation" />
+					<!-- use regular expression instead of string -->
+					<xsd:attribute name="idrel" type="xsd:string" />
+				</xsd:all>
+			</xsd:element>
+			<xsd:element name="similarNews">
+				<xsd:all>
+					<xsd:element name="similar" />
+					<!-- use regular expression instead of string -->
+					<xsd:attribute name="idsim" type="xsd:string" />
+				</xsd:all>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:element>
 	
 </schema>
