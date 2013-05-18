@@ -47,10 +47,6 @@
 				<relation idrel="REC-002" />
 			</relatedNews>
 			<similarNews>
-				<similar>
-					<linkToSimilar>
-					</linkToSimilar>
-				</similar>
 			</similarNews>
 		</otherNews>
 		<comments></comments>
@@ -107,10 +103,6 @@
 				<relation idrel="REC-001" />
 			</relatedNews>
 			<similarNews>
-				<similar>
-					<linkToSimilar>
-					</linkToSimilar>
-				</similar>
 			</similarNews>
 		</otherNews>
 		<comments></comments>
@@ -175,10 +167,6 @@
 			<relatedNews>
 			</relatedNews>
 			<similarNews>
-				<similar>
-					<linkToSimilar>
-					</linkToSimilar>
-				</similar>
 			</similarNews>
 		</otherNews>
 		<comments></comments>
@@ -250,10 +238,6 @@
 			<relatedNews>
 			</relatedNews>
 			<similarNews>
-				<similar>
-					<linkToSimilar>
-					</linkToSimilar>
-				</similar>
 			</similarNews>
 		</otherNews>
 		<comments></comments>
