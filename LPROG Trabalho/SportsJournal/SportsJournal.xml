@@ -213,5 +213,71 @@
 		</newsBody>
 	</news>
 	
+		<!-- Another news item -->
+	<news id="BOL-0001" lang="POR">
+		<dateTime>
+			<day>18</day>
+			<month>May</month>
+			<year>2013</year>
+			<time>12:25</time>
+		</dateTime>
+		<author>
+			<name>Redacção</name>
+			<email>redaccao@abola.pt</email>
+		</author>
+		<source>
+			<sourceName>A Bola</sourceName>
+			<sourceURL>http://www.abola.pt/nnh/ver.aspx?id=402782</sourceURL>
+		</source>
+		<title>"Não houve ameaças nem prémios, são tudo invenções"</title>
+		<abstract>Paulo Fonseca, sobre o jogo com o FC Porto</abstract>
+		<photos>
+			<coverPhoto>
+				<photo href="/Photos/paulofonseca.png" width="214" height="317" />
+			</coverPhoto>
+			<otherPhoto>
+			</otherPhoto>
+		</photos>
+		<otherLanguages>
+			<language lan="UK">
+				<link></link>
+			</language>
+		</otherLanguages>
+		<clubs>
+			<club>
+				<name>Paços de Ferreira</name>
+				<shortname>PFCF</shortname>
+				<country>Portugal</country>
+			</club>
+		</clubs>
+		<sport>Football</sport>
+		<champioship>
+			<name>Liga Sagres</name>
+		</champioship>
+		<otherNews>
+			<relatedNews>
+			</relatedNews>
+			<similarNews>
+				<similar>
+					<linkToSimilar>
+					</linkToSimilar>
+				</similar>
+			</similarNews>
+		</otherNews>
+		<comments></comments>
+		<newsBody>Por defrontar o FC Porto na última jornada e poder, por isso, ter influência nas contas do título, muito se tem falado do 
+		Paços de Ferreira e de supostos incentivos que a equipa da capital do móvel poderia ter recebido, seja para beneficiar ou dificultar
+		 a vida aos dragões. O treinador dos castores, no entanto, garante que isso não corresponde minimamente à verdade. Paulo Fonseca assegura 
+		que o Paços não precisa de motivações extra e que vai encarar este jogo com a máxima seriedade, apesar de já ter garantido o acesso à Liga 
+		dos Campeões. «Tanta coisa tem sido dita, e no entanto nada corresponde à verdade. Não existiram ameaças nem prémios, isso são tudo invenções. 
+		Os jogadores não têm de se sentir mais ou menos motivados por essas questões, eles não precisam de motivação extra para encarar o jogo com 
+		seriedade e honestidade», disse esta manhã, na conferência de imprensa de antevisão ao jogo com o FC Porto. O Paços entra em qualquer jogo para
+		 ganhar e só a vitória nos deixará felizes. Não existiram facilitismos durante a semana, trabalhámos da mesma forma que trabalhamos sempre e as
+		 mesmas horas de sempre», expressou, defendendo ainda que «o terceiro lugar do Paços tem sido algo desvalorizado». Sobre a questão do título, Paulo
+		 Fonseca garantiu que lhe é «indiferente» quem se sagre campeão, uma vez que só tem «um clube e é o Barreirense». Os vinte e dois jogadores do plantel
+		 estão convocados e o único que fica de fora é o lesionado Cícero, a contas com um traumatismo no tornozelo esquerdo. 
+		</newsBody>
+	</news>
+	
 </sportsJournal> <!-- end root -->
 
