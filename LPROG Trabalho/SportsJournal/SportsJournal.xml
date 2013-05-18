@@ -41,9 +41,7 @@
 			</club>
 		</clubs>
 		<sport>Football</sport>
-		<champioship>
-			<name>Liga Sagres</name>
-		</champioship>
+		<champioship location="POR">Liga Sagres</champioship>
 		<otherNews>
 			<relatedNews>
 				<relation idrel="REC-002" />
@@ -103,9 +101,7 @@
 			</club>
 		</clubs>
 		<sport>Football</sport>
-		<champioship>
-			<name>Liga Sagres</name>
-		</champioship>
+		<champioship location="POR">Liga Sagres</champioship>
 		<otherNews>
 			<relatedNews>
 				<relation idrel="REC-001" />
@@ -174,9 +170,7 @@
 			</club>
 		</clubs>
 		<sport>Football</sport>
-		<champioship>
-			<name>Europa League</name>
-		</champioship>
+		<champioship location="EUR-clubs">Europa League</champioship>
 		<otherNews>
 			<relatedNews>
 			</relatedNews>
@@ -251,9 +245,7 @@
 			</club>
 		</clubs>
 		<sport>Football</sport>
-		<champioship>
-			<name>Liga Sagres</name>
-		</champioship>
+		<champioship location="POR">Liga Sagres</champioship>
 		<otherNews>
 			<relatedNews>
 			</relatedNews>
