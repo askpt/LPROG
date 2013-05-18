@@ -4,7 +4,7 @@
 <sportsJournal>
 
 	<!-- News tag begins here -->
-	<news id="REC-0001">
+	<news id="REC-0001" lang="POR">
 		<dateTime>
 			<day>18</day>
 			<month>May</month>
@@ -17,8 +17,9 @@
 		</author>
 		<source>
 			<sourceName>Record</sourceName>
-			<sourceURL>http://www.record.pt</sourceURL>
+			<sourceURL>http://www.record.xl.pt/Futebol/Nacional/1a_liga/Benfica/interior.aspx?content_id=822468</sourceURL>
 		</source>
+		<title>"O que estou a fazer com Vieira vai dar certo"</title>
 		<abstract>Apoio dos adeptos após Liga Europa fá-lo ponderar</abstract>
 		<photos>
 			<coverPhoto>
@@ -65,7 +66,7 @@
 	</news>
 	
 	<!-- Another news item -->
-	<news id="REC-0002">
+	<news id="REC-0002" lang="POR">
 		<dateTime>
 			<day>18</day>
 			<month>May</month>
@@ -78,9 +79,10 @@
 		</author>
 		<source>
 			<sourceName>Record</sourceName>
-			<sourceURL>http://www.record.pt</sourceURL>
+			<sourceURL>http://www.record.xl.pt/Futebol/Nacional/1a_liga/Benfica/interior.aspx?content_id=822472</sourceURL>
 		</source>
-		<abstract>"Não podemos esperar 20 anos por outra final"</abstract>
+		<title>"Não podemos esperar 20 anos por outra final"</title>
+		<abstract>Desiludido por não dar alegria aos adeptos</abstract>
 		<photos>
 			<coverPhoto>
 				<photo href="/Photos/JJ2.png" width="214" height="317" />
@@ -126,6 +128,89 @@
 		muito grande por aquilo que os jogadores fizeram na final". E prosseguiu: "Não podemos demorar mais 20 anos para chegar a outra final 
 		- a minha passagem por aqui não faria sentido. Depois do jogo, lembrei-me dos adeptos, do facto de não lhes ter conseguido dar a 
 		alegria que mereciam".</newsBody>
+	</news>
+	
+	<!-- Another news item -->
+	<news id="UEF-0001" lang="ENG">
+		<dateTime>
+			<day>15</day>
+			<month>May</month>
+			<year>2013</year>
+			<time>22:50</time>
+		</dateTime>
+		<author>
+			<name>John Atkin</name>
+			<email>johnatkin@uefa.com</email>
+		</author>
+		<source>
+			<sourceName>Uefa</sourceName>
+			<sourceURL>http://www.uefa.com/uefaeuropaleague/season=2013/matches/round=2000361/match=2010095/postmatch/report/index.html</sourceURL>
+		</source>
+		<title>Chelsea win Europa League</title>
+		<abstract>Ivanović heads Chelsea to Europa League glory</abstract>
+		<photos>
+			<coverPhoto>
+				<photo href="/Photos/ivanovic.png" width="214" height="317" />
+			</coverPhoto>
+			<otherPhoto>
+				<photo href="/Photos/cardozo.png" width="150 " height="120" />
+			</otherPhoto>
+		</photos>
+		<otherLanguages>
+			<language lan="UK">
+				<link></link>
+			</language>
+		</otherLanguages>
+		<clubs>
+			<club>
+				<name>Sport Liboa e Benfica</name>
+				<shortname>SLB</shortname>
+				<country>Portugal</country>
+			</club>
+			<club>
+				<name>Chelsea Football Club</name>
+				<shortname>CHE</shortname>
+				<country>UK</country>
+			</club>
+		</clubs>
+		<sport>Football</sport>
+		<champioship>
+			<name>Europa League</name>
+		</champioship>
+		<otherNews>
+			<relatedNews>
+			</relatedNews>
+			<similarNews>
+				<similar>
+					<linkToSimilar>
+					</linkToSimilar>
+				</similar>
+			</similarNews>
+		</otherNews>
+		<comments></comments>
+		<newsBody>Branislav Ivanović's towering header in the last minute of added time earned Chelsea FC a dramatic victory over SL Benfica as 
+		they captured the 2013 UEFA Europa League title. A taut, absorbing Amsterdam final looked destined for extra time when the Chelsea centre-back 
+		peeled away from his marker at the back post to direct an imperious header into the far corner following Juan Mata's corner. Benfica dominated 
+		the first 60 minutes before a moment of power and poise from Fernando Torres swung the game Chelsea's way. Óscar Cardozo soon equalised from the 
+		spot but Ivanović had the last word. Benfica controlled the first hour, Jorge Jesus's fluid, offensive-minded side hypnotising the Chelsea back 
+		line almost to submission. They attacked with verve, a flurry of balletic turns and intricate interplays; they defended too – although until Torres's
+		intervention they did not have much of that to do. The script was only missing the final act as all too often they overcomplicated things, attempting
+		one pass too many or fluffing their lines. Rodrigo, a surprise starter, typified the Lisbon outfit's play, popping up all over the pitch, almost always 
+		unaccompanied. His vision was panoramic, his passing laser-accurate, but in front of goal his feet lost their assurance. Literally so on 15 minutes when,
+		having completely missed the first cross to him five metres out following a clever free-kick, he slipped as he attempted to convert the second.
+		Moments before he had blazed over, and Cardozo, Eduardo Salvio and Nicolás Gaitán were also guilty of failing to deliver the knockout blow as Chelsea, 
+		backed grimly into a corner, held on. The English side, with Juan Mata and Oscar combining well, always had a sucker punch in them. Frank Lampard so nearly 
+		provided one with half-time approaching, cutting in from the left and hitting a swerving shot that initially wrong-footed Artur. The goalkeeper did well to
+		adjust and turn the ball over with a strong hand, yet order was soon restored as Benfica kicked off the second half as they began the first, only this time 
+		they really threatened the breakthrough. It needed brilliant awareness from César Azpilicueta to steal the ball away from the onrushing Rodrigo after Cardozo 
+		had turned Gary Cahill, and moments later Cardozo did find the net, but his header was ruled out for offside. Then came Torres's hammer blow, whose innocuous
+		origins must have made the pain even harder to bear. It was route one stuff as Petr Čech's throw was flicked on by Mata to Torres, who showed great strength 
+		to turn his marker and hold off Luisão before rounding Artur and clipping in. Jesus moved swiftly, bringing on fresh attacking legs and in no time his team were 
+		level, Cardozo powering in from the spot after Salvio's header struck Azpilicueta's hand. The game opened up, the pendulum swinging this way and that. Cardozo had 
+		a stunning half-volley tipped over by Čech and with two minutes left Lampard rattled the crossbar with a sumptuous shot full of swerve and dip. Extra time loomed,
+		but Ivanović had other ideas with a dramatic winner that means Chelsea, for the next ten days at least, become the first club to hold the UEFA Champions League and
+		UEFA Europa League trophies simultaneously.
+		</newsBody>
 	</news>
 	
 </sportsJournal> <!-- end root -->
