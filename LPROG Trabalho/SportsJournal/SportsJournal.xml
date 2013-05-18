@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- root element -->
+<sportsJournal>
+
+	<!-- News tag begins here -->
+	<news id="REC-0001">
+		<dateTime>
+			<day>18</day>
+			<month>May</month>
+			<year>2013</year>
+			<time>18:24</time>
+		</dateTime>
+		<author>
+			<name>Luís Miguel Neves</name>
+			<email>luisneves@record.pt</email>
+		</author>
+		<source>
+			<sourceName>Record</sourceName>
+			<sourceURL>http://www.record.pt</sourceURL>
+		</source>
+		<abstract>Apoio dos adeptos após Liga Europa fá-lo ponderar</abstract>
+		<photos>
+			<coverPhoto>
+				<photo href="/Photos/JJ.png" width="214" height="317" />
+			</coverPhoto>
+			<otherPhoto>
+			</otherPhoto>
+		</photos>
+		<otherLanguages>
+			<language lan="UK">
+				<link></link>
+			</language>
+		</otherLanguages>
+		<clubs>
+			<club>
+				<name>Sport Liboa e Benfica</name>
+				<shortname>SLB</shortname>
+				<country>Portugal</country>
+			</club>
+		</clubs>
+		<sport>Football</sport>
+		<champioship>
+			<name>Liga Sagres</name>
+		</champioship>
+		<otherNews>
+			<relatedNews>
+				<relation idrel="REC-002" />
+			</relatedNews>
+			<similarNews>
+				<similar>
+					<linkToSimilar>
+					</linkToSimilar>
+				</similar>
+			</similarNews>
+		</otherNews>
+		<comments></comments>
+		<newsBody>Com a renovação de Jorge Jesus praticamente acertada, o treinador do Benfica sublinhou este sábado que a "parceria" 
+		com o presidente do clube vai continuar "a dar certo". "Trabalhamos para o clube e, direta ou indiretamente para os adeptos, para 
+		lhes dar alegrias. Gostamos que nossos adeptos gostem de nós e acreditem no nosso trabalho, que tenham manifestações de carinho 
+		como as que fizeram ao longo deste ano. Quando não ganhamos uma final [da Liga Europa] e os adeptos nos acarinham da forma como foi, 
+		isso leva-me a pensar: da mesma maneira que pensei coisas depois do jogo, também pensei noutras quando cheguei a Lisboa e senti o apoio 
+		ou mesmo no aeroporto de Amesterdão quando me deram muita força. Havia orgulho na equipa. Isso também me levou a pensar que o que eu 
+		e o presidente estamos a fazer vai dar certo", afirmou Jorge Jesus em conferência de imprensa.</newsBody>
+	</news>
+	
+	<!-- Another news item -->
+	<news id="REC-0002">
+		<dateTime>
+			<day>18</day>
+			<month>May</month>
+			<year>2013</year>
+			<time>19:03</time>
+		</dateTime>
+		<author>
+			<name>Fernando Ferreira</name>
+			<email>fernandoferreira@record.pt</email>
+		</author>
+		<source>
+			<sourceName>Record</sourceName>
+			<sourceURL>http://www.record.pt</sourceURL>
+		</source>
+		<abstract>"Não podemos esperar 20 anos por outra final"</abstract>
+		<photos>
+			<coverPhoto>
+				<photo href="/Photos/JJ2.png" width="214" height="317" />
+			</coverPhoto>
+			<otherPhoto>
+			</otherPhoto>
+		</photos>
+		<otherLanguages>
+			<language lan="UK">
+				<link></link>
+			</language>
+		</otherLanguages>
+		<clubs>
+			<club>
+				<name>Sport Liboa e Benfica</name>
+				<shortname>SLB</shortname>
+				<country>Portugal</country>
+			</club>
+		</clubs>
+		<sport>Football</sport>
+		<champioship>
+			<name>Liga Sagres</name>
+		</champioship>
+		<otherNews>
+			<relatedNews>
+				<relation idrel="REC-001" />
+			</relatedNews>
+			<similarNews>
+				<similar>
+					<linkToSimilar>
+					</linkToSimilar>
+				</similar>
+			</similarNews>
+		</otherNews>
+		<comments></comments>
+		<newsBody>Depois da derrota no Dragão e da final da Liga Europa perdida para o Chelsea, o ânimo dos 
+		jogadores do Benfica ressentiu-se, mas Jorge Jesus fez questão de animar "as tropas" de novo até porque 
+		a qualidade de jogo só tinha de deixar a equipa de cabeça erguida. "As primeira horas e dias são sempre difíceis. 
+		As derrotas são sempre iguais, mas quando se perde e se mostra uma qualidade de jogo contra um adversário que é campeão 
+		europeu, fica-se sempre com uma sensação de ter feito um trabalho à altura de estar naquela final. A receção dos adeptos 
+		mexeu com todos nós, principalmente comigo. Os adeptos acreditam na equipa, acreditam que o facto de estarmos nestas finais 
+		é fruto do trabalho deste últimos anos. O Benfica foi a uma final [europeia]passados 23 anos e os adeptos mostraram um orgulho 
+		muito grande por aquilo que os jogadores fizeram na final". E prosseguiu: "Não podemos demorar mais 20 anos para chegar a outra final 
+		- a minha passagem por aqui não faria sentido. Depois do jogo, lembrei-me dos adeptos, do facto de não lhes ter conseguido dar a 
+		alegria que mereciam".</newsBody>
+	</news>
+	
+</sportsJournal> <!-- end root -->
+
