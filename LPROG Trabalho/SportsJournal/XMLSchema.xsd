@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema">
-	
-	<xsd:element name="sportsJournal" type="sportsJournalType"/>
-	
+<xsd:schema elementFormDefault="qualified"
+	attributeFormDefault="unqualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<xsd:element name="sportsJournal" type="sportsJournalType" />
+
 	<xsd:complexType name="sportsJournalType">
 		<xsd:all>
 			<xsd:element name="news" type="newsType" />
 		</xsd:all>
 	</xsd:complexType>
-	
+
 	<xsd:complexType name="newsType">
 		<xsd:sequence>
 			<xsd:element name="dateTime" type="dateTimeType" />
@@ -17,7 +18,7 @@
 			<xsd:element name="title" type="xsd:string" />
 			<xsd:element name="abstract" type="xsd:string" />
 			<xsd:element name="photos" type="photosType" />
-			<xsd:elememt name="otherLanguages" type="otherLanguagesType" />
+			<xsd:element name="otherLanguages" type="otherLanguagesType" />
 			<xsd:element name="clubs" type="clubsType" />
 			<xsd:element name="sport" type="xsd:string" />
 			<xsd:element name="championship" type="xsd:string" />
@@ -29,8 +30,8 @@
 		<xsd:attribute name="id" type="xsd:string" use="required" />
 		<xsd:attribute name="lang" type="xsd:string" use="required" />
 	</xsd:complexType>
-	
-	<xsd:element name="dateTimeType">
+
+	<xsd:complexType name="dateTimeType">
 		<xsd:sequence>
 			<!-- improve here with 0-31 -->
 			<xsd:element name="day" type="xsd:int" />
@@ -41,75 +42,87 @@
 			<!-- improve here with [0-2][0-9]:[0-5][0-9] -->
 			<xsd:element name="time" type="xsd:string" />
 		</xsd:sequence>
-	</xsd:element>
-	
-	<xsd:element name="authorType">
+	</xsd:complexType>
+
+	<xsd:complexType name="authorType">
 		<xsd:sequence>
 			<xsd:element name="name" type="xsd:string" />
 			<!-- improve with regular expression to validate email addresses -->
 			<xsd:element name="email" type="xsd:string" />
 		</xsd:sequence>
-	</xsd:element>
-	
-	<xsd:element name="sourceType">
+	</xsd:complexType>
+
+	<xsd:complexType name="sourceType">
 		<xsd:sequence>
 			<xsd:element name="sourceName" type="xsd:string" />
 			<xsd:element name="sourceURL" type="xsd:anyURI" />
 		</xsd:sequence>
-	</xsd:element>
-	
-	<xsd:element name="photosType">
+	</xsd:complexType>
+
+	<xsd:complexType name="photosType">
 		<xsd:sequence>
 			<!-- restrict this to one cover photo only -->
 			<xsd:element name="coverPhoto" type="xsd:anyURI" />
 			<!-- allow more than one photo -->
 			<xsd:element name="otherPhoto" type="xsd:anyURI" />
 		</xsd:sequence>
-	</xsd:element>
-	
-	<xsd:element name="otherLanguages">
+	</xsd:complexType>
+
+	<xsd:complexType name="otherLanguagesType">
 		<xsd:sequence>
 			<xsd:element name="language">
-				<xsd:all>
-					<xsd:element name="link" type="xsd:anyURI" />
-				</xsd:all>
+				<xsd:complexType>
+					<xsd:all>
+						<xsd:element name="link" type="xsd:anyURI" />
+					</xsd:all>
+				</xsd:complexType>
 			</xsd:element>
 		</xsd:sequence>
 		<!-- use enumeration ?? -->
 		<xsd:attribute name="lan" type="xsd:string" />
-	</xsd:element>
-	
-	<xsd:element name="clubsType">
+	</xsd:complexType>
+
+	<xsd:complexType name="clubsType">
 		<xsd:all>
 			<xsd:element name="club">
-				<xsd:sequence>
-					<xsd:element name="name" type="xsd:string" />
-					<!-- add constraint to 3 letters only -->
-					<xsd:element name="shortname" type="xsd:string" />
-					<!-- add constraint to 3 letters only -->
-					<xsd:element name="country" type="xsd:string" />
-				</xsd:sequence>
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="name" type="xsd:string" />
+						<!-- add constraint to 3 letters only -->
+						<xsd:element name="shortname" type="xsd:string" />
+						<!-- add constraint to 3 letters only -->
+						<xsd:element name="country" type="xsd:string" />
+					</xsd:sequence>
+				</xsd:complexType>
 			</xsd:element>
 		</xsd:all>
-	</xsd:element>
-	
-	<xsd:element name="otherNewsType">
+	</xsd:complexType>
+
+	<xsd:complexType name="otherNewsType">
 		<xsd:sequence>
 			<xsd:element name="relatedNews">
-				<xsd:all>
-					<xsd:element name="relation" />
-					<!-- use regular expression instead of string -->
-					<xsd:attribute name="idrel" type="xsd:string" />
-				</xsd:all>
+				<xsd:complexType>
+					<xsd:all>
+						<xsd:element name="relation">
+							<xsd:complexType>
+								<!-- use regular expression instead of string -->
+								<xsd:attribute name="idrel" type="xsd:string" />
+							</xsd:complexType>
+						</xsd:element>
+					</xsd:all>
+				</xsd:complexType>
 			</xsd:element>
 			<xsd:element name="similarNews">
-				<xsd:all>
-					<xsd:element name="similar" />
-					<!-- use regular expression instead of string -->
-					<xsd:attribute name="idsim" type="xsd:string" />
-				</xsd:all>
+				<xsd:complexType>
+					<xsd:all>
+						<xsd:element name="similar">
+							<xsd:complexType>
+								<xsd:attribute name="idsim" type="xsd:string" />
+							</xsd:complexType>
+						</xsd:element>
+					</xsd:all>
+				</xsd:complexType>
 			</xsd:element>
 		</xsd:sequence>
-	</xsd:element>
-	
-</schema>
+	</xsd:complexType>
+</xsd:schema>
