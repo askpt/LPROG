@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!-- root element -->
-<sportsJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tarefa.xsd">
+<sportsJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="XMLSchema.xsd">
 
 	<!-- News tag begins here -->
 	<news id="REC-0001" lang="POR">
@@ -26,6 +26,7 @@
 				<photo href="/Photos/JJ.png" width="214" height="317" />
 			</coverPhoto>
 			<otherPhoto>
+				<photo href="/Photos/JJ.png" width="214" height="317" />
 			</otherPhoto>
 		</photos>
 		<otherLanguages>
@@ -41,12 +42,17 @@
 			</club>
 		</clubs>
 		<sport>Football</sport>
-		<champioship location="POR">Liga Sagres</champioship>
+		<championship location="POR">
+			<name>
+				Liga Sagres
+			</name>
+		</championship>
 		<otherNews>
 			<relatedNews>
 				<relation idrel="REC-002" />
 			</relatedNews>
 			<similarNews>
+				<similar idsim="aaa" />
 			</similarNews>
 		</otherNews>
 		<comments></comments>
@@ -58,8 +64,8 @@
 		ou mesmo no aeroporto de Amesterdão quando me deram muita força. Havia orgulho na equipa. Isso também me levou a pensar que o que eu 
 		e o presidente estamos a fazer vai dar certo", afirmou Jorge Jesus em conferência de imprensa.</newsBody>
 	</news>
-	
-	<!-- Another news item -->
+
+
 	<news id="REC-0002" lang="POR">
 		<dateTime>
 			<day>18</day>
@@ -82,6 +88,7 @@
 				<photo href="/Photos/JJ2.png" width="214" height="317" />
 			</coverPhoto>
 			<otherPhoto>
+				<photo href="/Photos/JJ2.png" width="214" height="317" />
 			</otherPhoto>
 		</photos>
 		<otherLanguages>
@@ -97,12 +104,13 @@
 			</club>
 		</clubs>
 		<sport>Football</sport>
-		<champioship location="POR">Liga Sagres</champioship>
+		<championship location="POR"><name>Liga Sagres</name></championship>
 		<otherNews>
 			<relatedNews>
 				<relation idrel="REC-001" />
 			</relatedNews>
 			<similarNews>
+				<similar idsim="bbb"></similar>
 			</similarNews>
 		</otherNews>
 		<comments></comments>
@@ -117,7 +125,7 @@
 		- a minha passagem por aqui não faria sentido. Depois do jogo, lembrei-me dos adeptos, do facto de não lhes ter conseguido dar a 
 		alegria que mereciam".</newsBody>
 	</news>
-	
+
 	<!-- Another news item -->
 	<news id="UEF-0001" lang="ENG">
 		<dateTime>
@@ -162,11 +170,13 @@
 			</club>
 		</clubs>
 		<sport>Football</sport>
-		<champioship location="EUR-clubs">Europa League</champioship>
+		<championship location="EUR-clubs"><name>Europa League</name></championship>
 		<otherNews>
 			<relatedNews>
+			<relation idrel="ada"/>
 			</relatedNews>
 			<similarNews>
+			<similar idsim="aaa"/>
 			</similarNews>
 		</otherNews>
 		<comments></comments>
@@ -194,8 +204,8 @@
 		UEFA Europa League trophies simultaneously.
 		</newsBody>
 	</news>
-	
-		<!-- Another news item -->
+
+	<!-- Another news item -->
 	<news id="BOL-0001" lang="POR">
 		<dateTime>
 			<day>18</day>
@@ -218,6 +228,7 @@
 				<photo href="/Photos/paulofonseca.png" width="214" height="317" />
 			</coverPhoto>
 			<otherPhoto>
+				<photo href="/Photos/paulofonseca.png" width="214" height="317" />
 			</otherPhoto>
 		</photos>
 		<otherLanguages>
@@ -233,11 +244,13 @@
 			</club>
 		</clubs>
 		<sport>Football</sport>
-		<champioship location="POR">Liga Sagres</champioship>
+		<championship location="POR"><name>Liga Sagres</name></championship>
 		<otherNews>
 			<relatedNews>
+			<relation/>
 			</relatedNews>
 			<similarNews>
+			<similar/>
 			</similarNews>
 		</otherNews>
 		<comments></comments>
@@ -254,6 +267,6 @@
 		 estão convocados e o único que fica de fora é o lesionado Cícero, a contas com um traumatismo no tornozelo esquerdo. 
 		</newsBody>
 	</news>
-	
+
 </sportsJournal> <!-- end root -->
 
