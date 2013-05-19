@@ -35,10 +35,10 @@
 						
 						<!-- prints news title and abstract -->
 						<h3> 
-							<a name="{generate-id(name)}"><xsl:value-of select="title" /></a>
+							<a name="{generate-id(title)}"><xsl:value-of select="title" /></a>
 						</h3>
 						<h4> 
-							<a name="{generate-id(name)}"><xsl:value-of select="abstract" /></a>
+							<a name="{generate-id(title)}"><xsl:value-of select="abstract" /></a>
 						</h4>
 						
 						<!-- prints the cover photo -->
