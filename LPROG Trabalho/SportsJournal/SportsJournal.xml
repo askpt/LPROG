@@ -9,12 +9,7 @@
 
 	<!-- News tag begins here -->
 	<news id="REC-0001" lang="POR">
-		<dateTime>
-			<day>18</day>
-			<month>May</month>
-			<year>2013</year>
-			<time>18:24</time>
-		</dateTime>
+		<dateTime>2013-05-18T18:24:00</dateTime>
 		<author>
 			<name>Luís Miguel Neves</name>
 			<email>luisneves@record.pt</email>
@@ -71,12 +66,7 @@
 
 
 	<news id="REC-0002" lang="POR">
-		<dateTime>
-			<day>18</day>
-			<month>May</month>
-			<year>2013</year>
-			<time>19:03</time>
-		</dateTime>
+		<dateTime>2013-05-18T19:03:00</dateTime>
 		<author>
 			<name>Fernando Ferreira</name>
 			<email>fernandoferreira@record.pt</email>
@@ -134,12 +124,7 @@
 
 	<!-- Another news item -->
 	<news id="UEF-0001" lang="ENG">
-		<dateTime>
-			<day>15</day>
-			<month>May</month>
-			<year>2013</year>
-			<time>22:50</time>
-		</dateTime>
+		<dateTime>2013-05-15T22:50:00</dateTime>
 		<author>
 			<name>John Atkin</name>
 			<email>johnatkin@uefa.com</email>
@@ -215,12 +200,7 @@
 
 	<!-- Another news item -->
 	<news id="BOL-0001" lang="POR">
-		<dateTime>
-			<day>18</day>
-			<month>May</month>
-			<year>2013</year>
-			<time>12:25</time>
-		</dateTime>
+		<dateTime>2013-05-18T12:25:00</dateTime>
 		<author>
 			<name>Redacção</name>
 			<email>redaccao@abola.pt</email>
@@ -279,12 +259,7 @@
 	</news>
 
 	<news id="JN-0001" lang="POR">
-		<dateTime>
-			<day>28</day>
-			<month>May</month>
-			<year>1958</year>
-			<time>20:00</time>
-		</dateTime>
+		<dateTime>1958-05-28T20:00:00</dateTime>
 		<author>
 			<name>JN</name>
 			<email>JN</email>
@@ -338,13 +313,9 @@
 		Em cima, a ilustrar o 'post', 3 fotos da inauguração do antigo Estádio das Antas. Na primeira, os benfiquistas 
 		Francisco Moreira e Manuel Arsénio (autor do primeiro golo no Estádio das Antas) surgem a transportar o pesado troféu (reparem que se vê o emblema do FC Porto na base) que o Benfica conquistou depois da vitória sobre o FC Porto.</newsBody>
 	</news>
+	
 	<news lang="PT" id="BOL-0002">
-		<dateTime>
-			<day>7</day>
-			<month>February</month>
-			<year>2013</year>
-			<time>15:13</time>
-		</dateTime>
+		<dateTime>2013-02-07T15:13:00</dateTime>
 		<author>
 			<name>Rui Zambujo</name>
 			<email>bola@abola.pt</email>
@@ -433,13 +404,9 @@
 		e Araújo.
 		</newsBody>
 	</news>
+	
 	<news lang="POR" id="REC-003">
-		<dateTime>
-			<day>7</day>
-			<month>December</month>
-			<year>2006</year>
-			<time>21:11</time>
-		</dateTime>
+		<dateTime>2006-12-07T21:11:00</dateTime>
 		<author>
 			<name>Luís Avelãs</name>
 			<email>luis@record.com</email>
@@ -510,12 +477,7 @@
 	</news>
 
 	<news lang="POR" id="REC-004">
-		<dateTime>
-			<day>3</day>
-			<month>December</month>
-			<year>2004</year>
-			<time>02:58</time>
-		</dateTime>
+		<dateTime>2004-12-03T02:58:00</dateTime>
 		<author>
 			<name>Eugénio Queirós</name>
 			<email>eugenio@record.com</email>
