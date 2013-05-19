@@ -338,6 +338,259 @@
 		Em cima, a ilustrar o 'post', 3 fotos da inauguração do antigo Estádio das Antas. Na primeira, os benfiquistas 
 		Francisco Moreira e Manuel Arsénio (autor do primeiro golo no Estádio das Antas) surgem a transportar o pesado troféu (reparem que se vê o emblema do FC Porto na base) que o Benfica conquistou depois da vitória sobre o FC Porto.</newsBody>
 	</news>
+	<news lang="PT" id="BOL-0002">
+		<dateTime>
+			<day>7</day>
+			<month>February</month>
+			<year>2013</year>
+			<time>15:13</time>
+		</dateTime>
+		<author>
+			<name>Rui Zambujo</name>
+			<email>bola@abola.pt</email>
+		</author>
+		<source>
+			<sourceName>Benfica Eternos Campeões</sourceName>
+			<sourceURL>http://benficaeternoscampeoes.blogspot.pt/2013/02/foi-ha-70-anos-sl-benfica-12-fc-porto-2.html</sourceURL>
+		</source>
+		<title>Benfica vs Porto: A maior Goleada</title>
+		<abstract>Na tarde de 7 de Fevereiro de 1943, o Campo Grande assiste a um 12-2. Nunca visto e jamais repetido</abstract>
+		<photos>
+			<coverPhoto>
+				<photo href="Photos/122.jpg" width="214" height="317" />
+			</coverPhoto>
+			<otherPhoto>
+				<photo href="Photos/122.jpg" width="214" height="317" />
+			</otherPhoto>
+		</photos>
+		<otherLanguages>
+			<language lan="PT">
+				<link></link>
+			</language>
+		</otherLanguages>
+		<clubs>
+			<club>
+				<name>Sport Lisboa e Benfica</name>
+				<shortname>SLB</shortname>
+				<country>Portugal</country>
+			</club>
+		</clubs>
+		<sport>Football</sport>
+		<championship location="POR">
+			<name>Portuguese League</name>
+		</championship>
+		<otherNews>
+			<relatedNews>
+				<relation />
+			</relatedNews>
+			<similarNews>
+				<similar />
+			</similarNews>
+		</otherNews>
+		<comments></comments>
+		<newsBody>Recuemos ao tempo dos jogadores sem chuteiras coloridas, nem números nas
+		camisolas. Estamos em Fevereiro de 1943, no dia 7. Faz hoje 70 anos que o Benfica
+		maltrata o FC Porto por 12-2, a maior goleada de sempre em clássicos.
+		
+		É a quinta jornada da liga, o Benfica lidera só com vitórias, o FCP já perdera nas
+		Salésias (0-4) e empatara em casa com o Sporting (2-2). Comecemos pelo árbitro,
+		Vasco Ataíde, de Coimbra. No Campo Grande, 22 portugueses e dois treinadores húngaros,
+		Janos Biri de um lado, Lipo Herczka do outro.
+		
+		O Porto apresenta-se sem o guarda-redes Valongo, suplente de Andrasik. O titular sai do
+		onze depois dos quatro golos do Belenenses, já Valongo lesiona-se na semana anterior após
+		o choque com o extremo-direito olhanense Moreira. Sem substituições, o FCP ganha dificilmente
+		por 3-2 com o médio Anjos na baliza a partir dos dois minutos de jogo. Não há Bela (Andrasik),
+		sem senão (Valongo). Entra Mota, a terceira opção portista, e a estreia é a pior possível. Ao
+		intervalo, 4-0. Golos de Valadas (5' e 31'), Teixeira(39') e Manuel da Costa (44'). Por incrível
+		que pareça, a segunda parte é um rodízio de emoções: 8-2.
+		
+		Começa com um autogolo de Alfredo (5-0, aos 46'). Póvoas reduz (48'), mas a ousadia é "recompensa"
+		com quatro golos em sete minutos. Ao hat-trick de Júlio (55', 60' e 61') junta-se a generosa
+		contribuição de Manuel da Costa (58'). Já com dez elementos, por expulsão do extremo-esquerdo
+		António Nunes (64')m o Porto reduz para 9-2 por Araújo (67'). Tal façanha é novamente respondida
+		pelo Benfica de forma autoritária. Poquer de Júlio (75'), Francisco Ferreira marca à ex-equipa (77'),
+		Teixeira fecha a conta (85').
+		
+		Para a história, os quatro golos de Júlio, o primeiro (e único) benfiquista a obtê-lo nos clássicos. 
+		"O Júlio era pequenino mas conseguia ganhar de cabeça aos mais altos e marcava golos atrás de golos",
+		conta Rogério Lantres de Carvalho, o Pipi, ausente desse clássico.
+		
+		"Foi o meu ano de estreia no Benfica, em que cheguei um pouco receoso por entrar rodeado de craques
+		como Albino, Gaspar Pinto e Francisco Ferreira, os meus ídolos. Os cromos com as caras deles saíam nos
+		rebuçados da altura. O treinador era o húngaro Janos Biri, que me ensinou muito. Impunha disciplina, tipo
+		José António Camacho, duro mas educado."
+		
+		O Benfica sagrar-se-ia campeão com um ponto de avanço sobre o Sporting (o FC Porto acabaria em sétimo lugar)
+		e ainda venceria a Taça de Portugal (5-1 ao Vitória de Setubal). É a dobradinha. "A primeira do Benfica",
+		justifica Pipi, orgulhoso do feito, "embora não tenha estado em campo nos 12-2." Afinal quem está em campo?
+		Aqui seguem os onze:
+		
+		BENFICA - Martins; Gaspar e César Ferreira; Jordão, Albino e Francisco Ferreira; Manuel da Costa, Barros, Júlio,
+		Teixeira e Valadas.
+		
+		FC Porto - Mota; Alfredo e Guilhar; Anjos, António Nunes e Baptista; Póvoas, Gomes da Costa, Correia Dias, Pinga 
+		e Araújo.
+		</newsBody>
+	</news>
+	<news lang="POR" id="REC-003">
+		<dateTime>
+			<day>7</day>
+			<month>December</month>
+			<year>2006</year>
+			<time>21:11</time>
+		</dateTime>
+		<author>
+			<name>Luís Avelãs</name>
+			<email>luis@record.com</email>
+		</author>
+		<source>
+			<sourceName>Carolina Salgado: «Pinto da Costa recebia árbitros em casa»</sourceName>
+			<sourceURL>http://www.record.xl.pt/arquivo/interior.aspx?content_id=290747</sourceURL>
+		</source>
+		<title>Carolina Salgado: «Pinto da Costa recebia árbitros em casa»</title>
+		<abstract>DINHEIRO E MENINAS ERAM A RECOMPENSA</abstract>
+		<photos>
+			<coverPhoto>
+				<photo href="Photos/carsal.jpg" width="214" height="317"/>
+			</coverPhoto>
+			<otherPhoto>
+				<photo href="Photos/carsal.jpg" width="214" height="317"/>
+			</otherPhoto>
+		</photos>
+		<otherLanguages>
+			<language lan="POR">
+				<link></link>
+			</language>
+		</otherLanguages>
+		<clubs>
+			<club>
+				<name>FC Porot</name>
+				<shortname>FCP</shortname>
+				<country>Portugal</country>
+			</club>
+		</clubs>
+		<sport>Football</sport>
+		<championship location="Portugal">
+			<name>SuperLiga</name>
+		</championship>
+		<otherNews>
+			<relatedNews>
+				<relation />
+			</relatedNews>
+			<similarNews>
+				<similar />
+			</similarNews>
+		</otherNews>
+		<comments></comments>
+		<newsBody>
+		O prometido livro de Carolina Salgado já está nos escaparates. Ao longo de cerca de 150 páginas,
+		a ex-companheira de Pinto da Costa relata a experiência da sua vida de 29 anos, dando particular
+		destaque aos 6 em que viveu lado a lado com o homem que conheceu quando trabalhava no Calor da 
+		Noite, bar de alterne da cidade do Porto, e que considerava como “pai” dos seus dois filhos.
+
+		Num relato onde não esconde a revolta com muitas coisas que agora considera erradas e injustas,
+		Carolina traça um panorama bastante cinzento dos bastidores do futebol português, denunciando um 
+		sem-número de situações obscuras.
+
+		“Comparado com o que vivi e passei, o Calor da Noite, o mundo da noite e do alterne é quase como
+		um jardim infantil povoado de inocentinhas criaturas”, revela.
+
+		Entre muitos episódios curiosos, a autora dá grande destaque às incidências do célebre “Apito 
+		Dourado”, garantindo que todo o processo provocou enorme agitação em Pinto da Costa. Ainda sobre 
+		o mesmo assunto, é revelado que foi o advogado Lourenço Pinto quem, na véspera da ida da Polícia 
+		Judiciária à sua casa na Madalena, avisou o amigo do que estava prestes a suceder, ajudando-o a 
+		preparar a fuga para Espanha, bem como o regresso para prestar declarações (devidamente ensaiadas) 
+		às autoridades.
+
+		Carolina adianta ainda que, caso Pinto da Costa tivesse ficado detido após o interrogatório, os 
+		membros dos Super Dragões iriam invadir o tribunal para libertar o presidente. Depois, a ideia 
+		era voltar para Espanha e esperar, serenamente, que toda a agitação acalmasse...
+		</newsBody>
+	</news>
+
+	<news lang="POR" id="REC-004">
+		<dateTime>
+			<day>3</day>
+			<month>December</month>
+			<year>2004</year>
+			<time>02:58</time>
+		</dateTime>
+		<author>
+			<name>Eugénio Queirós</name>
+			<email>eugenio@record.com</email>
+		</author>
+		<source>
+			<sourceName>PC hoje no tribunal</sourceName>
+			<sourceURL>http://www.record.xl.pt/arquivo/interior.aspx?content_id=218971</sourceURL>
+		</source>
+		<title>PC hoje no tribunal</title>
+		<abstract>POLÍCIA JUDICIÁRIA FEZ BUSCA NA TORRE DAS ANTAS E NA CASA DO PRESIDENTE</abstract>
+		<photos>
+			<coverPhoto>
+				<photo href="Photos/pinto.jpg" width="214" height="317"/>
+			</coverPhoto>
+			<otherPhoto>
+				<photo href="Photos/pinto.jpg" width="214" height="317"/>
+			</otherPhoto>
+		</photos>
+		<otherLanguages>
+			<language lan="POR">
+				<link></link>
+			</language>
+		</otherLanguages>
+		<clubs>
+			<club>
+				<name>FC Porto</name>
+				<shortname>FCP</shortname>
+				<country>Portugal</country>
+			</club>
+		</clubs>
+		<sport>Futebol</sport>
+		<championship location="Portugal">
+			<name>SuperLiga</name>
+		</championship>
+		<otherNews>
+			<relatedNews>
+				<relation />
+			</relatedNews>
+			<similarNews>
+				<similar />
+			</similarNews>
+		</otherNews>
+		<comments></comments>
+		<newsBody>
+		A Polícia Judiciária lançou ontem uma segunda ofensiva da Operação Apito Dourado. Um agente de jogadores 
+		(António Araújo), dois árbitros (Augusto Duarte e Jacinto Paixão) e dois assistentes (Manuel Quadrado e 
+		José Chilrito) foram detidos para interrogatório. Falta um...
+
+		Pinto da Costa não estava em casa quando uma brigada da PJ, manhã bem cedo, bateu à sua porta, em 
+		Lavadores (Gaia), com mandados emitidos pelo Ministério Público para uma busca domiciliária e para o levar 
+		para interrogatório no Tribunal de Gondomar, no âmbito do processo Apito Dourado. O presidente do FC Porto 
+		encontrava-se em Espanha, alegadamente na Corunha, para negociar com o Deportivo a troca de Jorge Andrade 
+		por Pepe. PC terá pernoitado em Mondariz, uma estância balnear da Galiza, antes de regressar ao Porto.
+
+		Através do seu advogado, Gil Moreira dos Santos, Pinto da Costa fez saber que hoje mesmo se apresentará na 
+		Polícia Judiciária do Porto, colocando-se à disposição para ser levado ao Tribunal de Gondomar para ser 
+		interrogado pela juíza Ana Cláudia Nogueira, que determinará ou não medidas de coacção face aos crimes de 
+		que estará indiciado (corrupção desportiva e falsificação de documentos).
+
+		A PJ, sob o comando do Ministério Público, empreendeu também uma busca no 14º andar da Torre das Antas, 
+		onde funciona a administração da FC Porto - Futebol, SAD. A busca decorreu de manhã e manteve em 
+		"isolamento" durante bastante tempo instalações prestes a ser trocadas pelo Estádio do Dragão. O nome 
+		de Pinto da Costa veio à baila na primeira fase do processo, em Abril, a propósito de alegados favores 
+		pedidos a Valentim Loureiro no âmbito dos processos disciplinares a Deco, Mourinho e ao si próprio.
+
+		Referida é também a oferta de um relógio de Pinto da Costa a Valentim Loureiro, consumada após eventual 
+		intervenção de favor. O presidente portista, que teve também o seu telemóvel sob escuta, disse 
+		publicamente que se trata de um relógio com valor simbólico. O mais provável é que novos elementos 
+		tenham provocado novo sopro no Apito Dourado.
+
+		A quase totalidade das entidades contactadas por Record remeteu-se ao silêncio. De Gilberto Madaíl a 
+		Cunha Leal, passando pelo secretário de Estado do Desporto e presidentes do Benfica e Sporting, 
+		apenas o primeiro atendeu o telefone escusando-se a comentar "sem mais informação".
+		</newsBody>
+	</news>
 
 </sportsJournal> <!-- end root -->
 
