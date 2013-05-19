@@ -46,7 +46,14 @@
 							<xsl:attribute name="src">
 								<xsl:value-of select="photos/coverPhoto/photo/@href" />
 							</xsl:attribute>
-						</img> <br /> <br /> <hr />
+						</img> 
+						
+						<!-- printing author and source -->
+						<p>Author: <xsl:value-of select="author/name" /></p>
+						<p>Source: <xsl:value-of select="source/sourceURL" /></p>
+						
+						<!-- break and horizontal line for the next news item -->
+						<br /> <br /> <hr />
 						
 					</xsl:for-each>
 					
