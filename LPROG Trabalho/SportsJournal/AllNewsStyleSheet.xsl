@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+ 	xmlns:fn="http://www.w3.org/2005/02/xpath-functions"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
 	
 	<!-- setting output for html -->
 	<xsl:output method="html" />
@@ -30,8 +32,8 @@
 					<!-- getting data and showing it up on the screen -->
 					<xsl:for-each select="sportsJournal/news">
 						
-						<!-- sorting by sport -->
-						<xsl:sort select="sport" order="ascending" data-type="text" />
+						<!-- sorting by most recent date -->
+						<xsl:sort select="dateTime" order="descending" data-type="dateTime" />
 						
 						<!-- prints news title and abstract -->
 						<h3> 
@@ -48,10 +50,20 @@
 							</xsl:attribute>
 						</img> 
 						
-						<!-- printing author and source -->
-						<p>Author: <xsl:value-of select="author/name" /></p>
-						<p>Source: <xsl:value-of select="source/sourceURL" /></p>
+						<!-- 
+						the following
+						<xsl:value-of select="source/sourceURL" /> 
+						needs to go into href
 						
+						<xsl:value-of select="dateTime" />
+						needs to be replace with working function 
+						<xsl:value-of select="day-from-dateTime(dateTime)"/>
+						-->
+						<p>
+							(this news was originally published by <xsl:value-of select="author/name" /> on <xsl:value-of select="source/sourceName" />
+							on the <xsl:value-of select="dateTime" />. Follow the original link <a href="">here</a>)
+						</p>
+									
 						<!-- break and horizontal line for the next news item -->
 						<br /> <br /> <hr />
 						
