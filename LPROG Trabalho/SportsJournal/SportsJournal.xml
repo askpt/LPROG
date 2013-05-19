@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- root element -->
-<sportsJournal>
+<sportsJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tarefa.xsd">
 
 	<!-- News tag begins here -->
 	<news id="REC-0001" lang="POR">
