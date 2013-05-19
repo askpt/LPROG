@@ -108,7 +108,9 @@
 			</club>
 		</clubs>
 		<sport>Football</sport>
-		<championship location="POR"><name>Liga Sagres</name></championship>
+		<championship location="POR">
+			<name>Liga Sagres</name>
+		</championship>
 		<otherNews>
 			<relatedNews>
 				<relation idrel="REC-001" />
@@ -174,13 +176,15 @@
 			</club>
 		</clubs>
 		<sport>Football</sport>
-		<championship location="EUR-clubs"><name>Europa League</name></championship>
+		<championship location="EUR-clubs">
+			<name>Europa League</name>
+		</championship>
 		<otherNews>
 			<relatedNews>
-			<relation idrel="ada"/>
+				<relation idrel="ada" />
 			</relatedNews>
 			<similarNews>
-			<similar idsim="aaa"/>
+				<similar idsim="aaa" />
 			</similarNews>
 		</otherNews>
 		<comments></comments>
@@ -243,18 +247,20 @@
 		<clubs>
 			<club>
 				<name>Paços de Ferreira</name>
-				<shortname>PFCF</shortname>
+				<shortname>FCPF</shortname>
 				<country>Portugal</country>
 			</club>
 		</clubs>
 		<sport>Football</sport>
-		<championship location="POR"><name>Liga Sagres</name></championship>
+		<championship location="POR">
+			<name>Liga Sagres</name>
+		</championship>
 		<otherNews>
 			<relatedNews>
-			<relation/>
+				<relation />
 			</relatedNews>
 			<similarNews>
-			<similar/>
+				<similar />
 			</similarNews>
 		</otherNews>
 		<comments></comments>
@@ -270,6 +276,67 @@
 		 Fonseca garantiu que lhe é «indiferente» quem se sagre campeão, uma vez que só tem «um clube e é o Barreirense». Os vinte e dois jogadores do plantel
 		 estão convocados e o único que fica de fora é o lesionado Cícero, a contas com um traumatismo no tornozelo esquerdo. 
 		</newsBody>
+	</news>
+
+	<news id="JN-0001" lang="POR">
+		<dateTime>
+			<day>28</day>
+			<month>May</month>
+			<year>1958</year>
+			<time>20:00</time>
+		</dateTime>
+		<author>
+			<name>JN</name>
+			<email>JN</email>
+		</author>
+		<source>
+			<sourceName>JN</sourceName>
+			<sourceURL>http://www.jn.pt</sourceURL>
+		</source>
+		<title>Inauguração das Antas: FCP 2 - 8 SLB</title>
+		<abstract>Os encarnados levaram consigo um troféu (na foto) com 18 quilos de peso, destinado ao vencedor dessa partida.</abstract>
+		<photos>
+			<coverPhoto>
+				<photo href="Photos/inauguracao.jpg" width="214" height="317" />
+			</coverPhoto>
+			<otherPhoto>
+				<photo href="Photos/inauguracao.jpg" width="214" height="317" />
+			</otherPhoto>
+		</photos>
+		<otherLanguages>
+			<language lan="PT">
+				<link></link>
+			</language>
+		</otherLanguages>
+		<clubs>
+			<club>
+				<name>Porto</name>
+				<shortname>FCP</shortname>
+				<country>Portugal</country>
+			</club>
+		</clubs>
+		<sport>Futebol</sport>
+		<championship location="POR">
+			<name>Particular</name>
+		</championship>
+		<otherNews>
+			<relatedNews>
+				<relation />
+			</relatedNews>
+			<similarNews>
+				<similar />
+			</similarNews>
+		</otherNews>
+		<comments></comments>
+		<newsBody>A cerimónia de inauguração contou com a presença do General Craveiro Lopes, então Presidente da República, 
+		que desceu ao relvado para colocar no estandarte do FC Porto a Medalha de Mérito Desportivo e para passar revista à 
+		guarda de honra, formada por um batalhão de milícias da Mocidade Portuguesa. Além do General Craveiro Lopes, a 
+		inauguração do estádio contou com outro ilustre convidado, o Benfica! Como foram convidados de honra, os encarnados 
+		levaram consigo um troféu (na foto) com 18 quilos de peso, destinado ao vencedor dessa partida.
+		No entanto, o resultado desse jogo acabou por não ser propriamente o que os portistas desejavam que ficasse associado
+		à inauguração do novo estádio: 2-8!
+		Em cima, a ilustrar o 'post', 3 fotos da inauguração do antigo Estádio das Antas. Na primeira, os benfiquistas 
+		Francisco Moreira e Manuel Arsénio (autor do primeiro golo no Estádio das Antas) surgem a transportar o pesado troféu (reparem que se vê o emblema do FC Porto na base) que o Benfica conquistou depois da vitória sobre o FC Porto.</newsBody>
 	</news>
 
 </sportsJournal> <!-- end root -->
