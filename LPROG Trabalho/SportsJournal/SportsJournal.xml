@@ -553,6 +553,166 @@
 		apenas o primeiro atendeu o telefone escusando-se a comentar "sem mais informação".
 		</newsBody>
 	</news>
+	
 
+	<news id="REC-0005" lang="POR">
+		<dateTime>2013-05-19T19:18:30</dateTime>
+		<author>
+			<name>Anónimo</name>
+			<email>anonymous@abola.pt</email>
+		</author>
+		<source>
+			<sourceName></sourceName>
+			<sourceURL>http://www.abola.xl.pt/Futebol/Nacional/1a_liga/Benfica/interior.aspx?content_id=822472</sourceURL>
+		</source>
+		<title>"Campeonato de S.Pedro"</title>
+		<abstract>Condições climatéricas decidem título nacional</abstract>
+		<photos>
+			<coverPhoto>
+				<photo href="Photos/penalti.jpg" width="214" height="317" />
+			</coverPhoto>
+			<otherPhoto>
+				<photo href="Photos/penalti.jpg" width="214" height="317" />
+			</otherPhoto>
+		</photos>
+		<otherLanguages>
+			<language lan="UK">
+				<link></link>
+			</language>
+		</otherLanguages>
+		<clubs>
+			<club>
+				<name>Futebol Clube de Paços de Ferreira</name>
+				<shortname>FCPF</shortname>
+				<country>Portugal</country>
+			</club>
+		</clubs>
+		<sport>Football</sport>
+		<championship location="POR">
+			<name>Liga Sagres</name>
+		</championship>
+		<otherNews>
+			<relatedNews>
+				<relation idrel="REC-001" />
+			</relatedNews>
+			<similarNews>
+				<similar idsim="bbb"></similar>
+			</similarNews>
+		</otherNews>
+		<comments></comments>
+		<newsBody>Não deixa de ser estranho mas o que é certo S.Pedro superou-se a outra figura divina, neste caso Jesus. Depois de uma época de tantas
+		lamentações de alguns eis que foram accionodas estratégias divinas. O campeonato ficou decidido num golpe de génio de S.Pedro que acabou por derrubar
+		James Rodriguez (fora da grande área)com uma rajada de vento e com isto Rui Miguel não teve dúvidas em apontar para a marca dos 11 metros mostrando cartão vermelho ao defesa central
+		do Paços de Ferreira, Ricardo, no entanto este cartão devia ser mostrado ao autor desse golpe de ventania. O jogo fica assim decidido graças a uma entidade superior
+		que ludribiou o senhor Rui Miguel. Assim se decidem campeonatos nestes últimos anos.
+		 </newsBody>
+	</news>
+	
+<news id="REC-0006" lang="POR">
+		<dateTime>2013-05-19T19:18:30</dateTime>
+		<author>
+			<name>Anónimo</name>
+			<email>anonymous@abola.pt</email>
+		</author>
+		<source>
+			<sourceName></sourceName>
+			<sourceURL>http://www.abola.xl.pt/Futebol/Nacional/1a_liga/Porto/interior.aspx?content_id=822472</sourceURL>
+		</source>
+		<title>"Campeonato não podia ser chamado campeonato "Capela""</title>
+		<abstract>Declarações de Pinto da Costa após o jogo de Paços de Ferreira</abstract>
+		<photos>
+			<coverPhoto>
+				<photo href="Photos/pintodacosta.jpg" width="214" height="317" />
+			</coverPhoto>
+			<otherPhoto>
+				<photo href="Photos/pintodacosta.jpg" width="214" height="317" />
+			</otherPhoto>
+		</photos>
+		<otherLanguages>
+			<language lan="UK">
+				<link></link>
+			</language>
+		</otherLanguages>
+		<clubs>
+			<club>
+				<name>Futebol Clube do Porto</name>
+				<shortname>FCP</shortname>
+				<country>Portugal</country>
+			</club>
+		</clubs>
+		<sport>Football</sport>
+		<championship location="POR">
+			<name>Liga Sagres</name>
+		</championship>
+		<otherNews>
+			<relatedNews>
+				<relation idrel="REC-001" />
+			</relatedNews>
+			<similarNews>
+				<similar idsim="bbb"></similar>
+			</similarNews>
+		</otherNews>
+		<comments></comments>
+		<newsBody>"Fiz questão que este campeonato não fosse recordado como o campeonato "Capela" e por isso accionei todos os recursos disponívies e 
+		mais ilegais possíveis. Por isso decidi convidar o senhor Rui Miguel para um jantar em minha casa para a apresentação do meu novo filho, o emplastro.
+		Como ele ainda quer viver por muitos e bons anos aceitou o meu convite e por isso fez o seu papel neste jogo decisivo. Também lhe ofereci 
+		um vale de compras em todas as lojas do Dolce Vita junto ao estádio do Dragão para que não tenha necessidade de fazer compras no Colombo. 
+		Penso eu de que..." 
+		 </newsBody>
+	</news>
+
+
+<news id="REC-0007" lang="POR">
+		<dateTime>2013-05-10T08:18:30</dateTime>
+		<author>
+			<name>Anónimo</name>
+			<email>anonymous@abola.pt</email>
+		</author>
+		<source>
+			<sourceName></sourceName>
+			<sourceURL>http://www.abola.xl.pt/Atletismo/interior.aspx?content_id=822472</sourceURL>
+		</source>
+		<title>"Sporting decide acabar com todas as modalidades excepto atletismo"</title>
+		<abstract>Decisão tomada em maioria absoluta da SAD sportuinguista</abstract>
+		<photos>
+			<coverPhoto>
+				<photo href="Photos/sporting.jpg" width="214" height="317" />
+			</coverPhoto>
+			<otherPhoto>
+				<photo href="Photos/sporting.jpg" width="214" height="317" />
+			</otherPhoto>
+		</photos>
+		<otherLanguages>
+			<language lan="UK">
+				<link></link>
+			</language>
+		</otherLanguages>
+		<clubs>
+			<club>
+				<name>Sporting</name>
+				<shortname>SCP</shortname>
+				<country>Portugal</country>
+			</club>
+		</clubs>
+		<sport>Athletics</sport>
+		<championship location="POR">
+			<name>Olympic Games</name>
+		</championship>
+		<otherNews>
+			<relatedNews>
+				<relation idrel="REC-001" />
+			</relatedNews>
+			<similarNews>
+				<similar idsim="bbb"></similar>
+			</similarNews>
+		</otherNews>
+		<comments></comments>
+		<newsBody>Decisão de carácter urgente aprovada pela grande maioria da SAD do clube verde e branco. A única modalidade garantida para a época desportiva 
+		2013/2014 será o atletismo dada a situação de bancarrota que vive o clube. O estádio será vendido ao Benfica que irá pintar tudo de vermelho
+		colocando a equipa B e a equipa de juniores a jogar neste estádio. O nome também será alterado para "Gaitan Arena". A direcção do sporting, iá
+		demissionário, garantiu o estádio da Marinha Grande para os atletas do clube terem as minimas condições de treino para a preparação dos
+		Jogos Olímpicos de 2016, no Brasil. 
+		 </newsBody>
+	</news>
 </sportsJournal> <!-- end root -->
 
