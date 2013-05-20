@@ -1,24 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <p:relatório id="idvalue0" xmlns:p="http://www.dei.isep.ipp.pt/lprog"
+	<!-- whats the report id? -->
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.dei.isep.ipp.pt/lprog Relatorio.xsd ">
 	<p:páginaRosto>
-		<p:tema>p:tema</p:tema>
+		<p:tema>Jornal Desportivo</p:tema>
 		<p:disciplina>
-			<p:designação>p:designação</p:designação>
+			<p:designação>Linguagens e Programação</p:designação>
 			<p:anoCurricular>2</p:anoCurricular>
-			<p:sigla>p:sigla</p:sigla>
+			<p:sigla>LPROG</p:sigla>
 		</p:disciplina>
 		<p:autor>
-			<p:nome>p:nome</p:nome>
-			<p:número>0</p:número>
-			<p:mail>p:mail</p:mail>
+			<p:nome>André Filipe Carvalho da Silva</p:nome>
+			<p:número>1100859</p:número>
+			<p:mail>1100859@isep.ipp.pt</p:mail>
 		</p:autor>
-		<p:data>2001-01-01</p:data>
-		<p:turmaPL>token</p:turmaPL>
-		<p:profPL>p:profPL</p:profPL>
-		<p:logotipoDEI>http://tempuri.org</p:logotipoDEI>
+		<p:autor>
+			<p:nome>Tiago José Leal Pacheco</p:nome>
+			<p:número>1110333</p:número>
+			<p:mail>1110333@isep.ipp.pt</p:mail>
+		</p:autor>
+		<p:autor>
+			<p:nome>João Pedro Madureira Ançã Valentim Carreira</p:nome>
+			<p:número>1111168</p:número>
+			<p:mail>1111168@isep.ipp.pt</p:mail>
+		</p:autor>
+		<p:data>2001-05-26</p:data>
+		<p:turmaPL>2DC</p:turmaPL>
+		<p:profPL>NFM</p:profPL>
+		<p:logotipoDEI>files/logo_DEI_simbolo.png</p:logotipoDEI>
 	</p:páginaRosto>
+	
+	<!-- need to add the body of the report -->
 	<p:corpo id="">
 		<p:introdução id="" tituloSecção="">
 			<p:bloco>
@@ -47,6 +60,8 @@
 				<p:paragráfo />
 			</p:bloco>
 		</p:conclusão>
+		
+		<!-- need to add the referencies of the report -->
 		<p:referências>
 			<p:refBibliográfica idRef="">
 				<p:título>p:título</p:título>
