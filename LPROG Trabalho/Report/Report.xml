@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:relatório id="idvalue0" xmlns:p="http://www.dei.isep.ipp.pt/lprog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.dei.isep.ipp.pt/lprog Relatorio.xsd ">
+	<p:páginaRosto>
+		<p:tema>p:tema</p:tema>
+		<p:disciplina>
+			<p:designação>p:designação</p:designação>
+			<p:anoCurricular>2</p:anoCurricular>
+			<p:sigla>p:sigla</p:sigla>
+		</p:disciplina>
+		<p:autor>
+			<p:nome>p:nome</p:nome>
+			<p:número>0</p:número>
+			<p:mail>p:mail</p:mail>
+		</p:autor>
+		<p:data>2001-01-01</p:data>
+		<p:turmaPL>token</p:turmaPL>
+		<p:profPL>p:profPL</p:profPL>
+		<p:logotipoDEI>http://tempuri.org</p:logotipoDEI>
+	</p:páginaRosto>
+	<p:corpo id="">
+		<p:introdução id="" tituloSecção="">
+			<p:bloco>
+				<p:paragráfo />
+			</p:bloco>
+		</p:introdução>
+		<p:secções>
+			<p:análise id="" tituloSecção="">
+				<p:bloco>
+					<p:paragráfo />
+				</p:bloco>
+			</p:análise>
+			<p:linguagem id="" tituloSecção="">
+				<p:bloco>
+					<p:paragráfo />
+				</p:bloco>
+			</p:linguagem>
+			<p:transformações id="" tituloSecção="">
+				<p:bloco>
+					<p:paragráfo />
+				</p:bloco>
+			</p:transformações>
+		</p:secções>
+		<p:conclusão id="" tituloSecção="">
+			<p:bloco>
+				<p:paragráfo />
+			</p:bloco>
+		</p:conclusão>
+		<p:referências>
+			<p:refBibliográfica idRef="">
+				<p:título>p:título</p:título>
+				<p:dataPublicação>p:dataPublicação</p:dataPublicação>
+				<p:autor>p:autor</p:autor>
+			</p:refBibliográfica>
+		</p:referências>
+	</p:corpo>
+</p:relatório>
