@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<p:relatório id="idvalue0" xmlns:p="http://www.dei.isep.ipp.pt/lprog"
-	<!-- whats the report id? -->
+<p:relatório id="idvalue0" xmlns:p="http://www.dei.isep.ipp.pt/lprog" <!-- whats the report id? -->
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.dei.isep.ipp.pt/lprog Relatorio.xsd ">
 	<p:páginaRosto>
