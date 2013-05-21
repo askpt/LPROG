@@ -593,10 +593,10 @@
 		</championship>
 		<otherNews>
 			<relatedNews>
-				<relation idrel="REC-001" />
+				<relation idrel="" />
 			</relatedNews>
 			<similarNews>
-				<similar idsim="bbb"></similar>
+				<similar idsim=""></similar>
 			</similarNews>
 		</otherNews>
 		<comments></comments>
@@ -646,10 +646,10 @@
 		</championship>
 		<otherNews>
 			<relatedNews>
-				<relation idrel="REC-001" />
+				<relation idrel="" />
 			</relatedNews>
 			<similarNews>
-				<similar idsim="bbb"></similar>
+				<similar idsim=""></similar>
 			</similarNews>
 		</otherNews>
 		<comments></comments>
@@ -700,18 +700,121 @@
 		</championship>
 		<otherNews>
 			<relatedNews>
-				<relation idrel="REC-001" />
+				<relation idrel="" />
 			</relatedNews>
 			<similarNews>
-				<similar idsim="bbb"></similar>
+				<similar idsim=""></similar>
 			</similarNews>
 		</otherNews>
 		<comments></comments>
 		<newsBody>Decisão de carácter urgente aprovada pela grande maioria da SAD do clube verde e branco. A única modalidade garantida para a época desportiva 
 		2013/2014 será o atletismo dada a situação de bancarrota que vive o clube. O estádio será vendido ao Benfica que irá pintar tudo de vermelho
-		colocando a equipa B e a equipa de juniores a jogar neste estádio. O nome também será alterado para "Gaitan Arena". A direcção do sporting, iá
+		colocando a equipa B e a equipa de juniores a jogar neste estádio. O nome também será alterado para "Gaitan Arena". A direcção do sporting, já
 		demissionário, garantiu o estádio da Marinha Grande para os atletas do clube terem as minimas condições de treino para a preparação dos
 		Jogos Olímpicos de 2016, no Brasil. 
+		 </newsBody>
+	</news>
+	
+	<news id="REC-0008" lang="POR">
+		<dateTime>2013-05-21T08:10:30</dateTime>
+		<author>
+			<name>Luis Vaz de Camões</name>
+			<email>lvc@abola.pt</email>
+		</author>
+		<source>
+			<sourceName></sourceName>
+			<sourceURL>http://www.abola.xl.pt/Futebol/interior.aspx?content_id=822472</sourceURL>
+		</source>
+		<title>"Leonardo assina contrato válido por 3 treinos"</title>
+		<abstract>Está encontrado o substituto de Jesualdo Ferreira</abstract>
+		<photos>
+			<coverPhoto>
+				<photo href="Photos/leonardojardim2.jpg" width="214" height="317" />
+			</coverPhoto>
+			<otherPhoto>
+				<photo href="Photos/leonardojardim2.jpg" width="214" height="317" />
+			</otherPhoto>
+		</photos>
+		<otherLanguages>
+			<language lan="UK">
+				<link></link>
+			</language>
+		</otherLanguages>
+		<clubs>
+			<club>
+				<name>Sporting</name>
+				<shortname>SCP</shortname>
+				<country>Portugal</country>
+			</club>
+		</clubs>
+		<sport>Football</sport>
+		<championship location="POR">
+			<name>Liga Sagres</name>
+		</championship>
+		<otherNews>
+			<relatedNews>
+				<relation idrel="" />
+			</relatedNews>
+			<similarNews>
+				<similar idsim=""></similar>
+			</similarNews>
+		</otherNews>
+		<comments></comments>
+		<newsBody>Acaba de ser apresentado à poucos minutos o substituto do professor Jesualdo Ferreira no comando da equipa técnica da equipa profissional do clube.
+		Trata-se de Leonardo Jardim, de 38 anos que já treinou Olympiacos, S.C.Braga e Beira-Mar. O treinador encontrava-se sem clube desde o caricato despedimento do clube grego. 
+		Leonardo Jardim assina contrato válido por 3 treinos (que inclui um jogo particular com o Olivais e Moscavide), sendo a renovação de contrato decidida pelo resultado desse jogo.
+		Terá uma cláusula de rescisão de 10€ e um jantar no restaurante do Barbas para 4 pessoas. Boulahrouz será o seu adjunto.
+		 </newsBody>
+	</news>
+	
+		
+	<news id="REC-0009" lang="POR">
+		<dateTime>2013-05-23T08:10:30</dateTime>
+		<author>
+			<name>Eça de Queiroz</name>
+			<email>edq@abola.pt</email>
+		</author>
+		<source>
+			<sourceName></sourceName>
+			<sourceURL>http://www.abola.xl.pt/Futebol/interior.aspx?content_id=822472</sourceURL>
+		</source>
+		<title>"Leonardo Jardim despedido do Sporting"</title>
+		<abstract>Equipa perde particular com Olivais e Moscavide por expressivos 9-2</abstract>
+		<photos>
+			<coverPhoto>
+				<photo href="Photos/KhalidBoulahrouz.jpg" width="214" height="317" />
+			</coverPhoto>
+			<otherPhoto>
+				<photo href="Photos/KhalidBoulahrouz.jpg" width="214" height="317" />
+			</otherPhoto>
+		</photos>
+		<otherLanguages>
+			<language lan="UK">
+				<link></link>
+			</language>
+		</otherLanguages>
+		<clubs>
+			<club>
+				<name>Sporting</name>
+				<shortname>SCP</shortname>
+				<country>Portugal</country>
+			</club>
+		</clubs>
+		<sport>Football</sport>
+		<championship location="POR">
+			<name>Liga Sagres</name>
+		</championship>
+		<otherNews>
+			<relatedNews>
+				<relation idrel="" />
+			</relatedNews>
+			<similarNews>
+				<similar idsim=""></similar>
+			</similarNews>
+		</otherNews>
+		<comments></comments>
+		<newsBody>Ao fim de 2 treinos a orientar o plantel principal Leonardo Jardim é despedido do papel de treinador. Após a derrota no jogo particular
+com o Olivais e Moscavide por 9-2, o presidente Bruno de Carvalho despede o seu treinador. Após o jogo, Boulahrouz dá um murro na mesa e assume o cargo de treinador principal até o final da época.
 		 </newsBody>
 	</news>
 </sportsJournal> <!-- end root -->
