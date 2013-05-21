@@ -26,7 +26,6 @@
 			<xsd:element name="comments" type="xsd:string" />
 			<xsd:element name="newsBody" type="xsd:string" />
 		</xsd:sequence>
-		<!-- needs to be changed from string to regular expression -->
 		<xsd:attribute name="id" type="IdNewsType" use="required" />
 		<xsd:attribute name="lang" type="xsd:string" use="required" />
 	</xsd:complexType>
@@ -34,7 +33,6 @@
 	<xsd:complexType name="authorType">
 		<xsd:sequence>
 			<xsd:element name="name" type="xsd:string" />
-			<!-- improve with regular expression to validate email addresses -->
 			<xsd:element name="email" type="EmailType" />
 		</xsd:sequence>
 	</xsd:complexType>
@@ -98,10 +96,8 @@
 				<xsd:complexType>
 					<xsd:sequence>
 						<xsd:element name="name" type="xsd:string" />
-						<!-- add constraint to 3 letters only -->
-						<xsd:element name="shortname" type="xsd:string" />
-						<!-- add constraint to 3 letters only -->
-						<xsd:element name="country" type="xsd:string" />
+						<xsd:element name="shortname" type="shortnameType" />
+						<xsd:element name="country" type="countryType" />
 					</xsd:sequence>
 				</xsd:complexType>
 			</xsd:element>
@@ -115,7 +111,6 @@
 					<xsd:all>
 						<xsd:element name="relation">
 							<xsd:complexType>
-								<!-- use regular expression instead of string -->
 								<xsd:attribute name="idrel" type="IdNewsType" />
 							</xsd:complexType>
 						</xsd:element>
@@ -140,7 +135,7 @@
 		<xsd:sequence>
 			<xsd:element name="name" type="xsd:string" />
 		</xsd:sequence>
-		<xsd:attribute name="location" type="xsd:string" />
+		<xsd:attribute name="location" type="countryType" />
 	</xsd:complexType>
 
 	<!-- Simple Types -->
@@ -155,6 +150,20 @@
 		<xsd:restriction base="xsd:string">
 			<xsd:whiteSpace value="collapse" />
 			<xsd:pattern value="[A-Z]{2,5}-[0-9]{4}-[0-9]{4}"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	
+	<xsd:simpleType name="shortnameType">
+		<xsd:restriction base="xsd:string">
+			<xsd:whiteSpace value="collapse"/>
+			<xsd:pattern value="[A-Z]{3,5}"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	
+	<xsd:simpleType name="countryType">
+		<xsd:restriction base="xsd:string">
+			<xsd:whiteSpace value="collapse"/>
+			<xsd:pattern value="[A-Z]{3}"/>			
 		</xsd:restriction>
 	</xsd:simpleType>
 </xsd:schema> 
