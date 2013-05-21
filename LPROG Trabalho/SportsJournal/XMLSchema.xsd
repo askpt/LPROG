@@ -12,7 +12,7 @@
 
 	<xsd:complexType name="newsType">
 		<xsd:sequence>
-			<xsd:element name="dateTime" type="xsd:dateTime" />
+			<xsd:element name="dateTime" type="dateType" />
 			<xsd:element name="author" type="authorType" />
 			<xsd:element name="source" type="sourceType" />
 			<xsd:element name="title" type="languageType" />
@@ -131,6 +131,18 @@
 			<xsd:element name="sp" type="xsd:string" minOccurs="0" />
 		</xsd:sequence>
 	</xsd:complexType>
+	
+	<xsd:complexType name="dateType"> 
+		<xsd:sequence>
+			<xsd:element name="year" type="xsd:integer"/>
+			<xsd:element name="month" type="xsd:integer"/>
+			<xsd:element name="day" type="xsd:integer"/>
+			<xsd:element name="hour" type="xsd:integer"/>
+			<xsd:element name="minute" type="xsd:integer"/>
+			</xsd:sequence>
+	</xsd:complexType>
+	
+
 
 	<!-- Simple Types -->
 	<xsd:simpleType name="EmailType">
