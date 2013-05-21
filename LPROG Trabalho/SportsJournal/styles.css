@@ -1,0 +1,126 @@
+﻿/* Delete the following*/
+#menubar{
+    /*border: 3px solid blue;*/
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    width: 800px;
+    z-index:1;
+    /*important so that menubar doesn't collapse against the div below*/
+}
+
+#content{
+    /*border: 3px solid yellow;*/
+    position: absolute;
+    top: 100px;
+    width:750px;
+    height:700px;
+}
+
+#bottom{
+    border: 3px solid red;
+    position: absolute;
+    top: 800px;
+    width: 750px;
+
+}
+
+/* Stop Deleting*/
+
+
+/*
+    ****** STYLE FOR PAGENOTFOUND ******    
+*/
+
+#pageNotFound{
+    position: fixed;
+    left: 30%;
+    top: 150px;
+}
+
+
+/*
+    ****** STYLE FOR ADVANCED HOMEPAGE ******    
+*/
+
+
+nav ul ul {
+	display: none;
+}
+
+nav ul li:hover > ul {
+	display: block;
+}
+	
+	
+nav ul {
+	background: #2d547d; 
+	background: linear-gradient(top, #2d547d 0%, #304e6a 100%);  
+	background: -moz-linear-gradient(top, #2d547d 0%, #304e6a 100%); 
+	background: -webkit-linear-gradient(top, #2d547d 0%,#304e6a 100%); 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+
+nav ul:after {
+	content: ""; 
+	clear: both; 
+	display: block;
+}
+	
+nav ul li {
+	float: left;
+}
+
+nav ul li:hover {
+	background: #4b545f;
+	background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+	background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+	background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+}
+
+nav ul li:hover a {
+	color: #fff;
+}
+	
+nav ul li a {
+	display: block; 
+	padding: 25px 40px;
+	color: #DDDDDD; 
+	text-decoration: none;
+}
+	
+	
+nav ul ul {
+	background: #5f6975; 
+	border-radius: 0px; 
+	padding: 0;
+	position: absolute; 
+	top: 100%;
+}
+	
+nav ul ul li {
+	float: none; 
+	border-top: 1px solid #6b727c;
+	border-bottom: 1px solid #575f6a;
+	position: relative;
+}
+		
+nav ul ul li a {
+	padding: 15px 40px;
+	color: #fff;
+}	
+			
+nav ul ul li a:hover {
+	background: #4b545f;
+}
+	
+nav ul ul ul {
+	position: absolute; 
+	left: 100%; 
+	top:0;
+}
