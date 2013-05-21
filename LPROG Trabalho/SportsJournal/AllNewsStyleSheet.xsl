@@ -103,7 +103,7 @@
 							-->
 							<p>
 								(this news was originally published by <xsl:value-of select="author/name" /> on <xsl:value-of select="source/sourceName" />
-								on the <xsl:value-of select="dateTime" />. Follow the original link <a href="">here</a>)
+								on the <xsl:value-of select="dateTime" />. Follow the original link <a href="{source/sourceURL}">here</a>)
 							</p>
 									
 							<!-- break and horizontal line for the next news item -->
