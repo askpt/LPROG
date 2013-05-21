@@ -8,8 +8,14 @@
 	xsi:noNamespaceSchemaLocation="XMLSchema.xsd">
 
 	<!-- News tag begins here -->
-	<news id="REC-2013-0001"  lang="POR">
-		<dateTime>2013-05-18T18:24:00</dateTime>
+	<news id="REC-2013-0001" >
+		<dateTime>
+			<year>2013</year>
+			<month>1</month>
+			<day>2</day>
+			<hour>18</hour>
+			<minute>40</minute>
+		</dateTime>
 		<author>
 			<name>Luís Miguel Neves</name>
 			<email>luisneves@record.pt</email>
@@ -63,8 +69,14 @@
 		e o presidente estamos a fazer vai dar certo", afirmou Jorge Jesus em conferência de imprensa.</pt></newsBody>
 		
 	</news>
-	<news id="REC-2013-0002" lang="POR">
-		<dateTime>2013-05-18T19:03:00</dateTime>
+	<news id="REC-2013-0002">
+		<dateTime>	
+			<year>2013</year>
+			<month>1</month>
+			<day>3</day>
+			<hour>13</hour>
+			<minute>40</minute>
+		</dateTime>
 		<author>
 			<name>Fernando Ferreira</name>
 			<email>fernandoferreira@record.pt</email>
@@ -119,8 +131,14 @@
 	</news>
 
 	<!-- Another news item -->
-	<news id="UEF-2013-0001" lang="ENG">
-		<dateTime>2013-05-15T22:50:00</dateTime>
+	<news id="UEF-2013-0001">
+		<dateTime>
+			<year>2013</year>
+			<month>1</month>
+			<day>3</day>
+			<hour>14</hour>
+			<minute>40</minute>
+		</dateTime>
 		<author>
 			<name>John Atkin</name>
 			<email>johnatkin@uefa.com</email>
@@ -192,8 +210,14 @@
 	</news>
 
 	<!-- Another news item -->
-	<news id="BOL-2013-0001" lang="POR">
-		<dateTime>2013-05-18T12:25:00</dateTime>
+	<news id="BOL-2013-0001">
+		<dateTime>
+			<year>2013</year>
+			<month>1</month>
+			<day>4</day>
+			<hour>11</hour>
+			<minute>45</minute>
+		</dateTime>
 		<author>
 			<name>Redacção</name>
 			<email>redaccao@abola.pt</email>
@@ -248,8 +272,15 @@
 		</newsBody>
 	</news>
 
-	<news id="JN-2013-0001" lang="POR">
-		<dateTime>1958-05-28T20:00:00</dateTime>
+	<news id="JN-2013-0001">
+		<dateTime>
+			<year>2013</year>
+			<month>16</month>
+			<day>2</day>
+			<hour>20</hour>
+			<minute>40</minute>
+		
+		</dateTime>
 		<author>
 			<name>JN</name>
 			<email>JN@jn.pt</email>
@@ -299,8 +330,14 @@
 		Francisco Moreira e Manuel Arsénio (autor do primeiro golo no Estádio das Antas) surgem a transportar o pesado troféu (reparem que se vê o emblema do FC Porto na base) que o Benfica conquistou depois da vitória sobre o FC Porto.</pt></newsBody>
 	</news>
 	
-	<news lang="PT" id="BOL-2013-0002">
-		<dateTime>2013-02-07T15:13:00</dateTime>
+	<news id="BOL-2013-0002">
+		<dateTime>
+			<year>2013</year>
+			<month>1</month>
+			<day>08</day>
+			<hour>20</hour>
+			<minute>40</minute>
+		</dateTime>
 		<author>
 			<name>Rui Zambujo</name>
 			<email>bola@abola.pt</email>
@@ -386,8 +423,14 @@
 		</newsBody>
 	</news>
 	
-	<news lang="POR" id="REC-2013-0003">
-		<dateTime>2006-12-07T21:11:00</dateTime>
+	<news id="REC-2013-0003">
+		<dateTime>
+			<year>2013</year>
+			<month>1</month>
+			<day>7</day>
+			<hour>01</hour>
+			<minute>00</minute>
+		</dateTime>
 		<author>
 			<name>Luís Avelãs</name>
 			<email>luis@record.com</email>
@@ -454,8 +497,14 @@
 		</newsBody>
 	</news>
 
-	<news lang="POR" id="REC-2013-0004">
-		<dateTime>2004-12-03T02:58:00</dateTime>
+	<news id="REC-2013-0004">
+		<dateTime>
+			<year>2013</year>
+			<month>4</month>
+			<day>21</day>
+			<hour>7</hour>
+			<minute>40</minute>
+		</dateTime>
 		<author>
 			<name>Eugénio Queirós</name>
 			<email>eugenio@record.com</email>
@@ -530,8 +579,14 @@
 	</news>
 	
 
-	<news id="REC-2013-0005" lang="POR">
-		<dateTime>2013-05-19T19:18:30</dateTime>
+	<news id="REC-2013-0005">
+		<dateTime>
+			<year>2013</year>
+			<month>2</month>
+			<day>8</day>
+			<hour>15</hour>
+			<minute>30</minute>
+		</dateTime>
 		<author>
 			<name>Anónimo</name>
 			<email>anonymous@abola.pt</email>
@@ -580,8 +635,14 @@
 		 </newsBody>
 	</news>
 	
-<news id="REC-2013-0006" lang="POR">
-		<dateTime>2013-05-19T19:18:30</dateTime>
+<news id="REC-2013-0006">
+		<dateTime>
+			<year>2013</year>
+			<month>3</month>
+			<day>17</day>
+			<hour>20</hour>
+			<minute>10</minute>
+		</dateTime>
 		<author>
 			<name>Anónimo</name>
 			<email>anonymous@abola.pt</email>
@@ -630,8 +691,14 @@
 	</news>
 
 
-<news id="REC-2013-0007" lang="POR">
-		<dateTime>2013-05-10T08:18:30</dateTime>
+<news id="REC-2013-0007">
+		<dateTime>
+			<year>2013</year>
+			<month>12</month>
+			<day>6</day>
+			<hour>16</hour>
+			<minute>40</minute>
+		</dateTime>
 		<author>
 			<name>Anónimo</name>
 			<email>anonymous@abola.pt</email>
@@ -681,8 +748,14 @@
 		 </newsBody>
 	</news>
 	
-	<news id="REC-2013-0008" lang="POR">
-		<dateTime>2013-05-21T08:10:30</dateTime>
+	<news id="REC-2013-0008">
+		<dateTime>
+			<year>2013</year>
+			<month>26</month>
+			<day>9</day>
+			<hour>11</hour>
+			<minute>40</minute>
+		</dateTime>
 		<author>
 			<name>Luis Vaz de Camões</name>
 			<email>lvc@abola.pt</email>
@@ -730,8 +803,15 @@
 	</news>
 	
 		
-	<news id="REC-2013-0009" lang="POR">
-		<dateTime>2013-05-23T08:10:30</dateTime>
+	<news id="REC-2013-0009">
+		<dateTime>
+
+			<year>2013</year>
+			<month>6</month>
+			<day>2</day>
+			<hour>23</hour>
+			<minute>40</minute>
+		</dateTime>
 		<author>
 			<name>Eça de Queiroz</name>
 			<email>edq@abola.pt</email>
@@ -776,8 +856,14 @@ com o Olivais e Moscavide por 9-2, o presidente Bruno de Carvalho despede o seu 
 		 </newsBody>
 	</news>
 	
-		<news id="REC-2013-0010" lang="POR">
-		<dateTime>2013-05-23T08:10:30</dateTime>
+		<news id="REC-2013-0010">
+		<dateTime>
+			<year>2013</year>
+			<month>11</month>
+			<day>24</day>
+			<hour>17</hour>
+			<minute>20</minute>
+		</dateTime>
 		<author>
 			<name>Fernando Pessoa</name>
 			<email>lfb@abola.pt</email>
