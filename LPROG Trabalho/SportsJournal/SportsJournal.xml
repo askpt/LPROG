@@ -8,7 +8,7 @@
 	xsi:noNamespaceSchemaLocation="XMLSchema.xsd">
 
 	<!-- News tag begins here -->
-	<news id="REC-0001" lang="POR">
+	<news id="REC-2013-0001" lang="POR">
 		<dateTime>2013-05-18T18:24:00</dateTime>
 		<author>
 			<name>Luís Miguel Neves</name>
@@ -35,7 +35,7 @@
 		</otherLanguages>
 		<clubs>
 			<club>
-				<name>Sport Liboa e Benfica</name>
+				<name>Sport Lisboa e Benfica</name>
 				<shortname>SLB</shortname>
 				<country>Portugal</country>
 			</club>
@@ -48,7 +48,7 @@
 		</championship>
 		<otherNews>
 			<relatedNews>
-				<relation idrel="REC-002" />
+				<relation idrel="REC-0002" />
 			</relatedNews>
 			<similarNews>
 				<similar idsim="aaa" />
@@ -65,7 +65,7 @@
 	</news>
 
 
-	<news id="REC-0002" lang="POR">
+	<news id="REC-2013-0002" lang="POR">
 		<dateTime>2013-05-18T19:03:00</dateTime>
 		<author>
 			<name>Fernando Ferreira</name>
@@ -103,7 +103,7 @@
 		</championship>
 		<otherNews>
 			<relatedNews>
-				<relation idrel="REC-001" />
+				<relation idrel="REC-0001" />
 			</relatedNews>
 			<similarNews>
 				<similar idsim="bbb"></similar>
@@ -123,7 +123,7 @@
 	</news>
 
 	<!-- Another news item -->
-	<news id="UEF-0001" lang="ENG">
+	<news id="UEF-2013-0001" lang="ENG">
 		<dateTime>2013-05-15T22:50:00</dateTime>
 		<author>
 			<name>John Atkin</name>
@@ -199,7 +199,7 @@
 	</news>
 
 	<!-- Another news item -->
-	<news id="BOL-0001" lang="POR">
+	<news id="BOL-2013-0001" lang="POR">
 		<dateTime>2013-05-18T12:25:00</dateTime>
 		<author>
 			<name>Redacção</name>
@@ -258,7 +258,7 @@
 		</newsBody>
 	</news>
 
-	<news id="JN-0001" lang="POR">
+	<news id="JN-2013-0001" lang="POR">
 		<dateTime>1958-05-28T20:00:00</dateTime>
 		<author>
 			<name>JN</name>
@@ -314,7 +314,7 @@
 		Francisco Moreira e Manuel Arsénio (autor do primeiro golo no Estádio das Antas) surgem a transportar o pesado troféu (reparem que se vê o emblema do FC Porto na base) que o Benfica conquistou depois da vitória sobre o FC Porto.</newsBody>
 	</news>
 	
-	<news lang="PT" id="BOL-0002">
+	<news lang="PT" id="BOL-2013-0002">
 		<dateTime>2013-02-07T15:13:00</dateTime>
 		<author>
 			<name>Rui Zambujo</name>
@@ -405,7 +405,7 @@
 		</newsBody>
 	</news>
 	
-	<news lang="POR" id="REC-003">
+	<news lang="POR" id="REC-2013-0003">
 		<dateTime>2006-12-07T21:11:00</dateTime>
 		<author>
 			<name>Luís Avelãs</name>
@@ -476,7 +476,7 @@
 		</newsBody>
 	</news>
 
-	<news lang="POR" id="REC-004">
+	<news lang="POR" id="REC-2013-0004">
 		<dateTime>2004-12-03T02:58:00</dateTime>
 		<author>
 			<name>Eugénio Queirós</name>
@@ -555,7 +555,7 @@
 	</news>
 	
 
-	<news id="REC-0005" lang="POR">
+	<news id="REC-2013-0005" lang="POR">
 		<dateTime>2013-05-19T19:18:30</dateTime>
 		<author>
 			<name>Anónimo</name>
@@ -608,7 +608,7 @@
 		 </newsBody>
 	</news>
 	
-<news id="REC-0006" lang="POR">
+<news id="REC-2013-0006" lang="POR">
 		<dateTime>2013-05-19T19:18:30</dateTime>
 		<author>
 			<name>Anónimo</name>
@@ -662,7 +662,7 @@
 	</news>
 
 
-<news id="REC-0007" lang="POR">
+<news id="REC-2013-0007" lang="POR">
 		<dateTime>2013-05-10T08:18:30</dateTime>
 		<author>
 			<name>Anónimo</name>
@@ -715,7 +715,7 @@
 		 </newsBody>
 	</news>
 	
-	<news id="REC-0008" lang="POR">
+	<news id="REC-2013-0008" lang="POR">
 		<dateTime>2013-05-21T08:10:30</dateTime>
 		<author>
 			<name>Luis Vaz de Camões</name>
@@ -768,7 +768,7 @@
 	</news>
 	
 		
-	<news id="REC-0009" lang="POR">
+	<news id="REC-2013-0009" lang="POR">
 		<dateTime>2013-05-23T08:10:30</dateTime>
 		<author>
 			<name>Eça de Queiroz</name>
@@ -815,6 +815,57 @@
 		<comments></comments>
 		<newsBody>Ao fim de 2 treinos a orientar o plantel principal Leonardo Jardim é despedido do papel de treinador. Após a derrota no jogo particular
 com o Olivais e Moscavide por 9-2, o presidente Bruno de Carvalho despede o seu treinador. Após o jogo, Boulahrouz dá um murro na mesa e assume o cargo de treinador principal até o final da época.
+		 </newsBody>
+	</news>
+	
+		<news id="REC-2013-0010" lang="POR">
+		<dateTime>2013-05-23T08:10:30</dateTime>
+		<author>
+			<name>Fernando Pessoa</name>
+			<email>lfb@abola.pt</email>
+		</author>
+		<source>
+			<sourceName></sourceName>
+			<sourceURL>http://www.abola.xl.pt/Futebol/interior.aspx?content_id=822472</sourceURL>
+		</source>
+		<title>"A cadeira de sonho"</title>
+		<abstract>A cadeira de sonho para Vitor Pereira</abstract>
+		<photos>
+			<coverPhoto>
+				<photo href="Photos/VP.jpg" width="214" height="317" />
+			</coverPhoto>
+			<otherPhoto>
+				<photo href="Photos/VP.jpg" width="214" height="317" />
+			</otherPhoto>
+		</photos>
+		<otherLanguages>
+			<language lan="UK">
+				<link></link>
+			</language>
+		</otherLanguages>
+		<clubs>
+			<club>
+				<name>Futebol Clube do Porto</name>
+				<shortname>FCP</shortname>
+				<country>Portugal</country>
+			</club>
+		</clubs>
+		<sport>Football</sport>
+		<championship location="POR">
+			<name>Liga Sagres</name>
+		</championship>
+		<otherNews>
+			<relatedNews>
+				<relation idrel="" />
+			</relatedNews>
+			<similarNews>
+				<similar idsim=""></similar>
+			</similarNews>
+		</otherNews>
+		<comments></comments>
+		<newsBody> Vitor Pereira abandona o cargo de treinador do Futebol Clube do Porto por dar preferência à cadeira de sonho. Decisão que causou felicidade no seio do 
+		clube azul e branco. Trata-se da sua preferência desconhecida pela sua poltrona favorita que tem em casa, onde passará o resto da sua carreira sentado a jogar Football Manager 2013.
+		"Decidi continuar a minha carreira na minha cadeira de sonho a jogar FM13 apenas para criticar a arbitragem em todos os jogos"
 		 </newsBody>
 	</news>
 </sportsJournal> <!-- end root -->
