@@ -38,7 +38,7 @@
 							<li><a href="../AllNews.xml">All news</a></li>
 							<li><a href="#">Apply Filters</a>
 								<ul>
-									<li><a href="sportsfilter.html">By Sport</a></li>
+									<li><a href="pageNotFound.htm">By Sport</a></li>
 									<li><a href="pageNotFound.htm">By Club</a></li>
 									<!-- uncomment below to add menu option -->
 									<!-- <hr /> -->
@@ -62,7 +62,7 @@
 						<ul>
 							<li><a href="pageNotFound.htm">Report</a></li>
 							<hr />
-							<li><a href="#">Authors</a></li>
+							<li><a href="authors.html">Authors</a></li>
 						</ul>
 					</li>
 				</ul>
@@ -71,11 +71,31 @@
 	</div>
 
 	<div id="content">
-    	<h2>Authors</h2>
-    	<a href="mailto:1100859@isep.ipp.pt" title="send email to André">André Filipe Carvalho da Silva</a> <br />
-    	<a href="mailto:1111168@isep.ipp.pt" title="send email to João">João Pedro Madureira Ançã Valentim Carreira</a> <br />
-    	<a href="mailto:1110333@isep.ipp.pt" title="send email to Tiago">Tiago José Leal Pacheco</a> <br />
-    	<p>This is an academic work in the scope of <strong>"LPROG - Linguagens e Programação"</strong>. The authors would like to aknowledge <a href="http://www.dei.isep.ipp.pt/~ntm/" title="go to homepage">Professor Nuno Malheiro</a> for all the help provided during the development of this project.</p>
+    	<form>
+    		<p>Pick a sport:
+    			<select name="sports">
+    				<option value="none" selected="selected">
+    				choose a sport
+    				</option>
+    				<option value="football">Football</option>
+    				<option value="basketball">Baskeball</option>
+    			</select>
+    		</p>
+
+    		<p>Filter by team? 
+    			<select name="team">
+    				<option value="none" selected="selected">don't filter by team</option>
+    				<option value="football">SL Benfica</option>
+    				<option value="basketball">FC Porto</option>
+    				<option value="basketball">Sporting CP</option>
+    			</select>
+    		</p>
+    			
+    		<p><input type="submit" value="Get News!" />	
+    		<input type="submit" value="Clear" /></p>
+
+    	</form>
+
 	</div><!-- end of div CONTENT -->
 
 </body>
