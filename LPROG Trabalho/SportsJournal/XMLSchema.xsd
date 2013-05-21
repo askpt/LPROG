@@ -5,8 +5,8 @@
 	<xsd:element name="sportsJournal" type="sportsJournalType" />
 
 	<xsd:complexType name="sportsJournalType">
-		<xsd:sequence maxOccurs="999" minOccurs="1">
-			<xsd:element name="news" type="newsType" />
+		<xsd:sequence>
+			<xsd:element name="news" type="newsType" maxOccurs="unbounded" />
 		</xsd:sequence>
 	</xsd:complexType>
 
@@ -15,16 +15,14 @@
 			<xsd:element name="dateTime" type="xsd:dateTime" />
 			<xsd:element name="author" type="authorType" />
 			<xsd:element name="source" type="sourceType" />
-			<xsd:element name="title" type="xsd:string" />
-			<xsd:element name="abstract" type="xsd:string" />
+			<xsd:element name="title" type="languageType" />
+			<xsd:element name="abstract" type="languageType" />
 			<xsd:element name="photos" type="photosType" />
-			<xsd:element name="otherLanguages" type="otherLanguagesType" />
 			<xsd:element name="clubs" type="clubsType" />
 			<xsd:element name="sport" type="xsd:string" />
 			<xsd:element name="championship" type="championshipType" />
 			<xsd:element name="otherNews" type="otherNewsType" />
-			<xsd:element name="comments" type="xsd:string" />
-			<xsd:element name="newsBody" type="xsd:string" />
+			<xsd:element name="newsBody" type="languageType" />
 		</xsd:sequence>
 		<xsd:attribute name="id" type="IdNewsType" use="required" />
 		<xsd:attribute name="lang" type="xsd:string" use="required" />
@@ -45,7 +43,7 @@
 	</xsd:complexType>
 
 	<xsd:complexType name="photosType">
-		<xsd:sequence maxOccurs="1">
+		<xsd:sequence>
 			<xsd:element name="coverPhoto">
 				<xsd:complexType>
 					<xsd:sequence>
@@ -61,8 +59,8 @@
 			</xsd:element>
 			<xsd:element name="otherPhoto">
 				<xsd:complexType>
-					<xsd:sequence maxOccurs="999">
-						<xsd:element name="photo">
+					<xsd:sequence>
+						<xsd:element name="photo" maxOccurs="unbounded">
 							<xsd:complexType>
 								<xsd:attribute name="href" type="xsd:anyURI" />
 								<xsd:attribute name="width" type="xsd:integer" />
@@ -76,28 +74,15 @@
 		</xsd:sequence>
 	</xsd:complexType>
 
-	<xsd:complexType name="otherLanguagesType">
-		<xsd:sequence maxOccurs="999">
-			<xsd:element name="language">
-				<xsd:complexType>
-					<xsd:sequence>
-						<xsd:element name="link" type="xsd:anyURI" />
-					</xsd:sequence>
-					<xsd:attribute name="lan" type="xsd:string" />
-				</xsd:complexType>
-			</xsd:element>
-		</xsd:sequence>
-		<!-- use enumeration ?? -->
-	</xsd:complexType>
-
 	<xsd:complexType name="clubsType">
-		<xsd:sequence maxOccurs="999">
+		<xsd:sequence>
 			<xsd:element name="club">
 				<xsd:complexType>
 					<xsd:sequence>
 						<xsd:element name="name" type="xsd:string" />
 						<xsd:element name="shortname" type="shortnameType" />
 						<xsd:element name="country" type="countryType" />
+						<xsd:element name="position" type="xsd:integer" />
 					</xsd:sequence>
 				</xsd:complexType>
 			</xsd:element>
@@ -106,7 +91,7 @@
 
 	<xsd:complexType name="otherNewsType">
 		<xsd:sequence>
-			<xsd:element name="relatedNews">
+			<xsd:element name="relatedNews" minOccurs="0" maxOccurs="unbounded">
 				<xsd:complexType>
 					<xsd:all>
 						<xsd:element name="relation">
@@ -117,7 +102,7 @@
 					</xsd:all>
 				</xsd:complexType>
 			</xsd:element>
-			<xsd:element name="similarNews">
+			<xsd:element name="similarNews" minOccurs="0" maxOccurs="unbounded">
 				<xsd:complexType>
 					<xsd:all>
 						<xsd:element name="similar">
@@ -138,6 +123,16 @@
 		<xsd:attribute name="location" type="countryType" />
 	</xsd:complexType>
 
+	<xsd:complexType name="languageType">
+		<xsd:sequence>
+			<xsd:element name="pt" type="xsd:string" minOccurs="0" />
+			<xsd:element name="en" type="xsd:string" minOccurs="0" />
+			<xsd:element name="fr" type="xsd:string" minOccurs="0" />
+			<xsd:element name="it" type="xsd:string" minOccurs="0" />
+			<xsd:element name="sp" type="xsd:string" minOccurs="0" />
+		</xsd:sequence>
+	</xsd:complexType>
+
 	<!-- Simple Types -->
 	<xsd:simpleType name="EmailType">
 		<xsd:restriction base="xsd:string">
@@ -149,21 +144,21 @@
 	<xsd:simpleType name="IdNewsType">
 		<xsd:restriction base="xsd:string">
 			<xsd:whiteSpace value="collapse" />
-			<xsd:pattern value="[A-Z]{2,5}-[0-9]{4}-[0-9]{4}"/>
+			<xsd:pattern value="[A-Z]{2,5}-[0-9]{4}-[0-9]{4}" />
 		</xsd:restriction>
 	</xsd:simpleType>
-	
+
 	<xsd:simpleType name="shortnameType">
 		<xsd:restriction base="xsd:string">
-			<xsd:whiteSpace value="collapse"/>
-			<xsd:pattern value="[A-Z]{3,5}"/>
+			<xsd:whiteSpace value="collapse" />
+			<xsd:pattern value="[A-Z]{3,5}" />
 		</xsd:restriction>
 	</xsd:simpleType>
-	
+
 	<xsd:simpleType name="countryType">
 		<xsd:restriction base="xsd:string">
-			<xsd:whiteSpace value="collapse"/>
-			<xsd:pattern value="[A-Z]{3}"/>			
+			<xsd:whiteSpace value="collapse" />
+			<xsd:pattern value="[A-Z]{3}" />
 		</xsd:restriction>
 	</xsd:simpleType>
 </xsd:schema> 
