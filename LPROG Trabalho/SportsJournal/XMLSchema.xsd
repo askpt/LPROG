@@ -27,7 +27,7 @@
 			<xsd:element name="newsBody" type="xsd:string" />
 		</xsd:sequence>
 		<!-- needs to be changed from string to regular expression -->
-		<xsd:attribute name="id" type="xsd:string" use="required" />
+		<xsd:attribute name="id" type="IdNewsType" use="required" />
 		<xsd:attribute name="lang" type="xsd:string" use="required" />
 	</xsd:complexType>
 
@@ -35,7 +35,7 @@
 		<xsd:sequence>
 			<xsd:element name="name" type="xsd:string" />
 			<!-- improve with regular expression to validate email addresses -->
-			<xsd:element name="email" type="xsd:string" />
+			<xsd:element name="email" type="EmailType" />
 		</xsd:sequence>
 	</xsd:complexType>
 
@@ -47,8 +47,7 @@
 	</xsd:complexType>
 
 	<xsd:complexType name="photosType">
-		<xsd:sequence>
-			<!-- restrict this to one cover photo only -->
+		<xsd:sequence maxOccurs="1">
 			<xsd:element name="coverPhoto">
 				<xsd:complexType>
 					<xsd:sequence>
@@ -62,10 +61,9 @@
 					</xsd:sequence>
 				</xsd:complexType>
 			</xsd:element>
-			<!-- allow more than one photo -->
 			<xsd:element name="otherPhoto">
 				<xsd:complexType>
-					<xsd:sequence>
+					<xsd:sequence maxOccurs="999">
 						<xsd:element name="photo">
 							<xsd:complexType>
 								<xsd:attribute name="href" type="xsd:anyURI" />
@@ -81,7 +79,7 @@
 	</xsd:complexType>
 
 	<xsd:complexType name="otherLanguagesType">
-		<xsd:sequence>
+		<xsd:sequence maxOccurs="999">
 			<xsd:element name="language">
 				<xsd:complexType>
 					<xsd:sequence>
@@ -118,7 +116,7 @@
 						<xsd:element name="relation">
 							<xsd:complexType>
 								<!-- use regular expression instead of string -->
-								<xsd:attribute name="idrel" type="xsd:string" />
+								<xsd:attribute name="idrel" type="IdNewsType" />
 							</xsd:complexType>
 						</xsd:element>
 					</xsd:all>
@@ -129,7 +127,7 @@
 					<xsd:all>
 						<xsd:element name="similar">
 							<xsd:complexType>
-								<xsd:attribute name="idsim" type="xsd:string" />
+								<xsd:attribute name="idsim" type="IdNewsType" />
 							</xsd:complexType>
 						</xsd:element>
 					</xsd:all>
@@ -144,4 +142,19 @@
 		</xsd:sequence>
 		<xsd:attribute name="location" type="xsd:string" />
 	</xsd:complexType>
-</xsd:schema>
+
+	<!-- Simple Types -->
+	<xsd:simpleType name="EmailType">
+		<xsd:restriction base="xsd:string">
+			<xsd:whiteSpace value="collapse" />
+			<xsd:pattern value="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+.[A-Za-z]{2,4}" />
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<xsd:simpleType name="IdNewsType">
+		<xsd:restriction base="xsd:string">
+			<xsd:whiteSpace value="collapse" />
+			<xsd:pattern value="[A-Z]{2,5}-[0-9]{4}-[0-9]{4}"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+</xsd:schema> 
