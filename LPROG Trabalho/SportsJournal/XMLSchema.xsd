@@ -75,7 +75,7 @@
 
 	<xsd:complexType name="clubsType">
 		<xsd:sequence>
-			<xsd:element name="club">
+			<xsd:element name="club" maxOccurs="unbounded">
 				<xsd:complexType>
 					<xsd:sequence>
 						<xsd:element name="name" type="xsd:string" />
