@@ -30,12 +30,38 @@
 					<!-- div for links table -->
 					<div id="links">
 						<!-- series of links at the top of the page to go to a specific news -->
-						<xsl:for-each select="sportsJournal/news">
-							<a href="#{generate-id(title)}">
-								<!-- getting the value of the title of a given news -->
-								<xsl:value-of select="title" /> <br />
-							</a>
-						</xsl:for-each>
+						
+						<h3 align="center">Table of contents</h3>
+						
+						<!-- table with links -->
+							<table border="2">
+								<tr>
+									<th>Title</th>
+									<th>Sport</th>
+									<th>Tags</th>
+								</tr>
+								<tr>
+									<td>
+										<xsl:for-each select="sportsJournal/news">
+											<a href="#{generate-id(title)}">
+												<!-- getting the value of the title of a given news -->
+												<xsl:value-of select="title" /> <br />
+											</a>
+										</xsl:for-each>
+									</td>
+									<td>
+										<xsl:for-each select="sportsJournal/news">
+											<xsl:value-of select="sport" /> <br />
+										</xsl:for-each>
+									</td>
+									<td>
+										<xsl:for-each select="sportsJournal/news">
+											<xsl:value-of select="clubs/club/shortname" /> <br />
+										</xsl:for-each>
+									</td>
+								</tr>
+							</table> <!-- end table -->
+						
 						<br /><hr /><br />
 					</div> <!-- end div title -->
 					
