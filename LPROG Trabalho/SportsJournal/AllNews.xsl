@@ -13,12 +13,68 @@
 				<!-- HTML head tag -->
 				<head>
 					<title>Sports Journal</title>
+					<!-- reference to CSS stylesheet -->
+    				<link rel="stylesheet" type="text/css" href="CSS/styles.css"/>
 				</head>	
 				
 				<!-- HTML body -->
 				<body>
+
+					<div id="menubar">
+						<nav>
+    						<!-- UL for MENUBAR -->
+							<ul>
+								<!-- LI for LOGO -->
+								<!-- add img later!!!!! or delete -->
+								<li><img src="" /></li> 
+	
+	    						<!-- LI for menu Home -->
+								<li><a href="../home.html">HOME</a>
+									<ul>
+										<!-- uncomment below to add menu option -->
+										<!-- <li><a href="pageNotFound.htm">Upload file</a></li> -->
+									</ul>
+								</li> 
+		
+								<!-- LI for menu News -->
+								<li><a href="#">NEWS</a>
+									<ul>
+										<li><a href="#">All news</a></li>
+										<li><a href="#">Apply Filters</a>
+											<ul>
+												<li><a href="html/sportsfilter.html">By Sport</a></li>
+												<li><a href="pageNotFound.htm">By Club</a></li>
+											<!-- uncomment below to add menu option -->
+											<!-- <hr /> -->
+											<!-- <li><a href="pageNotFound.htm">All Accounts	</a></li> -->
+											</ul>
+										</li>
+									</ul>
+								</li>
+		
+								<!-- LI for menu EXPORT -->
+								<li><a href="#">EXPORT</a>
+									<ul>
+										<li><a href="pageNotFound.htm">Export to xml</a></li>
+										<!-- uncomment below to add menu option -->
+										<!-- <li><a href="pageNotFound.htm">Delete Label</a></li> -->
+									</ul>
+								</li>
+		
+								<!-- LI for menu About -->
+								<li><a href="#">ABOUT</a>
+									<ul>
+										<li><a href="pageNotFound.htm">Report</a></li>
+										<hr />
+										<li><a href="html/authors.html">Authors</a></li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
+					</div>
+
 					<!-- displays the title at the top of the page -->
-					<div id="title">
+					<div id="title" style="position:relative; top:30px">
 						<h1 align="center">Sports Journal</h1>
 						<h2 align="center">All News</h2>
 					
@@ -28,7 +84,7 @@
 					</div>
 					
 					<!-- div for links table -->
-					<div id="links">
+					<div id="links" style="position:relative; top:30px;">
 						<!-- series of links at the top of the page to go to a specific news -->
 						
 						<h3 align="center">Table of contents</h3>
