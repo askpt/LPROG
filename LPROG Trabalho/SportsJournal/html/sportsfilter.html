@@ -10,6 +10,23 @@
     <link rel="stylesheet" type="text/css" href="../CSS/styles.css"/>
 </head>
 
+<!-- javascript to validate dropdown-->
+<script type="text/javascript">
+	function validator()
+	{
+		var drop = document.getElementById("sportsDrop").value;
+		if(drop == "none")
+		{
+			alert("You must select a sport!");
+		}
+		else
+		{
+			window.location.href = "authors.html";
+		}
+	}
+</script>
+
+
 <!-- body -->
 <body>
 
@@ -71,9 +88,9 @@
 	</div>
 
 	<div id="content">
-    	<form>
+    	<form name="sport">
     		<p>Pick a sport:
-    			<select name="sports">
+    			<select id="sportsDrop">
     				<option value="none" selected="selected">
     				choose a sport
     				</option>
@@ -81,17 +98,21 @@
     				<option value="basketball">Baskeball</option>
     			</select>
     		</p>
+    	</form>
 
+    	<form name="sport">
     		<p>Filter by team? 
-    			<select name="team">
+    			<select id="teamsDrop">
     				<option value="none" selected="selected">don't filter by team</option>
     				<option value="football">SL Benfica</option>
     				<option value="basketball">FC Porto</option>
     				<option value="basketball">Sporting CP</option>
     			</select>
     		</p>
+    	</form>
     			
-    		<p><input type="submit" value="Get News!" />	
+    	<form name="buttons">
+    		<p><input type="submit" value="Get News!" onclick="validator()" />	
     		<input type="submit" value="Clear" /></p>
 
     	</form>
