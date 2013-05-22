@@ -72,7 +72,7 @@
 	</p:corpo>
 	<p:anexos tituloSecção="Tag Tree" id="ANX001">
 		<p:bloco>
-			<p:figura>/files/tagtree.jpg</p:figura>			
+			<p:figura src="/files/tagtree.jpg" descrição="Tag tree of the xml"/>			
 		</p:bloco>
 	</p:anexos>
 </p:relatório>
