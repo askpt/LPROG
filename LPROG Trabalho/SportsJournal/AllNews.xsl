@@ -90,7 +90,7 @@
 						<h3 align="center">Table of contents</h3>
 						
 						<!-- table with links -->
-							<table border="2">
+							<table border="2" align="center">
 								<tr>
 									<th>Title</th>
 									<th>Sport</th>
