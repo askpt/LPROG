@@ -52,12 +52,7 @@
 			</name>
 		</championship>
 		<otherNews>
-			<relatedNews>
-				<relation idrel="REC-0002" />
-			</relatedNews>
-			<similarNews>
-				<similar idsim="aaa" />
-			</similarNews>
+		
 		</otherNews>
 		
 		<newsBody><pt>Com a renovação de Jorge Jesus praticamente acertada, o treinador do Benfica sublinhou este sábado que a "parceria" 
@@ -109,12 +104,7 @@
 			<name>Liga Sagres</name>
 		</championship>
 		<otherNews>
-			<relatedNews>
-				<relation idrel="REC-0001" />
-			</relatedNews>
-			<similarNews>
-				<similar idsim="bbb"></similar>
-			</similarNews>
+
 		</otherNews>
 		<newsBody><pt>Depois da derrota no Dragão e da final da Liga Europa perdida para o Chelsea, o ânimo dos 
 		jogadores do Benfica ressentiu-se, mas Jorge Jesus fez questão de animar "as tropas" de novo até porque 
@@ -176,12 +166,7 @@
 			<name>Europa League</name>
 		</championship>
 		<otherNews>
-			<relatedNews>
-				<relation idrel="ada" />
-			</relatedNews>
-			<similarNews>
-				<similar idsim="aaa" />
-			</similarNews>
+
 		</otherNews>
 		<newsBody><en>Branislav Ivanović's towering header in the last minute of added time earned Chelsea FC a dramatic victory over SL Benfica as 
 		they captured the 2013 UEFA Europa League title. A taut, absorbing Amsterdam final looked destined for extra time when the Chelsea centre-back 
@@ -369,12 +354,7 @@
 			<name>Portuguese League</name>
 		</championship>
 		<otherNews>
-			<relatedNews>
-				<relation />
-			</relatedNews>
-			<similarNews>
-				<similar />
-			</similarNews>
+
 		</otherNews>
 		<newsBody><pt>Recuemos ao tempo dos jogadores sem chuteiras coloridas, nem números nas
 		camisolas. Estamos em Fevereiro de 1943, no dia 7. Faz hoje 70 anos que o Benfica
@@ -463,12 +443,7 @@
 			<name>SuperLiga</name>
 		</championship>
 		<otherNews>
-			<relatedNews>
-				<relation />
-			</relatedNews>
-			<similarNews>
-				<similar />
-			</similarNews>
+
 		</otherNews>
 		<newsBody>
 		<pt>
@@ -537,12 +512,7 @@
 			<name>SuperLiga</name>
 		</championship>
 		<otherNews>
-			<relatedNews>
-				<relation />
-			</relatedNews>
-			<similarNews>
-				<similar />
-			</similarNews>
+
 		</otherNews>
 
 		<newsBody><pt>
@@ -620,10 +590,10 @@
 		</championship>
 		<otherNews>
 			<relatedNews>
-				<relation idrel="" />
+				<relation idrel="REC-2013-0006" />
 			</relatedNews>
 			<similarNews>
-				<similar idsim=""></similar>
+				<similar idsim="REC-2013-0006"></similar>
 			</similarNews>
 		</otherNews>
 		<newsBody><pt>Não deixa de ser estranho mas o que é certo S.Pedro superou-se a outra figura divina, neste caso Jesus. Depois de uma época de tantas
@@ -675,10 +645,10 @@
 		</championship>
 		<otherNews>
 			<relatedNews>
-				<relation idrel="" />
+				<relation idrel="REC-2013-0005" />
 			</relatedNews>
 			<similarNews>
-				<similar idsim=""></similar>
+				<similar idsim="REC-2013-0005"></similar>
 			</similarNews>
 		</otherNews>
 		<newsBody><pt>"Fiz questão que este campeonato não fosse recordado como o campeonato "Capela" e por isso accionei todos os recursos disponívies e 
@@ -732,10 +702,10 @@
 		</championship>
 		<otherNews>
 			<relatedNews>
-				<relation idrel="" />
+				<relation idrel="REC-2013-0008" />
 			</relatedNews>
 			<similarNews>
-				<similar idsim=""></similar>
+				<similar idsim="REC-2013-0008"></similar>
 			</similarNews>
 		</otherNews>
 
@@ -788,10 +758,10 @@
 		</championship>
 		<otherNews>
 			<relatedNews>
-				<relation idrel="" />
+				<relation idrel="REC-2013-0007" />
 			</relatedNews>
 			<similarNews>
-				<similar idsim=""></similar>
+				<similar idsim="REC-2013-0007"></similar>
 			</similarNews>
 		</otherNews>
 		<newsBody><pt>Acaba de ser apresentado à poucos minutos o substituto do professor Jesualdo Ferreira no comando da equipa técnica da equipa profissional do clube.
@@ -844,10 +814,10 @@
 		</championship>
 		<otherNews>
 			<relatedNews>
-				<relation idrel="" />
+				<relation idrel="REC-2013-0008" />
 			</relatedNews>
 			<similarNews>
-				<similar idsim=""></similar>
+				<similar idsim="REC-2013-0008"></similar>
 			</similarNews>
 		</otherNews>
 		<newsBody><pt>Ao fim de 2 treinos a orientar o plantel principal Leonardo Jardim é despedido do papel de treinador. Após a derrota no jogo particular
@@ -896,10 +866,10 @@ com o Olivais e Moscavide por 9-2, o presidente Bruno de Carvalho despede o seu 
 		</championship>
 		<otherNews>
 			<relatedNews>
-				<relation idrel="" />
+				<relation idrel="REC-2013-0006" />
 			</relatedNews>
 			<similarNews>
-				<similar idsim=""></similar>
+				<similar idsim="REC-2013-0006"></similar>
 			</similarNews>
 		</otherNews>
 		<newsBody> <pt>Vitor Pereira abandona o cargo de treinador do Futebol Clube do Porto por dar preferência à cadeira de sonho. Decisão que causou felicidade no seio do 
