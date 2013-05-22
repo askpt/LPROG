@@ -20,7 +20,7 @@
 				<!-- HTML body -->
 				<body>
 
-					<div id="menubar">
+					<div id="menubar" align="center">
 						<nav>
     						<!-- UL for MENUBAR -->
 							<ul>
