@@ -3,7 +3,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.dei.isep.ipp.pt/lprog Relatorio.xsd ">
 	<p:páginaRosto>
-		<p:tema>Jornal Desportivo</p:tema>
+		<p:tema>Sports Journal</p:tema>
 		<p:disciplina>
 			<p:designação>Linguagens e Programação</p:designação>
 			<p:anoCurricular>2</p:anoCurricular>
@@ -32,29 +32,29 @@
 	
 	<!-- need to add the body of the report -->
 	<p:corpo id="">
-		<p:introdução id="" tituloSecção="">
+		<p:introdução id="SEC001" tituloSecção="Introduction">
 			<p:bloco>
 				<p:paragráfo />
 			</p:bloco>
 		</p:introdução>
 		<p:secções>
-			<p:análise id="" tituloSecção="">
+			<p:análise id="SEC101" tituloSecção="Analysis of the proposed problem">
 				<p:bloco>
 					<p:paragráfo />
 				</p:bloco>
 			</p:análise>
-			<p:linguagem id="" tituloSecção="">
+			<p:linguagem id="SEC102" tituloSecção="Language used to create the XML">
 				<p:bloco>
 					<p:paragráfo />
 				</p:bloco>
 			</p:linguagem>
-			<p:transformações id="" tituloSecção="">
+			<p:transformações id="SEC103" tituloSecção="Transformations to HTML and XML">
 				<p:bloco>
 					<p:paragráfo />
 				</p:bloco>
 			</p:transformações>
 		</p:secções>
-		<p:conclusão id="" tituloSecção="">
+		<p:conclusão id="SEC201" tituloSecção="Conclusion">
 			<p:bloco>
 				<p:paragráfo />
 			</p:bloco>
@@ -62,11 +62,17 @@
 		
 		<!-- need to add the referencies of the report -->
 		<p:referências>
-			<p:refBibliográfica idRef="">
+			<p:refBibliográfica idRef="RefB_A">
 				<p:título>p:título</p:título>
 				<p:dataPublicação>p:dataPublicação</p:dataPublicação>
 				<p:autor>p:autor</p:autor>
 			</p:refBibliográfica>
+			
 		</p:referências>
 	</p:corpo>
+	<p:anexos tituloSecção="Tag Tree" id="ANX001">
+		<p:bloco>
+			<p:figura>/files/tagtree.jpg</p:figura>			
+		</p:bloco>
+	</p:anexos>
 </p:relatório>
