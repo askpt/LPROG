@@ -8,7 +8,7 @@
 	xsi:noNamespaceSchemaLocation="XMLSchema.xsd">
 
 	<!-- News tag begins here -->
-	<news id="REC-2013-0001" >
+	<news id="REC-2013-0001">
 		<dateTime>
 			<year>2013</year>
 			<month>1</month>
@@ -24,11 +24,15 @@
 			<sourceName>Record</sourceName>
 			<sourceURL>http://www.record.xl.pt/Futebol/Nacional/1a_liga/Benfica/interior.aspx?content_id=822468</sourceURL>
 		</source>
-		
-		<title><pt>"O que estou a fazer com Vieira vai dar certo"</pt></title>
-		
-		
-		<abstract><pt>Apoio dos adeptos após Liga Europa fá-lo ponderar</pt></abstract>
+
+		<title>
+			<pt>"O que estou a fazer com Vieira vai dar certo"</pt>
+		</title>
+
+
+		<abstract>
+			<pt>Apoio dos adeptos após Liga Europa fá-lo ponderar</pt>
+		</abstract>
 		<photos>
 			<coverPhoto>
 				<photo href="Photos/JJ.png" width="214" height="317" />
@@ -52,20 +56,22 @@
 			</name>
 		</championship>
 		<otherNews>
-		
+
 		</otherNews>
-		
-		<newsBody><pt>Com a renovação de Jorge Jesus praticamente acertada, o treinador do Benfica sublinhou este sábado que a "parceria" 
+
+		<newsBody>
+			<pt>Com a renovação de Jorge Jesus praticamente acertada, o treinador do Benfica sublinhou este sábado que a "parceria" 
 		com o presidente do clube vai continuar "a dar certo". "Trabalhamos para o clube e, direta ou indiretamente para os adeptos, para 
 		lhes dar alegrias. Gostamos que nossos adeptos gostem de nós e acreditem no nosso trabalho, que tenham manifestações de carinho 
 		como as que fizeram ao longo deste ano. Quando não ganhamos uma final [da Liga Europa] e os adeptos nos acarinham da forma como foi, 
 		isso leva-me a pensar: da mesma maneira que pensei coisas depois do jogo, também pensei noutras quando cheguei a Lisboa e senti o apoio 
 		ou mesmo no aeroporto de Amesterdão quando me deram muita força. Havia orgulho na equipa. Isso também me levou a pensar que o que eu 
-		e o presidente estamos a fazer vai dar certo", afirmou Jorge Jesus em conferência de imprensa.</pt></newsBody>
-		
+		e o presidente estamos a fazer vai dar certo", afirmou Jorge Jesus em conferência de imprensa.</pt>
+		</newsBody>
+
 	</news>
 	<news id="REC-2013-0002">
-		<dateTime>	
+		<dateTime>
 			<year>2013</year>
 			<month>1</month>
 			<day>3</day>
@@ -80,8 +86,12 @@
 			<sourceName>Record</sourceName>
 			<sourceURL>http://www.record.xl.pt/Futebol/Nacional/1a_liga/Benfica/interior.aspx?content_id=822472</sourceURL>
 		</source>
-		<title><pt>"Não podemos esperar 20 anos por outra final"</pt></title>
-		<abstract><pt>Desiludido por não dar alegria aos adeptos</pt></abstract>
+		<title>
+			<pt>"Não podemos esperar 20 anos por outra final"</pt>
+		</title>
+		<abstract>
+			<pt>Desiludido por não dar alegria aos adeptos</pt>
+		</abstract>
 		<photos>
 			<coverPhoto>
 				<photo href="Photos/JJ2.png" width="214" height="317" />
@@ -96,7 +106,7 @@
 				<shortname>SLB</shortname>
 				<country>POR</country>
 				<position>1</position>
-				
+
 			</club>
 		</clubs>
 		<sport>Football</sport>
@@ -106,7 +116,8 @@
 		<otherNews>
 
 		</otherNews>
-		<newsBody><pt>Depois da derrota no Dragão e da final da Liga Europa perdida para o Chelsea, o ânimo dos 
+		<newsBody>
+			<pt>Depois da derrota no Dragão e da final da Liga Europa perdida para o Chelsea, o ânimo dos 
 		jogadores do Benfica ressentiu-se, mas Jorge Jesus fez questão de animar "as tropas" de novo até porque 
 		a qualidade de jogo só tinha de deixar a equipa de cabeça erguida. "As primeira horas e dias são sempre difíceis. 
 		As derrotas são sempre iguais, mas quando se perde e se mostra uma qualidade de jogo contra um adversário que é campeão 
@@ -137,8 +148,12 @@
 			<sourceName>Uefa</sourceName>
 			<sourceURL>http://www.uefa.com/uefaeuropaleague/season=2013/matches/round=2000361/match=2010095/postmatch/report/index.html</sourceURL>
 		</source>
-		<title><en>Chelsea win Europa League</en></title>
-		<abstract><en>Ivanović heads Chelsea to Europa League glory</en></abstract>
+		<title>
+			<en>Chelsea win Europa League</en>
+		</title>
+		<abstract>
+			<en>Ivanović heads Chelsea to Europa League glory</en>
+		</abstract>
 		<photos>
 			<coverPhoto>
 				<photo href="Photos/ivanovic.png" width="214" height="317" />
@@ -168,7 +183,8 @@
 		<otherNews>
 
 		</otherNews>
-		<newsBody><en>Branislav Ivanović's towering header in the last minute of added time earned Chelsea FC a dramatic victory over SL Benfica as 
+		<newsBody>
+			<en>Branislav Ivanović's towering header in the last minute of added time earned Chelsea FC a dramatic victory over SL Benfica as 
 		they captured the 2013 UEFA Europa League title. A taut, absorbing Amsterdam final looked destined for extra time when the Chelsea centre-back 
 		peeled away from his marker at the back post to direct an imperious header into the far corner following Juan Mata's corner. Benfica dominated 
 		the first 60 minutes before a moment of power and poise from Fernando Torres swung the game Chelsea's way. Óscar Cardozo soon equalised from the 
@@ -191,7 +207,7 @@
 		but Ivanović had other ideas with a dramatic winner that means Chelsea, for the next ten days at least, become the first club to hold the UEFA Champions League and
 		UEFA Europa League trophies simultaneously.</en>
 		</newsBody>
-		
+
 	</news>
 
 	<!-- Another news item -->
@@ -211,8 +227,12 @@
 			<sourceName>A Bola</sourceName>
 			<sourceURL>http://www.abola.pt/nnh/ver.aspx?id=402782</sourceURL>
 		</source>
-		<title><pt>"Não houve ameaças nem prémios, são tudo invenções"</pt></title>
-		<abstract><pt>Paulo Fonseca, sobre o jogo com o FC Porto</pt></abstract>
+		<title>
+			<pt>"Não houve ameaças nem prémios, são tudo invenções"</pt>
+		</title>
+		<abstract>
+			<pt>Paulo Fonseca, sobre o jogo com o FC Porto</pt>
+		</abstract>
 		<photos>
 			<coverPhoto>
 				<photo href="Photos/paulofonseca.png" width="214" height="317" />
@@ -221,7 +241,7 @@
 				<photo href="Photos/paulofonseca.png" width="214" height="317" />
 			</otherPhoto>
 		</photos>
-	
+
 		<clubs>
 			<club>
 				<name>Paços de Ferreira</name>
@@ -242,7 +262,8 @@
 				<similar />
 			</similarNews>
 		</otherNews>
-		<newsBody><pt>Por defrontar o FC Porto na última jornada e poder, por isso, ter influência nas contas do título, muito se tem falado do 
+		<newsBody>
+			<pt>Por defrontar o FC Porto na última jornada e poder, por isso, ter influência nas contas do título, muito se tem falado do 
 		Paços de Ferreira e de supostos incentivos que a equipa da capital do móvel poderia ter recebido, seja para beneficiar ou dificultar
 		 a vida aos dragões. O treinador dos castores, no entanto, garante que isso não corresponde minimamente à verdade. Paulo Fonseca assegura 
 		que o Paços não precisa de motivações extra e que vai encarar este jogo com a máxima seriedade, apesar de já ter garantido o acesso à Liga 
@@ -264,7 +285,7 @@
 			<day>2</day>
 			<hour>20</hour>
 			<minute>40</minute>
-		
+
 		</dateTime>
 		<author>
 			<name>JN</name>
@@ -274,8 +295,12 @@
 			<sourceName>JN</sourceName>
 			<sourceURL>http://www.jn.pt</sourceURL>
 		</source>
-		<title><pt>Inauguração das Antas: FCP 2 - 8 SLB </pt></title>
-		<abstract><pt>Os encarnados levaram consigo um troféu (na foto) com 18 quilos de peso, destinado ao vencedor dessa partida.</pt></abstract>
+		<title>
+			<pt>Inauguração das Antas: FCP 2 - 8 SLB </pt>
+		</title>
+		<abstract>
+			<pt>Os encarnados levaram consigo um troféu (na foto) com 18 quilos de peso, destinado ao vencedor dessa partida.</pt>
+		</abstract>
 		<photos>
 			<coverPhoto>
 				<photo href="Photos/inauguracao.jpg" width="214" height="317" />
@@ -304,7 +329,8 @@
 				<similar />
 			</similarNews>
 		</otherNews>
-		<newsBody><pt>A cerimónia de inauguração contou com a presença do General Craveiro Lopes, então Presidente da República, 
+		<newsBody>
+			<pt>A cerimónia de inauguração contou com a presença do General Craveiro Lopes, então Presidente da República, 
 		que desceu ao relvado para colocar no estandarte do FC Porto a Medalha de Mérito Desportivo e para passar revista à 
 		guarda de honra, formada por um batalhão de milícias da Mocidade Portuguesa. Além do General Craveiro Lopes, a 
 		inauguração do estádio contou com outro ilustre convidado, o Benfica! Como foram convidados de honra, os encarnados 
@@ -312,9 +338,10 @@
 		No entanto, o resultado desse jogo acabou por não ser propriamente o que os portistas desejavam que ficasse associado
 		à inauguração do novo estádio: 2-8!
 		Em cima, a ilustrar o 'post', 3 fotos da inauguração do antigo Estádio das Antas. Na primeira, os benfiquistas 
-		Francisco Moreira e Manuel Arsénio (autor do primeiro golo no Estádio das Antas) surgem a transportar o pesado troféu (reparem que se vê o emblema do FC Porto na base) que o Benfica conquistou depois da vitória sobre o FC Porto.</pt></newsBody>
+		Francisco Moreira e Manuel Arsénio (autor do primeiro golo no Estádio das Antas) surgem a transportar o pesado troféu (reparem que se vê o emblema do FC Porto na base) que o Benfica conquistou depois da vitória sobre o FC Porto.</pt>
+		</newsBody>
 	</news>
-	
+
 	<news id="BOL-2013-0002">
 		<dateTime>
 			<year>2013</year>
@@ -331,8 +358,12 @@
 			<sourceName>Benfica Eternos Campeões</sourceName>
 			<sourceURL>http://benficaeternoscampeoes.blogspot.pt/2013/02/foi-ha-70-anos-sl-benfica-12-fc-porto-2.html</sourceURL>
 		</source>
-		<title><pt>Benfica vs Porto: A maior Goleada</pt></title>
-		<abstract><pt>Na tarde de 7 de Fevereiro de 1943, o Campo Grande assiste a um 12-2. Nunca visto e jamais repetido</pt></abstract>
+		<title>
+			<pt>Benfica vs Porto: A maior Goleada</pt>
+		</title>
+		<abstract>
+			<pt>Na tarde de 7 de Fevereiro de 1943, o Campo Grande assiste a um 12-2. Nunca visto e jamais repetido</pt>
+		</abstract>
 		<photos>
 			<coverPhoto>
 				<photo href="Photos/122.jpg" width="214" height="317" />
@@ -356,7 +387,8 @@
 		<otherNews>
 
 		</otherNews>
-		<newsBody><pt>Recuemos ao tempo dos jogadores sem chuteiras coloridas, nem números nas
+		<newsBody>
+			<pt>Recuemos ao tempo dos jogadores sem chuteiras coloridas, nem números nas
 		camisolas. Estamos em Fevereiro de 1943, no dia 7. Faz hoje 70 anos que o Benfica
 		maltrata o FC Porto por 12-2, a maior goleada de sempre em clássicos.
 		
@@ -402,7 +434,7 @@
 		</pt>
 		</newsBody>
 	</news>
-	
+
 	<news id="REC-2013-0003">
 		<dateTime>
 			<year>2013</year>
@@ -419,17 +451,21 @@
 			<sourceName>Carolina Salgado: «Pinto da Costa recebia árbitros em casa»</sourceName>
 			<sourceURL>http://www.record.xl.pt/arquivo/interior.aspx?content_id=290747</sourceURL>
 		</source>
-		<title><pt>Carolina Salgado: «Pinto da Costa recebia árbitros em casa»</pt></title>
-		<abstract><pt>DINHEIRO E MENINAS ERAM A RECOMPENSA</pt></abstract>
+		<title>
+			<pt>Carolina Salgado: «Pinto da Costa recebia árbitros em casa»</pt>
+		</title>
+		<abstract>
+			<pt>DINHEIRO E MENINAS ERAM A RECOMPENSA</pt>
+		</abstract>
 		<photos>
 			<coverPhoto>
-				<photo href="Photos/carsal.jpg" width="214" height="317"/>
+				<photo href="Photos/carsal.jpg" width="214" height="317" />
 			</coverPhoto>
 			<otherPhoto>
-				<photo href="Photos/carsal.jpg" width="214" height="317"/>
+				<photo href="Photos/carsal.jpg" width="214" height="317" />
 			</otherPhoto>
 		</photos>
-	
+
 		<clubs>
 			<club>
 				<name>FC Porto</name>
@@ -446,7 +482,7 @@
 
 		</otherNews>
 		<newsBody>
-		<pt>
+			<pt>
 		O prometido livro de Carolina Salgado já está nos escaparates. Ao longo de cerca de 150 páginas,
 		a ex-companheira de Pinto da Costa relata a experiência da sua vida de 29 anos, dando particular
 		destaque aos 6 em que viveu lado a lado com o homem que conheceu quando trabalhava no Calor da 
@@ -488,14 +524,18 @@
 			<sourceName>PC hoje no tribunal</sourceName>
 			<sourceURL>http://www.record.xl.pt/arquivo/interior.aspx?content_id=218971</sourceURL>
 		</source>
-		<title><pt>PC hoje no tribunal</pt></title>
-		<abstract><pt>POLÍCIA JUDICIÁRIA FEZ BUSCA NA TORRE DAS ANTAS E NA CASA DO PRESIDENTE</pt></abstract>
+		<title>
+			<pt>PC hoje no tribunal</pt>
+		</title>
+		<abstract>
+			<pt>POLÍCIA JUDICIÁRIA FEZ BUSCA NA TORRE DAS ANTAS E NA CASA DO PRESIDENTE</pt>
+		</abstract>
 		<photos>
 			<coverPhoto>
-				<photo href="Photos/pinto.jpg" width="214" height="317"/>
+				<photo href="Photos/pinto.jpg" width="214" height="317" />
 			</coverPhoto>
 			<otherPhoto>
-				<photo href="Photos/pinto.jpg" width="214" height="317"/>
+				<photo href="Photos/pinto.jpg" width="214" height="317" />
 			</otherPhoto>
 		</photos>
 
@@ -515,7 +555,8 @@
 
 		</otherNews>
 
-		<newsBody><pt>
+		<newsBody>
+			<pt>
 		A Polícia Judiciária lançou ontem uma segunda ofensiva da Operação Apito Dourado. Um agente de jogadores 
 		(António Araújo), dois árbitros (Augusto Duarte e Jacinto Paixão) e dois assistentes (Manuel Quadrado e 
 		José Chilrito) foram detidos para interrogatório. Falta um...
@@ -547,7 +588,7 @@
 		apenas o primeiro atendeu o telefone escusando-se a comentar "sem mais informação".</pt>
 		</newsBody>
 	</news>
-	
+
 
 	<news id="REC-2013-0005">
 		<dateTime>
@@ -565,8 +606,12 @@
 			<sourceName></sourceName>
 			<sourceURL>http://www.abola.xl.pt/Futebol/Nacional/1a_liga/Benfica/interior.aspx?content_id=822472</sourceURL>
 		</source>
-		<title><pt>"Campeonato de S.Pedro"</pt></title>
-		<abstract><pt>Condições climatéricas decidem título nacional</pt></abstract>
+		<title>
+			<pt>"Campeonato de S.Pedro"</pt>
+		</title>
+		<abstract>
+			<pt>Condições climatéricas decidem título nacional</pt>
+		</abstract>
 		<photos>
 			<coverPhoto>
 				<photo href="Photos/penalti.jpg" width="214" height="317" />
@@ -596,16 +641,17 @@
 				<similar idsim="REC-2013-0006"></similar>
 			</similarNews>
 		</otherNews>
-		<newsBody><pt>Não deixa de ser estranho mas o que é certo S.Pedro superou-se a outra figura divina, neste caso Jesus. Depois de uma época de tantas
+		<newsBody>
+			<pt>Não deixa de ser estranho mas o que é certo S.Pedro superou-se a outra figura divina, neste caso Jesus. Depois de uma época de tantas
 		lamentações de alguns eis que foram accionodas estratégias divinas. O campeonato ficou decidido num golpe de génio de S.Pedro que acabou por derrubar
 		James Rodriguez (fora da grande área)com uma rajada de vento e com isto Rui Miguel não teve dúvidas em apontar para a marca dos 11 metros mostrando cartão vermelho ao defesa central
 		do Paços de Ferreira, Ricardo, no entanto este cartão devia ser mostrado ao autor desse golpe de ventania. O jogo fica assim decidido graças a uma entidade superior
 		que ludribiou o senhor Rui Miguel. Assim se decidem campeonatos nestes últimos anos.
 		</pt>
-		 </newsBody>
+		</newsBody>
 	</news>
-	
-<news id="REC-2013-0006">
+
+	<news id="REC-2013-0006">
 		<dateTime>
 			<year>2013</year>
 			<month>3</month>
@@ -621,8 +667,12 @@
 			<sourceName></sourceName>
 			<sourceURL>http://www.abola.xl.pt/Futebol/Nacional/1a_liga/Porto/interior.aspx?content_id=822472</sourceURL>
 		</source>
-		<title><pt>"Campeonato não podia ser chamado campeonato "Capela""</pt></title>
-		<abstract><pt>Declarações de Pinto da Costa após o jogo de Paços de Ferreira</pt></abstract>
+		<title>
+			<pt>"Campeonato não podia ser chamado campeonato "Capela""</pt>
+		</title>
+		<abstract>
+			<pt>Declarações de Pinto da Costa após o jogo de Paços de Ferreira</pt>
+		</abstract>
 		<photos>
 			<coverPhoto>
 				<photo href="Photos/pintodacosta.jpg" width="214" height="317" />
@@ -651,17 +701,18 @@
 				<similar idsim="REC-2013-0005"></similar>
 			</similarNews>
 		</otherNews>
-		<newsBody><pt>"Fiz questão que este campeonato não fosse recordado como o campeonato "Capela" e por isso accionei todos os recursos disponívies e 
+		<newsBody>
+			<pt>"Fiz questão que este campeonato não fosse recordado como o campeonato "Capela" e por isso accionei todos os recursos disponívies e 
 		mais ilegais possíveis. Por isso decidi convidar o senhor Rui Miguel para um jantar em minha casa para a apresentação do meu novo filho, o emplastro.
 		Como ele ainda quer viver por muitos e bons anos aceitou o meu convite e por isso fez o seu papel neste jogo decisivo. Também lhe ofereci 
 		um vale de compras em todas as lojas do Dolce Vita junto ao estádio do Dragão para que não tenha necessidade de fazer compras no Colombo. 
 		Penso eu de que..." 
 		</pt>
-		 </newsBody>
+		</newsBody>
 	</news>
 
 
-<news id="REC-2013-0007">
+	<news id="REC-2013-0007">
 		<dateTime>
 			<year>2013</year>
 			<month>12</month>
@@ -677,8 +728,12 @@
 			<sourceName></sourceName>
 			<sourceURL>http://www.abola.xl.pt/Atletismo/interior.aspx?content_id=822472</sourceURL>
 		</source>
-		<title><pt>"Sporting decide acabar com todas as modalidades excepto atletismo"</pt></title>
-		<abstract><pt>Decisão tomada em maioria absoluta da SAD sportuinguista</pt></abstract>
+		<title>
+			<pt>"Sporting decide acabar com todas as modalidades excepto atletismo"</pt>
+		</title>
+		<abstract>
+			<pt>Decisão tomada em maioria absoluta da SAD sportuinguista</pt>
+		</abstract>
 		<photos>
 			<coverPhoto>
 				<photo href="Photos/sporting.jpg" width="214" height="317" />
@@ -709,15 +764,16 @@
 			</similarNews>
 		</otherNews>
 
-		<newsBody><pt>Decisão de carácter urgente aprovada pela grande maioria da SAD do clube verde e branco. A única modalidade garantida para a época desportiva 
+		<newsBody>
+			<pt>Decisão de carácter urgente aprovada pela grande maioria da SAD do clube verde e branco. A única modalidade garantida para a época desportiva 
 		2013/2014 será o atletismo dada a situação de bancarrota que vive o clube. O estádio será vendido ao Benfica que irá pintar tudo de vermelho
 		colocando a equipa B e a equipa de juniores a jogar neste estádio. O nome também será alterado para "Gaitan Arena". A direcção do sporting, já
 		demissionário, garantiu o estádio da Marinha Grande para os atletas do clube terem as minimas condições de treino para a preparação dos
 		Jogos Olímpicos de 2016, no Brasil. 
 		</pt>
-		 </newsBody>
+		</newsBody>
 	</news>
-	
+
 	<news id="REC-2013-0008">
 		<dateTime>
 			<year>2013</year>
@@ -734,8 +790,12 @@
 			<sourceName></sourceName>
 			<sourceURL>http://www.abola.xl.pt/Futebol/interior.aspx?content_id=822472</sourceURL>
 		</source>
-		<title><pt>"Leonardo assina contrato válido por 3 treinos"</pt></title>
-		<abstract><pt>Está encontrado o substituto de Jesualdo Ferreira</pt></abstract>
+		<title>
+			<pt>"Leonardo assina contrato válido por 3 treinos"</pt>
+		</title>
+		<abstract>
+			<pt>Está encontrado o substituto de Jesualdo Ferreira</pt>
+		</abstract>
 		<photos>
 			<coverPhoto>
 				<photo href="Photos/leonardojardim2.jpg" width="214" height="317" />
@@ -764,15 +824,16 @@
 				<similar idsim="REC-2013-0007"></similar>
 			</similarNews>
 		</otherNews>
-		<newsBody><pt>Acaba de ser apresentado à poucos minutos o substituto do professor Jesualdo Ferreira no comando da equipa técnica da equipa profissional do clube.
+		<newsBody>
+			<pt>Acaba de ser apresentado à poucos minutos o substituto do professor Jesualdo Ferreira no comando da equipa técnica da equipa profissional do clube.
 		Trata-se de Leonardo Jardim, de 38 anos que já treinou Olympiacos, S.C.Braga e Beira-Mar. O treinador encontrava-se sem clube desde o caricato despedimento do clube grego. 
 		Leonardo Jardim assina contrato válido por 3 treinos (que inclui um jogo particular com o Olivais e Moscavide), sendo a renovação de contrato decidida pelo resultado desse jogo.
 		Terá uma cláusula de rescisão de 10€ e um jantar no restaurante do Barbas para 4 pessoas. Boulahrouz será o seu adjunto.
 		</pt>
-		 </newsBody>
+		</newsBody>
 	</news>
-	
-		
+
+
 	<news id="REC-2013-0009">
 		<dateTime>
 
@@ -790,8 +851,12 @@
 			<sourceName></sourceName>
 			<sourceURL>http://www.abola.xl.pt/Futebol/interior.aspx?content_id=822472</sourceURL>
 		</source>
-		<title><pt>"Leonardo Jardim despedido do Sporting"</pt></title>
-		<abstract><pt>Equipa perde particular com Olivais e Moscavide por expressivos 9-2</pt></abstract>
+		<title>
+			<pt>"Leonardo Jardim despedido do Sporting"</pt>
+		</title>
+		<abstract>
+			<pt>Equipa perde particular com Olivais e Moscavide por expressivos 9-2</pt>
+		</abstract>
 		<photos>
 			<coverPhoto>
 				<photo href="Photos/KhalidBoulahrouz.jpg" width="214" height="317" />
@@ -820,13 +885,65 @@
 				<similar idsim="REC-2013-0008"></similar>
 			</similarNews>
 		</otherNews>
-		<newsBody><pt>Ao fim de 2 treinos a orientar o plantel principal Leonardo Jardim é despedido do papel de treinador. Após a derrota no jogo particular
+		<newsBody>
+			<pt>Ao fim de 2 treinos a orientar o plantel principal Leonardo Jardim é despedido do papel de treinador. Após a derrota no jogo particular
 com o Olivais e Moscavide por 9-2, o presidente Bruno de Carvalho despede o seu treinador. Após o jogo, Boulahrouz dá um murro na mesa e assume o cargo de treinador principal até o final da época.
 		 </pt>
-		 </newsBody>
+		</newsBody>
 	</news>
-	
-		<news id="REC-2013-0010">
+	<news id="WOR-2012-0001">
+		<dateTime>
+			<year>2012</year>
+			<month>10</month>
+			<day>15</day>
+			<hour>22</hour>
+			<minute>00</minute>
+		</dateTime>
+		<author>
+			<name>name</name>
+			<email>name@wordpress.com</email>
+		</author>
+		<source>
+			<sourceName>WordPress.org</sourceName>
+			<sourceURL>http://mundodesportivo.wordpress.com/2012/10/15/o-impensavel-acontece-fc-porto-1969-70-pior-classificacao-de-sempre-9olugar/</sourceURL>
+		</source>
+		<title>
+			<pt>O impensável acontece</pt>
+		</title>
+		<abstract>
+			<pt>FC Porto, 1969-70, pior classificação de sempre: 9ºlugar</pt>
+		</abstract>
+		<photos>
+			<coverPhoto>
+				<photo href="Photos/fpf-1.jpg" width="214" height="317" />
+			</coverPhoto>
+			<otherPhoto>
+				<photo />
+			</otherPhoto>
+		</photos>
+		<clubs>
+			<club>
+				<name>Futebol Clube do Porto</name>
+				<shortname>FCP</shortname>
+				<country>POR</country>
+				<position>9</position>
+			</club>
+		</clubs>
+		<sport>Football</sport>
+		<championship>
+			<name>SuperLiga</name>
+		</championship>
+		<otherNews></otherNews>
+		<newsBody>
+			<pt>
+			Após o quinto lugar na época transata, o Sporting ganharia nesta época, 1969-70, o título sem grandes dificuldades. Cedeu apenas uma derrota, empatou quatro jogos e ganhou vinte um, somando quarenta e seis pontos. O Benfica, segundo classificado somou trinta e oito, isto é, ficou a oito pontos dos leões. Como a pontuação na altura era diferente da atual, dois pontos por vitória e um por empate, agora a vitória vale três, significa que os encarnados tiveram o mesmo número de empates, porém, mais quatro derrotas; isto demonstra a superioridade do Sporting nesta temporada.
+			Desde que as subidas e descidas de divisão foram implementadas na época de 1945-46, muitos clubes tiveram esse destino. O Barreirense, nesta temporada, faria algo até então inédito e um recorde que demorou 38 anos a ser batido: o clube do Barreiro, campeão da II Divisão em 1968-69, por isso, sendo promovido, terminou, em 1969-70, na I Divisão, o seu melhor lugar de sempre, quarto lugar; com isto, passou a ser a equipa que melhor classificação conseguiu no ano a seguir à sua subida. Só os vimaranenses em 2007-08 fariam algo melhor, concluindo em terceiro lugar.  Também, tiveram outro destaque: ao terminarem em quarto, apuraram-se para as competições europeias, outro recorde que só foi igualado pelo Salgueiros em 1990-91, também promovido e classificado para a UEFA, contudo, terminando em quinto lugar.
+			O FC Porto, à entrada para as últimas onze jornadas, estava em quarto lugar, já longe do terceiro, todavia, em quarto e com hipóteses de ao menos de poder participar nas competições europeias. Onze jogos depois terminou o campeonato no nono lugar!!! Isto é, nas últimas onze partidas: ganhou e empatou duas e perdeu…sete! Classificando-se num impensável nono lugar, o pior lugar de sempre de um grande na agora Liga. O Sporting ficou quatro vezes em quinto, o Benfica uma vez sem sexto, os dragões, além disto, tem três quintos, um sexto e um sétimo, mas, um nono, num campeonato de 14 clubes, numa fase onde o plantel era todo profissional, ao contrário dos anos 40, onde se verificaram essas classificações negativas, onde ainda não se tinha abraçado o profissionalismo, foi algo dificilmente será igualado nos próximos tempos por um grande do futebol português! Todavia….
+		</pt>
+		</newsBody>
+	</news>
+
+	<news id="REC-2013-0010">
 		<dateTime>
 			<year>2013</year>
 			<month>11</month>
@@ -842,8 +959,12 @@ com o Olivais e Moscavide por 9-2, o presidente Bruno de Carvalho despede o seu 
 			<sourceName></sourceName>
 			<sourceURL>http://www.abola.xl.pt/Futebol/interior.aspx?content_id=822472</sourceURL>
 		</source>
-		<title><pt>"A cadeira de sonho"</pt></title>
-		<abstract><pt>A cadeira de sonho para Vitor Pereira</pt></abstract>
+		<title>
+			<pt>"A cadeira de sonho"</pt>
+		</title>
+		<abstract>
+			<pt>A cadeira de sonho para Vitor Pereira</pt>
+		</abstract>
 		<photos>
 			<coverPhoto>
 				<photo href="Photos/VP.jpg" width="214" height="317" />
@@ -872,11 +993,12 @@ com o Olivais e Moscavide por 9-2, o presidente Bruno de Carvalho despede o seu 
 				<similar idsim="REC-2013-0006"></similar>
 			</similarNews>
 		</otherNews>
-		<newsBody> <pt>Vitor Pereira abandona o cargo de treinador do Futebol Clube do Porto por dar preferência à cadeira de sonho. Decisão que causou felicidade no seio do 
+		<newsBody>
+			<pt>Vitor Pereira abandona o cargo de treinador do Futebol Clube do Porto por dar preferência à cadeira de sonho. Decisão que causou felicidade no seio do 
 		clube azul e branco. Trata-se da sua preferência desconhecida pela sua poltrona favorita que tem em casa, onde passará o resto da sua carreira sentado a jogar Football Manager 2013.
 		"Decidi continuar a minha carreira na minha cadeira de sonho a jogar FM13 apenas para criticar a arbitragem em todos os jogos"
 		 </pt>
-		 </newsBody>
+		</newsBody>
 	</news>
 </sportsJournal> <!-- end root -->
 
