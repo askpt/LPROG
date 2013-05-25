@@ -1,4 +1,5 @@
-﻿#menubar{
+﻿/* Delete the following*/
+#menubar{
     /*border: 3px solid blue;*/
     position: absolute;
     top: 0px;
@@ -7,6 +8,41 @@
     z-index:1;
     /*important so that menubar doesn't collapse against the div below*/
 }
+
+#content{
+    /*border: 3px solid yellow;*/
+    position: absolute;
+    top: 100px;
+    width:750px;
+    height:700px;
+}
+
+#bottom{
+    border: 3px solid red;
+    position: absolute;
+    top: 800px;
+    width: 750px;
+
+}
+
+/* Stop Deleting*/
+
+
+/*
+    ****** STYLE FOR PAGENOTFOUND ******    
+*/
+
+#pageNotFound{
+    position: fixed;
+    left: 30%;
+    top: 150px;
+}
+
+
+/*
+    ****** STYLE FOR ADVANCED HOMEPAGE ******    
+*/
+
 
 nav ul ul {
 	display: none;
