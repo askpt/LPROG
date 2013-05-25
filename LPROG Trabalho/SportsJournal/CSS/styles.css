@@ -1,4 +1,14 @@
-﻿nav ul ul {
+﻿#menubar{
+    /*border: 3px solid blue;*/
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    width: 800px;
+    z-index:1;
+    /*important so that menubar doesn't collapse against the div below*/
+}
+
+nav ul ul {
 	display: none;
 }
 
