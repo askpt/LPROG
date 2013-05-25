@@ -17,7 +17,7 @@
 				
 				<!-- HTML body -->
 				<body>
-				
+								
 				<div id="menubar" align="center">
 						<nav>
     						<!-- UL for MENUBAR -->
@@ -76,7 +76,7 @@
 						<h2 align="center">All News</h2>
 					
 						<!-- displays the total number of news -->
-						<p align="center">(Total news: <xsl:value-of select="count(sportsJournal/news)"/>)</p>
+						<p align="center">(Total news: <xsl:value-of select="count(sportsJournal/news[author/name='Fernando Pessoa'])"/>)</p>
 						<br /><hr /><br />
 					</div>
 					
@@ -95,7 +95,7 @@
 								</tr>
 								<tr>
 									<td>
-										<xsl:for-each select="sportsJournal/news">
+										<xsl:for-each select="sportsJournal/news[author/name='Fernando Pessoa']">
 											<a href="#{generate-id(title)}">
 												<!-- getting the value of the title of a given news -->
 												<xsl:value-of select="title" /> <br />
@@ -103,12 +103,12 @@
 										</xsl:for-each>
 									</td>
 									<td>
-										<xsl:for-each select="sportsJournal/news">
+										<xsl:for-each select="sportsJournal/news[author/name='Fernando Pessoa']">
 											<xsl:value-of select="sport" /> <br />
 										</xsl:for-each>
 									</td>
 									<td>
-										<xsl:for-each select="sportsJournal/news">
+										<xsl:for-each select="sportsJournal/news[author/name='Fernando Pessoa']">
 											<xsl:value-of select="clubs/club/shortname" /> <br />
 										</xsl:for-each>
 									</td>
@@ -122,7 +122,7 @@
 					<div id="news">
 					
 						<!-- getting data and showing it up on the screen -->
-						<xsl:for-each select="sportsJournal/news">
+						<xsl:for-each select="sportsJournal/news[author/name='Fernando Pessoa']">
 						
 							<!-- sorting by most recent date -->
 							<xsl:sort select="dateTime" order="descending" data-type="dateTime" />
