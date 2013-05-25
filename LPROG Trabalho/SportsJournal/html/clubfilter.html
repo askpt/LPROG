@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+
+<!-- HTML tag-->
+<html>
+
+<!-- head -->
+<head>
+    <title>SportsJournal</title>
+    <!-- reference to CSS stylesheet -->
+    <link rel="stylesheet" type="text/css" href="../CSS/styles.css"/>
+</head>
+
+<!-- javascript to validate dropdown; goes to the respective xml file -->
+<script type="text/javascript">
+
+	function checkRadioButtons()
+	{
+		if(document.getElementById('radioSagres').checked || document.getElementById('radioCup').checked || document.getElementById('radioEuropaLeague').checked)
+		{
+			return true;
+		}
+		return false;
+	}
+
+	function checkTextBox()
+	{
+		if(document.getElementById('textBox').value == '')
+		{
+			return false;
+		}
+		return true;
+	}
+
+	function validator()
+	{
+		var teamsDrop = document.getElementById("teamsDrop").value;
+
+		if(teamsDrop == "none")
+		{
+			alert("Error: please select a team!");
+		}
+		else if(!checkRadioButtons())
+		{
+			alert("Error: please select a competition!")
+		}
+		else if(!checkTextBox())
+		{
+			alert("Error: type a position in the text box!")
+		}
+		else
+		{
+			/* replace below */
+			alert("all fields ok! go to url!");
+		}
+	}
+
+</script>
+
+
+
+
+<!-- body -->
+<body>
+
+	<div id="header">
+
+		<!-- div for CSS-based drop-down menu -->
+		<div id="menubar" align="center">
+			<nav>
+    			<!-- UL for MENUBAR -->
+				<ul>
+					<!-- LI for LOGO -->
+					<!-- add img later!!!!! or delete -->
+					<li><img src="" /></li> 
+	
+	    			<!-- LI for menu Home -->
+					<li><a href="../../home.html">HOME</a>
+						<ul>
+							<!-- uncomment below to add menu option -->
+							<!-- <li><a href="pageNotFound.htm">Upload file</a></li> -->
+						</ul>
+					</li> 
+		
+					<!-- LI for menu News -->
+					<li><a href="#">NEWS</a>
+						<ul>
+							<li><a href="../AllNews.xml">All news</a></li>
+							<li><a href="#">Apply Filters</a>
+								<ul>
+									<li><a href="pageNotFound.htm">By Sport</a></li>
+									<li><a href="pageNotFound.htm">By Club</a></li>
+									<!-- uncomment below to add menu option -->
+									<!-- <hr /> -->
+									<!-- <li><a href="pageNotFound.htm">All Accounts</a></li> -->
+								</ul>
+							</li>
+						</ul>
+					</li>
+		
+					<!-- LI for menu EXPORT -->
+					<li><a href="#">EXPORT</a>
+						<ul>
+							<li><a href="pageNotFound.htm">Export to xml</a></li>
+							<!-- uncomment below to add menu option -->
+							<!-- <li><a href="pageNotFound.htm">Delete Label</a></li> -->
+						</ul>
+					</li>
+		
+					<!-- LI for menu About -->
+					<li><a href="#">ABOUT</a>
+						<ul>
+							<li><a href="pageNotFound.htm">Report</a></li>
+							<hr />
+							<li><a href="authors.html">Authors</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+
+	<div id="content">
+
+    	<form name="team">
+    		<p>Team: 
+    			<select id="teamsDrop">
+    				<option value="none" selected="selected">choose a team</option>
+    				<option value="slb">SL Benfica</option>
+    				<option value="fcp">FC Porto</option>
+    				<option value="scp">Sporting CP</option>
+    			</select>
+    		</p>
+    	</form>
+
+    	<form name="championship"> <br /> 
+    		<p>Select a championship <br /> 
+    				<p> <input type="radio" name="champ" id="radioSagres" value="sagres">Liga Sagres </p>
+    				<p> <input type="radio" name="champ" id="radioCup" value="europaLeague" >Portugese Cup </p>
+    				<p> <input type="radio" name="champ" id="radioEuropaLeague" value="tacaPortugal" >Europa League </p>
+    		</p>
+    	</form>
+
+    	<form name="position"> <br /> 
+    		<p>Type club's position<br /> 
+    				<p> <input type="text" name="position" id="textBox" size="10" maxlenght="3" value="1" /></p>
+    		</p>
+    	</form>
+
+    	<form name="buttons">
+    		<p><input type="submit" value="Get News!" onclick="validator()" />	
+    		<input type="submit" value="Clear" /></p>
+
+    	</form>
+
+	</div><!-- end of div CONTENT -->
+
+</body>
+</html>
