@@ -17,6 +17,59 @@
 				
 				<!-- HTML body -->
 				<body>
+								
+				<div id="menubar" align="center">
+						<nav>
+    						<!-- UL for MENUBAR -->
+							<ul>
+								<!-- LI for LOGO -->
+								<!-- add img later!!!!! or delete -->
+								<li><img src="" /></li> 
+	
+	    						<!-- LI for menu Home -->
+								<li><a href="../home.html">HOME</a>
+									<ul>
+										<!-- uncomment below to add menu option -->
+										<!-- <li><a href="pageNotFound.htm">Upload file</a></li> -->
+									</ul>
+								</li> 
+		
+								<!-- LI for menu News -->
+								<li><a href="#">NEWS</a>
+									<ul>
+										<li><a href="#">All news</a></li>
+										<li><a href="#">Apply Filters</a>
+											<ul>
+												<li><a href="html/sportsfilter.html">By Sport</a></li>
+												<li><a href="pageNotFound.htm">By Club</a></li>
+											<!-- uncomment below to add menu option -->
+											<!-- <hr /> -->
+											<!-- <li><a href="pageNotFound.htm">All Accounts	</a></li> -->
+											</ul>
+										</li>
+									</ul>
+								</li>
+		
+								<!-- LI for menu EXPORT -->
+								<li><a href="#">EXPORT</a>
+									<ul>
+										<li><a href="pageNotFound.htm">Export to xml</a></li>
+										<!-- uncomment below to add menu option -->
+										<!-- <li><a href="pageNotFound.htm">Delete Label</a></li> -->
+									</ul>
+								</li>
+		
+								<!-- LI for menu About -->
+								<li><a href="#">ABOUT</a>
+									<ul>
+										<li><a href="pageNotFound.htm">Report</a></li>
+										<hr />
+										<li><a href="html/authors.html">Authors</a></li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
+					</div>
 					<!-- displays the title at the top of the page -->
 					<div id="title">
 						<h1 align="center">Sports Journal</h1>
