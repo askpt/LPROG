@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- link to stylesheet -->
-<?xml-stylesheet type="text/xsl" href="AllNewsStyleSheet.xsl" ?>
+<?xml-stylesheet type="text/xsl" href="footballslb.xsl" ?>
 
 <!-- root element -->
 <sportsJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -1001,7 +1001,7 @@ com o Olivais e Moscavide por 9-2, o presidente Bruno de Carvalho despede o seu 
 		</newsBody>
 	</news>
 	
-			<news id="REC-2013-0011">
+		<news id="REC-2013-0011">
 		<dateTime>
 			<year>2013</year>
 			<month>11</month>
