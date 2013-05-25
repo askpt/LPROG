@@ -10,18 +10,20 @@
     <link rel="stylesheet" type="text/css" href="../CSS/styles.css"/>
 </head>
 
-<!-- javascript to validate dropdown-->
+<!-- javascript to validate dropdown; goes to the respective xml file -->
 <script type="text/javascript">
 	function validator()
 	{
-		var drop = document.getElementById("sportsDrop").value;
-		if(drop == "none")
+		var sportsDrop = document.getElementById("sportsDrop").value;
+		var teamsDrop = document.getElementById("teamsDrop").value;
+
+		if(sportsDrop == "none")
 		{
 			alert("You must select a sport!");
 		}
 		else
 		{
-			window.location.href = "authors.html";
+			window.open("../" + sportsDrop + teamsDrop + ".html");
 		}
 	}
 </script>
@@ -100,13 +102,13 @@
     		</p>
     	</form>
 
-    	<form name="sport">
+    	<form name="team">
     		<p>Filter by team? 
     			<select id="teamsDrop">
     				<option value="none" selected="selected">don't filter by team</option>
-    				<option value="football">SL Benfica</option>
-    				<option value="basketball">FC Porto</option>
-    				<option value="basketball">Sporting CP</option>
+    				<option value="slb">SL Benfica</option>
+    				<option value="fcp">FC Porto</option>
+    				<option value="scp">Sporting CP</option>
     			</select>
     		</p>
     	</form>
