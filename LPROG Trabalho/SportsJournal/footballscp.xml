@@ -51,9 +51,7 @@
 		</clubs>
 		<sport>Football</sport>
 		<championship location="POR">
-			<name>
-				Liga Sagres
-			</name>
+			<name>Liga Sagres</name>
 		</championship>
 		<otherNews>
 
@@ -382,7 +380,7 @@
 		</clubs>
 		<sport>Football</sport>
 		<championship location="POR">
-			<name>Portuguese League</name>
+			<name>Liga Sagres</name>
 		</championship>
 		<otherNews>
 
@@ -476,7 +474,7 @@
 		</clubs>
 		<sport>Football</sport>
 		<championship location="POR">
-			<name>SuperLiga</name>
+			<name>Liga Sagres</name>
 		</championship>
 		<otherNews>
 
@@ -549,7 +547,7 @@
 		</clubs>
 		<sport>Futebol</sport>
 		<championship location="POR">
-			<name>SuperLiga</name>
+			<name>Liga Sagres</name>
 		</championship>
 		<otherNews>
 
@@ -931,7 +929,7 @@ com o Olivais e Moscavide por 9-2, o presidente Bruno de Carvalho despede o seu 
 		</clubs>
 		<sport>Football</sport>
 		<championship>
-			<name>SuperLiga</name>
+			<name>Liga Sagres</name>
 		</championship>
 		<otherNews></otherNews>
 		<newsBody>

@@ -13,6 +13,8 @@
 				<!-- HTML head tag -->
 				<head>
 					<title>Sports Journal</title>
+					<!-- reference to CSS stylesheet -->
+    				<link rel="stylesheet" type="text/css" href="CSS/styles.css"/>
 				</head>	
 				
 				<!-- HTML body -->
@@ -71,23 +73,23 @@
 						</nav>
 					</div>
 					<!-- displays the title at the top of the page -->
-					<div id="title">
+					<div id="title" style="position:relative; top:30px">
 						<h1 align="center">Sports Journal</h1>
 						<h2 align="center">All News</h2>
 					
 						<!-- displays the total number of news -->
-						<p align="center">(Total news: <xsl:value-of select="count(sportsJournal/news[author/name='Fernando Pessoa'])"/>)</p>
+						<p align="center">(Total news: <xsl:value-of select="count(sportsJournal/news[sport='Football' and championship/name='Liga Sagres' and clubs/club/shortname='SLB' and clubs/club/position=1 ])"/>)</p>
 						<br /><hr /><br />
 					</div>
 					
 					<!-- div for links table -->
-					<div id="links">
+					<div id="links" style="position:relative; top:30px;">
 						<!-- series of links at the top of the page to go to a specific news -->
 						
 						<h3 align="center">Table of contents</h3>
 						
 						<!-- table with links -->
-							<table border="2">
+							<table border="2" align="center">
 								<tr>
 									<th>Title</th>
 									<th>Sport</th>
@@ -95,7 +97,7 @@
 								</tr>
 								<tr>
 									<td>
-										<xsl:for-each select="sportsJournal/news[author/name='Fernando Pessoa']">
+										<xsl:for-each select="sportsJournal/news[sport='Football' and championship/name='Liga Sagres' and clubs/club/shortname='SLB' and clubs/club/position=1 ]">
 											<a href="#{generate-id(title)}">
 												<!-- getting the value of the title of a given news -->
 												<xsl:value-of select="title" /> <br />
@@ -103,12 +105,12 @@
 										</xsl:for-each>
 									</td>
 									<td>
-										<xsl:for-each select="sportsJournal/news[author/name='Fernando Pessoa']">
+										<xsl:for-each select="sportsJournal/news[sport='Football' and championship/name='Liga Sagres' and clubs/club/shortname='SLB' and clubs/club/position=1 ]">
 											<xsl:value-of select="sport" /> <br />
 										</xsl:for-each>
 									</td>
 									<td>
-										<xsl:for-each select="sportsJournal/news[author/name='Fernando Pessoa']">
+										<xsl:for-each select="sportsJournal/news[sport='Football' and championship/name='Liga Sagres' and clubs/club/shortname='SLB' and clubs/club/position=1 ]">
 											<xsl:value-of select="clubs/club/shortname" /> <br />
 										</xsl:for-each>
 									</td>
@@ -122,7 +124,7 @@
 					<div id="news">
 					
 						<!-- getting data and showing it up on the screen -->
-						<xsl:for-each select="sportsJournal/news[author/name='Fernando Pessoa']">
+						<xsl:for-each select="sportsJournal/news[sport='Football' and championship/name='Liga Sagres' and clubs/club/shortname='SLB' and clubs/club/position=1 ]">
 						
 							<!-- sorting by most recent date -->
 							<xsl:sort select="dateTime" order="descending" data-type="dateTime" />

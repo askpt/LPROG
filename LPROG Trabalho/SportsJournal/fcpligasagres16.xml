@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- link to stylesheet -->
-<?xml-stylesheet type="text/xsl" href="NewsFilteredBySport.xsl" ?>
+<?xml-stylesheet type="text/xsl" href="fcpligasagres16.xsl" ?>
 
 <!-- root element -->
 <sportsJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -176,7 +176,7 @@
 		</clubs>
 		<sport>Football</sport>
 		<championship location="ENG">
-			<name>Europa League</name>
+			<name>Europe League</name>
 		</championship>
 		<otherNews>
 
@@ -995,67 +995,6 @@ com o Olivais e Moscavide por 9-2, o presidente Bruno de Carvalho despede o seu 
 			<pt>Vitor Pereira abandona o cargo de treinador do Futebol Clube do Porto por dar preferência à cadeira de sonho. Decisão que causou felicidade no seio do 
 		clube azul e branco. Trata-se da sua preferência desconhecida pela sua poltrona favorita que tem em casa, onde passará o resto da sua carreira sentado a jogar Football Manager 2013.
 		"Decidi continuar a minha carreira na minha cadeira de sonho a jogar FM13 apenas para criticar a arbitragem em todos os jogos"
-		 </pt>
-		</newsBody>
-	</news>
-	
-		<news id="REC-2013-0011">
-		<dateTime>
-			<year>2013</year>
-			<month>11</month>
-			<day>25</day>
-			<hour>18</hour>
-			<minute>20</minute>
-		</dateTime>
-		<author>
-			<name>Rui Moreira</name>
-			<email>rm@abola.pt</email>
-		</author>
-		<source>
-			<sourceName></sourceName>
-			<sourceURL>http://www.abola.xl.pt/Basketball/interior.aspx?content_id=822472</sourceURL>
-		</source>
-		<title>
-			<pt>"Porto desiste da equipa de Basquetebol"</pt>
-		</title>
-		<abstract>
-			<pt>Decisão de última hora</pt>
-		</abstract>
-		<photos>
-			<coverPhoto>
-				<photo href="Photos/basketballporto.jpg" width="214" height="317" />
-			</coverPhoto>
-			<otherPhoto>
-				<photo href="Photos/basketballporto.jpg" width="214" height="317" />
-			</otherPhoto>
-		</photos>
-		<clubs>
-			<club>
-				<name>Futebol Clube do Porto</name>
-				<shortname>FCP</shortname>
-				<country>POR</country>
-				<position>16</position>
-			</club>
-		</clubs>
-		<sport>Basketball</sport>
-		<championship location="POR">
-			<name>Campeonato Basquetebol</name>
-		</championship>
-		<otherNews>
-			
-		</otherNews>
-		<newsBody>
-			<pt>O FC Porto decidiu extinguir a secção de basquetebol profissional. A justificação são as dificuldades financeiras.
-
-Mário Saldanha, presidente da Federação Portuguesa de Basquetebol, confirmou a decisão portista, confessando a sua tristeza e surpresa com a notícia.
-
-"Recebi a informação, de forma oficiosa, por telefone, da parte do administrador da SAD do FC Porto, Júlio de Matos, que me disse que o FC Porto não ia continuar com o basquetebol na Liga", revelou Saldanha, em declarações à TSF.
-
-"Foi uma notícia que recebi com muita tristeza, naturalmente. O FC Porto é um dos clubes mais antigos inscritos na federação, é um clube com imensos títulos, tem dado muita projecção ao basquetebol português. É, portanto, uma situação que entristece qualquer pessoa que seja da família do basquetebol", observou o dirigente.
-
-Por esclarecer está a a situação dos escalões de formação, que incluem as equipas de minis, iniciados, cadetes e juniores.
-
-O FC Porto conta no palmarés com 11 de títulos de campeão nacional, 13 Taças de Portugal, cinco Supertaças, seis Taças da Liga e um Troféu António Pratas.
 		 </pt>
 		</newsBody>
 	</news>
