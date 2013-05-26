@@ -88,20 +88,20 @@
 				</div>
 
 				<div id="report">
-					<xsl:apply-templates select="p:relatorio" />
+					<xsl:apply-templates select="p:relatório" />
 				</div>
 			</body>
 		</html>
 	</xsl:template>
 
-	<xsl:template match="p:relatorio">
-		<xsl:apply-templates select="p:paginaRosto" /> 
+	<xsl:template match="p:relatório">
+		<xsl:apply-templates select="p:páginaRosto" /> 
 		<xsl:apply-templates select="p:corpo" />
 		<xsl:apply-templates select="p:anexos" /> 
 	</xsl:template>
 
 	<!-- página rosto -->
-	<xsl:template match="p:paginaRosto">
+	<xsl:template match="p:páginaRosto">
 		<div>
 			<img>
 				<xsl:attribute name="src">         
@@ -112,7 +112,7 @@
 				<xsl:value-of select="p:tema" />
 			</h3>
 			<h3>
-				<xsl:value-of select="p:disciplina/p:designacao" />
+				<xsl:value-of select="p:disciplina/p:designação" />
 			</h3>
 			<h3>
 				<xsl:value-of select="p:disciplina/p:anoCurricular" />
@@ -129,7 +129,7 @@
 					</a>
 				</p>
 				<p>
-					<xsl:value-of select="p:numero" />
+					<xsl:value-of select="p:número" />
 				</p>
 			</xsl:for-each>
 
@@ -153,56 +153,56 @@
 	<!-- corpo -->
 	<xsl:template match="p:corpo">
 		<div>
-			<xsl:apply-templates select="p:introducao" />
-			<xsl:apply-templates select="p:seccoes" /> 
-			<xsl:apply-templates select="p:conclusao" /> 
-			<xsl:apply-templates select="p:referencias" />
+			<xsl:apply-templates select="p:introdução" />
+			<xsl:apply-templates select="p:secções" /> 
+			<xsl:apply-templates select="p:conclusão" /> 
+			<xsl:apply-templates select="p:referências" />
 		</div>
 	</xsl:template>
 
 	<!-- introdução (corpo) -->
-	<xsl:template match="p:introducao">
+	<xsl:template match="p:introdução">
 		<h3>
-			<xsl:value-of select="@tituloSeccao" />
+			<xsl:value-of select="@títuloSecção" />
 		</h3>
 		<xsl:apply-templates select="p:bloco" />
 	</xsl:template>
 
 	<!-- secções (corpo) -->
-	<xsl:template match="p:seccoes">
+	<xsl:template match="p:secções">
 		<h3>
-			<xsl:value-of select="p:analise/@tituloSeccao" />
+			<xsl:value-of select="p:análise/@tituloSecção" />
 		</h3>
-		<xsl:apply-templates select="p:analise/p:bloco" />
+		<xsl:apply-templates select="p:análise/p:bloco" />
 
 		<h3>
-			<xsl:value-of select="p:linguagem/@tituloSeccao" />
+			<xsl:value-of select="p:linguagem/@tituloSecção" />
 		</h3>
 		<xsl:apply-templates select="p:linguagem/p:bloco" />
 
 		<h3>
-			<xsl:value-of select="p:transformações/@tituloSeccao" />
+			<xsl:value-of select="p:transformações/@tituloSecção" />
 		</h3>
 		<xsl:apply-templates select="p:transformações/p:bloco" />
 	</xsl:template>
 
 	<!-- conclusão (corpo) -->
-	<xsl:template match="p:conclusao">
+	<xsl:template match="p:conclusão">
 		<h3>
-			<xsl:value-of select="@tituloSeccao" />
+			<xsl:value-of select="@tituloSecção" />
 		</h3>
 		<xsl:apply-templates select="p:bloco" />
 	</xsl:template>
 
-	<xsl:template match="p:referencias">
+	<xsl:template match="p:referências">
 		<h3>Referências</h3>
-		<xsl:for-each select="p:refBibliografica">
+		<xsl:for-each select="p:refBibliográfica">
 			<p>
 				<xsl:value-of select="@idRef" />
 				-
-				<xsl:value-of select="p:titulo" />
+				<xsl:value-of select="p:título" />
 				(
-				<xsl:value-of select="p:dataPublicacao" />
+				<xsl:value-of select="p:dataPublicacão" />
 				);
 				<xsl:value-of select="p:autor" />
 			</p>
@@ -213,14 +213,14 @@
 	<xsl:template match="p:anexos">
 		<h3>
 			<xsl:value-of select="@id" /> - 
-			<xsl:value-of select="@tituloSeccao" />
+			<xsl:value-of select="@tituloSecção" />
 		</h3>
 		<xsl:apply-templates select="p:bloco" />
 	</xsl:template>
 
 	<!-- bloco (anexos) -->
 	<xsl:template match="p:bloco">
-		<xsl:for-each select="p:paragrafo">
+		<xsl:for-each select="p:parágrafo">
 			<p>
 				<xsl:value-of select="." />
 			</p>
@@ -233,7 +233,7 @@
 						<xsl:value-of select="@src" />
 					</xsl:attribute>
 				</img>
-				<xsl:value-of select="@descricao"/>
+				<xsl:value-of select="@descrição"/>
 			</p>
 		</xsl:for-each>
 	</xsl:template>
