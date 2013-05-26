@@ -35,24 +35,24 @@
 	<p:corpo id="">
 		<p:introdução id="SEC001" tituloSecção="Introduction">
 			<p:bloco>
-				<p:paragrafo>
+				<p:paragráfo>
 					Intro
-					</p:paragrafo>
+					</p:paragráfo>
 			</p:bloco>
 		</p:introdução>
 		<p:secções>
 			<p:análise id="SEC101" tituloSecção="Analysis of the proposed problem">
 				<p:bloco>
-					<p:parágrafo>
+					<p:paragráfo>
 					Analysis
-					</p:parágrafo>
+					</p:paragráfo>
 				</p:bloco>
 			</p:análise>
 			<p:linguagem id="SEC102" tituloSecção="Language used to create the XML">
 				<p:bloco>
-					<p:parágrafo>
+					<p:paragráfo>
 					Langua
-					</p:parágrafo>
+					</p:paragráfo>
 				</p:bloco>
 			</p:linguagem>
 			<p:transformações id="SEC103" tituloSecção="Transformations to HTML and XML">
@@ -65,16 +65,16 @@
 		</p:secções>
 		<p:conclusão id="SEC201" tituloSecção="Conclusion">
 			<p:bloco>
-				<p:parágrafo>
+				<p:paragráfo>
 					Conc
-					</p:parágrafo>
+					</p:paragráfo>
 			</p:bloco>
 		</p:conclusão>
 		
 		<!-- need to add the referencies of the report -->
 		<p:referências>
 			<p:refBibliográfica idRef="RefB_A">
-				<p:titulo>p:título</p:titulo>
+				<p:título>p:título</p:título>
 				<p:dataPublicação>p:dataPublicação</p:dataPublicação>
 				<p:autor>p:autor</p:autor>
 			</p:refBibliográfica>
