@@ -115,7 +115,7 @@
 				<xsl:value-of select="p:disciplina/p:designação" />
 			</h3>
 			<h3>
-				<xsl:value-of select="p:disciplina/p:anoCurricular" />
+				<xsl:value-of select="p:disciplina/p:anoCurricular" /> Year
 			</h3>
 			<h3>
 				<xsl:value-of select="p:disciplina/p:sigla" />
@@ -134,15 +134,15 @@
 			</xsl:for-each>
 
 			<h3>
-				Data:
+				Date:
 				<xsl:value-of select="p:data" />
 			</h3>
 			<h3>
-				Turma:
+				Class:
 				<xsl:value-of select="p:turmaPL" />
 			</h3>
 			<h3>
-				Professor:
+				Teacher:
 				<a href="mailto:#{generate-id(mail)}">
 					<xsl:value-of select="p:profPL" />
 				</a>
@@ -195,7 +195,7 @@
 	</xsl:template>
 
 	<xsl:template match="p:referências">
-		<h3>Referências</h3>
+		<h3>Referencies</h3>
 		<xsl:for-each select="p:refBibliográfica">
 			<p>
 				<xsl:value-of select="@idRef" />
@@ -220,7 +220,7 @@
 
 	<!-- bloco (anexos) -->
 	<xsl:template match="p:bloco">
-		<xsl:for-each select="p:parágrafo">
+		<xsl:for-each select="p:paragráfo">
 			<p>
 				<xsl:value-of select="." />
 			</p>
