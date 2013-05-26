@@ -29,7 +29,7 @@
 								<li><img src="" /></li> 
 	
 	    						<!-- LI for menu Home -->
-								<li><a href="../home.html">HOME</a>
+								<li><a href="html/welcome.html">HOME</a>
 									<ul>
 										<!-- uncomment below to add menu option -->
 										<!-- <li><a href="pageNotFound.htm">Upload file</a></li> -->

@@ -10,25 +10,6 @@
     <link rel="stylesheet" type="text/css" href="../CSS/styles.css"/>
 </head>
 
-<!-- javascript to validate dropdown; goes to the respective xml file -->
-<script type="text/javascript">
-	function validator()
-	{
-		var sportsDrop = document.getElementById("sportsDrop").value;
-		var teamsDrop = document.getElementById("teamsDrop").value;
-
-		if(sportsDrop == "none")
-		{
-			alert("You must select a sport!");
-		}
-		else
-		{
-			window.open("../" + sportsDrop + teamsDrop + ".xml");
-		}
-	}
-</script>
-
-
 <!-- body -->
 <body>
 
@@ -44,7 +25,7 @@
 					<li><img src="" /></li> 
 	
 	    			<!-- LI for menu Home -->
-					<li><a href="welcome.html">HOME</a>
+					<li><a href="#">HOME</a>
 						<ul>
 							<!-- uncomment below to add menu option -->
 							<!-- <li><a href="pageNotFound.htm">Upload file</a></li> -->
@@ -90,34 +71,29 @@
 	</div>
 
 	<div id="content">
-    	<form name="sport">
-    		<p>Pick a sport:
-    			<select id="sportsDrop">
-    				<option value="none" selected="selected">
-    				choose a sport
-    				</option>
-    				<option value="football">Football</option>
-    				<option value="basketball">Baskeball</option>
-    			</select>
-    		</p>
-    	</form>
+    	<h1>Welcome to the Sports Journal</h1>
 
-    	<form name="team">
-    		<p>Filter by team? 
-    			<select id="teamsDrop">
-    				<option value="none" selected="selected">don't filter by team</option>
-    				<option value="slb">SL Benfica</option>
-    				<option value="fcp">FC Porto</option>
-    				<option value="scp">Sporting CP</option>
-    			</select>
-    		</p>
-    	</form>
-    			
-    	<form name="buttons">
-    		<p><input type="submit" value="Get News!" onclick="validator()" />	
-    		<input type="submit" value="Clear" /></p>
+    	<h2>What is the "SportsJournal"?</h2>
+    	<p>The "Sports Journal" is an academic project developed in the <a href="http://www.isep.ipp.pt">School of Engineering of the
+    	 Polytechnic of Porto</a> in the scope of "Languages and Programming", which is tied to the second year of the degree
+    	 on Informatics Engineering. In this project we intend to show several sport news (collected from well-known references) 
+    	 employing basic XML and XSLT tecnhnology. If you're looking for technical information about the project itself please refer to 
+    	 the <strong>ABOUT</strong> menu above.</p>
+    	
+    	<h2>Navigating through "SportsJournal"</h2>
+    	<p>The menu above is self-explanatory and provides different options to the user. The menu <strong>NEWS</strong> gives access 
+    	to all the news collected in the aim of this project, however you can look at them in two essential perpectives: by selecting them
+    	all or by applying a specific filter. If you choose the latter option you'll be guided to an additional page where you can apply 
+    	the given filters accordingly</p>
+    	<p>The <strong>export to XML</strong> option allows you to visualize a xml document where all the available information was reorganized
+    	in a different pattern when compared to the one used to display the news.</p>
 
-    	</form>
+    	<br /><br /><br />
+
+    	<p><strong>Note from the authors:</strong> This project contains third-party copyrighted elements such as pictures. Their use is solely
+    		in the scope of an academic project and their rightfull authors are always referenced accordingly. All other material, such as the
+    		source code of this project, is original work of the authors of this project.</p>
+
 
 	</div><!-- end of div CONTENT -->
 
