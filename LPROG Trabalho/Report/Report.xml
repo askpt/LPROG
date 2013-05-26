@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="ReportStyleSheet.xsl" ?>
-<p:relatorio id="v1" xmlns:p="http://www.dei.isep.ipp.pt/lprog"
+<p:relatório id="v1" xmlns:p="http://www.dei.isep.ipp.pt/lprog"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.dei.isep.ipp.pt/lprog Relatorio.xsd ">
-	<p:paginaRosto>
+	<p:páginaRosto>
 		<p:tema>Sports Journal</p:tema>
 		<p:disciplina>
-			<p:designacao>Linguagens e Programação</p:designacao>
+			<p:designação>Linguagens e Programação</p:designação>
 			<p:anoCurricular>2</p:anoCurricular>
 			<p:sigla>LPROG</p:sigla>
 		</p:disciplina>
@@ -29,61 +29,61 @@
 		<p:turmaPL>2DC</p:turmaPL>
 		<p:profPL>NFM</p:profPL>
 		<p:logotipoDEI>files/logo_DEI_simbolo.png</p:logotipoDEI>
-	</p:paginaRosto>
+	</p:páginaRosto>
 	
 	<!-- need to add the body of the report -->
 	<p:corpo id="">
-		<p:introducao id="SEC001" tituloSecção="Introduction">
+		<p:introdução id="SEC001" tituloSecção="Introduction">
 			<p:bloco>
 				<p:paragrafo>
 					Intro
 					</p:paragrafo>
 			</p:bloco>
-		</p:introducao>
-		<p:seccoes>
-			<p:analise id="SEC101" tituloSecção="Analysis of the proposed problem">
+		</p:introdução>
+		<p:secções>
+			<p:análise id="SEC101" tituloSecção="Analysis of the proposed problem">
 				<p:bloco>
-					<p:paragrafo>
+					<p:parágrafo>
 					Analysis
-					</p:paragrafo>
+					</p:parágrafo>
 				</p:bloco>
-			</p:analise>
+			</p:análise>
 			<p:linguagem id="SEC102" tituloSecção="Language used to create the XML">
 				<p:bloco>
-					<p:paragrafo>
+					<p:parágrafo>
 					Langua
-					</p:paragrafo>
+					</p:parágrafo>
 				</p:bloco>
 			</p:linguagem>
-			<p:transformacoes id="SEC103" tituloSecção="Transformations to HTML and XML">
+			<p:transformações id="SEC103" tituloSecção="Transformations to HTML and XML">
 				<p:bloco>
-					<p:paragrafo>
+					<p:paragráfo>
 					Transf
-					</p:paragrafo>
+					</p:paragráfo>
 				</p:bloco>
-			</p:transformacoes>
-		</p:seccoes>
-		<p:conclusao id="SEC201" tituloSecção="Conclusion">
+			</p:transformações>
+		</p:secções>
+		<p:conclusão id="SEC201" tituloSecção="Conclusion">
 			<p:bloco>
-				<p:paragrafo>
+				<p:parágrafo>
 					Conc
-					</p:paragrafo>
+					</p:parágrafo>
 			</p:bloco>
-		</p:conclusao>
+		</p:conclusão>
 		
 		<!-- need to add the referencies of the report -->
-		<p:referencias>
-			<p:refBibliografica idRef="RefB_A">
+		<p:referências>
+			<p:refBibliográfica idRef="RefB_A">
 				<p:titulo>p:título</p:titulo>
-				<p:dataPublicacao>p:dataPublicação</p:dataPublicacao>
+				<p:dataPublicação>p:dataPublicação</p:dataPublicação>
 				<p:autor>p:autor</p:autor>
-			</p:refBibliografica>
+			</p:refBibliográfica>
 			
-		</p:referencias>
+		</p:referências>
 	</p:corpo>
 	<p:anexos tituloSecção="Tag Tree" id="ANX001">
 		<p:bloco>
 			<p:figura src="files/tagtree.jpg" descrição="Tag tree of the xml"/>			
 		</p:bloco>
 	</p:anexos>
-</p:relatorio>
+</p:relatório>

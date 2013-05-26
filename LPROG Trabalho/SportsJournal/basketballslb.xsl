@@ -43,7 +43,7 @@
 										<li><a href="#">Apply Filters</a>
 											<ul>
 												<li><a href="html/sportsfilter.html">By Sport</a></li>
-												<li><a href="pageNotFound.htm">By Club</a></li>
+												<li><a href="html/clubfilter.html">By Club</a></li>
 											<!-- uncomment below to add menu option -->
 											<!-- <hr /> -->
 											<!-- <li><a href="pageNotFound.htm">All Accounts	</a></li> -->
@@ -64,7 +64,7 @@
 								<!-- LI for menu About -->
 								<li><a href="#">ABOUT</a>
 									<ul>
-										<li><a href="pageNotFound.htm">Report</a></li>
+										<li><a href="../Report/Report.xml">Report</a></li>
 										<hr />
 										<li><a href="html/authors.html">Authors</a></li>
 									</ul>
