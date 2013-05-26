@@ -52,12 +52,6 @@
 			</name>
 		</championship>
 		<otherNews>
-			<relatedNews>
-				<relation idrel="REC-0002" />
-			</relatedNews>
-			<similarNews>
-				<similar idsim="aaa" />
-			</similarNews>
 		</otherNews>
 		
 		<newsBody><pt>Com a renovação de Jorge Jesus praticamente acertada, o treinador do Benfica sublinhou este sábado que a "parceria" 
@@ -109,12 +103,6 @@
 			<name>Liga Sagres</name>
 		</championship>
 		<otherNews>
-			<relatedNews>
-				<relation idrel="REC-0001" />
-			</relatedNews>
-			<similarNews>
-				<similar idsim="bbb"></similar>
-			</similarNews>
 		</otherNews>
 		<newsBody><pt>Depois da derrota no Dragão e da final da Liga Europa perdida para o Chelsea, o ânimo dos 
 		jogadores do Benfica ressentiu-se, mas Jorge Jesus fez questão de animar "as tropas" de novo até porque 
@@ -176,12 +164,6 @@
 			<name>Europa League</name>
 		</championship>
 		<otherNews>
-			<relatedNews>
-				<relation idrel="ada" />
-			</relatedNews>
-			<similarNews>
-				<similar idsim="aaa" />
-			</similarNews>
 		</otherNews>
 		<newsBody><en>Branislav Ivanović's towering header in the last minute of added time earned Chelsea FC a dramatic victory over SL Benfica as 
 		they captured the 2013 UEFA Europa League title. A taut, absorbing Amsterdam final looked destined for extra time when the Chelsea centre-back 
@@ -619,12 +601,6 @@
 			<name>Liga Sagres</name>
 		</championship>
 		<otherNews>
-			<relatedNews>
-				<relation idrel="" />
-			</relatedNews>
-			<similarNews>
-				<similar idsim=""></similar>
-			</similarNews>
 		</otherNews>
 		<newsBody><pt>Não deixa de ser estranho mas o que é certo S.Pedro superou-se a outra figura divina, neste caso Jesus. Depois de uma época de tantas
 		lamentações de alguns eis que foram accionodas estratégias divinas. O campeonato ficou decidido num golpe de génio de S.Pedro que acabou por derrubar
@@ -674,12 +650,6 @@
 			<name>Liga Sagres</name>
 		</championship>
 		<otherNews>
-			<relatedNews>
-				<relation idrel="" />
-			</relatedNews>
-			<similarNews>
-				<similar idsim=""></similar>
-			</similarNews>
 		</otherNews>
 		<newsBody><pt>"Fiz questão que este campeonato não fosse recordado como o campeonato "Capela" e por isso accionei todos os recursos disponívies e 
 		mais ilegais possíveis. Por isso decidi convidar o senhor Rui Miguel para um jantar em minha casa para a apresentação do meu novo filho, o emplastro.
@@ -731,12 +701,6 @@
 			<name>Olympic Games</name>
 		</championship>
 		<otherNews>
-			<relatedNews>
-				<relation idrel="" />
-			</relatedNews>
-			<similarNews>
-				<similar idsim=""></similar>
-			</similarNews>
 		</otherNews>
 
 		<newsBody><pt>Decisão de carácter urgente aprovada pela grande maioria da SAD do clube verde e branco. A única modalidade garantida para a época desportiva 
@@ -787,12 +751,6 @@
 			<name>Liga Sagres</name>
 		</championship>
 		<otherNews>
-			<relatedNews>
-				<relation idrel="" />
-			</relatedNews>
-			<similarNews>
-				<similar idsim=""></similar>
-			</similarNews>
 		</otherNews>
 		<newsBody><pt>Acaba de ser apresentado à poucos minutos o substituto do professor Jesualdo Ferreira no comando da equipa técnica da equipa profissional do clube.
 		Trata-se de Leonardo Jardim, de 38 anos que já treinou Olympiacos, S.C.Braga e Beira-Mar. O treinador encontrava-se sem clube desde o caricato despedimento do clube grego. 
@@ -843,12 +801,6 @@
 			<name>Liga Sagres</name>
 		</championship>
 		<otherNews>
-			<relatedNews>
-				<relation idrel="" />
-			</relatedNews>
-			<similarNews>
-				<similar idsim=""></similar>
-			</similarNews>
 		</otherNews>
 		<newsBody><pt>Ao fim de 2 treinos a orientar o plantel principal Leonardo Jardim é despedido do papel de treinador. Após a derrota no jogo particular
 com o Olivais e Moscavide por 9-2, o presidente Bruno de Carvalho despede o seu treinador. Após o jogo, Boulahrouz dá um murro na mesa e assume o cargo de treinador principal até o final da época.
@@ -895,12 +847,6 @@ com o Olivais e Moscavide por 9-2, o presidente Bruno de Carvalho despede o seu 
 			<name>Liga Sagres</name>
 		</championship>
 		<otherNews>
-			<relatedNews>
-				<relation idrel="" />
-			</relatedNews>
-			<similarNews>
-				<similar idsim=""></similar>
-			</similarNews>
 		</otherNews>
 		<newsBody> <pt>Vitor Pereira abandona o cargo de treinador do Futebol Clube do Porto por dar preferência à cadeira de sonho. Decisão que causou felicidade no seio do 
 		clube azul e branco. Trata-se da sua preferência desconhecida pela sua poltrona favorita que tem em casa, onde passará o resto da sua carreira sentado a jogar Football Manager 2013.
