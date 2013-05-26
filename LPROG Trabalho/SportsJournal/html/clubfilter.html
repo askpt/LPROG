@@ -31,9 +31,20 @@
 		return true;
 	}
 
+	function urlExists(url)
+	{
+    	var http = new XMLHttpRequest();
+    	http.open('HEAD', url, false);
+    	http.send();
+    	return http.status;
+	}
+
 	function validator()
 	{
 		var teamsDrop = document.getElementById("teamsDrop").value;
+		var champ = document.getElementById("radioSagres").value;
+		var pos = document.getElementById("textBox").value;
+		var url = "../" + teamsDrop + champ + pos + ".xml";
 
 		if(teamsDrop == "none")
 		{
@@ -49,8 +60,14 @@
 		}
 		else
 		{
-			/* replace below */
-			alert("all fields ok! go to url!");
+			if(urlExists(url) == -1100)
+			{
+				alert("Filter not available yet!");
+			}
+			else
+			{
+				window.open(url);
+			}
 		}
 	}
 
@@ -134,8 +151,8 @@
 
     	<form name="championship"> <br /> 
     		<p>Select a championship <br /> 
-    				<p> <input type="radio" name="champ" id="radioSagres" value="sagres">Liga Sagres </p>
-    				<p> <input type="radio" name="champ" id="radioCup" value="europaLeague" >Portugese Cup </p>
+    				<p> <input type="radio" name="champ" id="radioSagres" value="ligasagres">Liga Sagres </p>
+    				<p> <input type="radio" name="champ" id="radioCup" value="europeleague" >Portugese Cup </p>
     				<p> <input type="radio" name="champ" id="radioEuropaLeague" value="tacaPortugal" >Europa League </p>
     		</p>
     	</form>
