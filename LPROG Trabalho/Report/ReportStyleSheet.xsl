@@ -163,7 +163,7 @@
 	<!-- introdução (corpo) -->
 	<xsl:template match="p:introdução">
 		<h3>
-			<xsl:value-of select="@títuloSecção" />
+			<xsl:value-of select="@tituloSecção" />
 		</h3>
 		<xsl:apply-templates select="p:bloco" />
 	</xsl:template>
