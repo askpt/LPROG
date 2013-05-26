@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0"
+<xsl:stylesheet version="2.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="xml" version="1.0" encoding="UTF-8"
 		indent="yes" />
@@ -7,43 +7,29 @@
 	<xsl:template match="/">
 		<!-- creating new root -->
 		<teams>
-			<xsl:apply-templates select="/././name">
-				<xsl:sort select="." />
-			</xsl:apply-templates>
+			<xsl:for-each
+				select="sportsJournal/news/clubs/club[not(shortname=following::shortname)]/shortname">
+				<xsl:sort select="." data-type="text" order="ascending" />
+				<xsl:variable name="short" select="."/>
+				<team>
+					<xsl:copy-of select="../shortname" />
+				</team>
+				<country>
+					<xsl:copy-of select="../country" />
+				</country>
+				<!-- 
+				<newsList>
+					<xsl:for-each select="/sportsJournal/news">
+					 	<xsl:if test="$short=/sportsJournal/news/clubs/club/shortname">
+					 		<news>
+					 			<xsl:copy-of select="title"/>
+					 		</news>
+					 	</xsl:if>
+					</xsl:for-each>				
+				</newsList>
+				-->
+			</xsl:for-each>
+			 
 		</teams>
-	</xsl:template>
-
-	<xsl:template match="name">
-
-		<xsl:element name="team">
-			<xsl:attribute name="id">
-			<xsl:value-of select="../shortname" />
-		</xsl:attribute>
-
-			<xsl:element name="name">
-				<xsl:value-of select="." />
-			</xsl:element>
-
-			<xsl:element name="origin">
-				<xsl:value-of select="../country" />
-			</xsl:element>
-		</xsl:element>
-
-		<xsl:element name="competitions">
-			<xsl:element name="competetion">
-				<xsl:value-of select="../../championship/name" />
-			</xsl:element>
-		</xsl:element>
-
-		<xsl:element name="news">
-
-			<xsl:attribute name="id">
-			<xsl:value-of select="../../../@id" />
-		</xsl:attribute>
-
-			<xsl:value-of select="../../source/sourceURL" />
-
-		</xsl:element>
-
 	</xsl:template>
 </xsl:stylesheet>
