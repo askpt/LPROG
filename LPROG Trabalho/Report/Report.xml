@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ReportStyleSheet.xsl" ?>
 <p:relatório id="v1" xmlns:p="http://www.dei.isep.ipp.pt/lprog"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.dei.isep.ipp.pt/lprog Relatorio.xsd ">
@@ -34,29 +35,39 @@
 	<p:corpo id="">
 		<p:introdução id="SEC001" tituloSecção="Introduction">
 			<p:bloco>
-				<p:paragráfo />
+				<p:paragráfo>
+					Intro
+					</p:paragráfo>
 			</p:bloco>
 		</p:introdução>
 		<p:secções>
 			<p:análise id="SEC101" tituloSecção="Analysis of the proposed problem">
 				<p:bloco>
-					<p:paragráfo />
+					<p:paragráfo>
+					Analysis
+					</p:paragráfo>
 				</p:bloco>
 			</p:análise>
 			<p:linguagem id="SEC102" tituloSecção="Language used to create the XML">
 				<p:bloco>
-					<p:paragráfo />
+					<p:paragráfo>
+					Langua
+					</p:paragráfo>
 				</p:bloco>
 			</p:linguagem>
 			<p:transformações id="SEC103" tituloSecção="Transformations to HTML and XML">
 				<p:bloco>
-					<p:paragráfo />
+					<p:paragráfo>
+					Transf
+					</p:paragráfo>
 				</p:bloco>
 			</p:transformações>
 		</p:secções>
 		<p:conclusão id="SEC201" tituloSecção="Conclusion">
 			<p:bloco>
-				<p:paragráfo />
+				<p:paragráfo>
+					Conc
+					</p:paragráfo>
 			</p:bloco>
 		</p:conclusão>
 		
@@ -72,7 +83,7 @@
 	</p:corpo>
 	<p:anexos tituloSecção="Tag Tree" id="ANX001">
 		<p:bloco>
-			<p:figura src="/files/tagtree.jpg" descrição="Tag tree of the xml"/>			
+			<p:figura src="files/tagtree.jpg" descrição="Tag tree of the xml"/>			
 		</p:bloco>
 	</p:anexos>
 </p:relatório>
