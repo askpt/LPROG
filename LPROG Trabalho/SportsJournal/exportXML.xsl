@@ -6,31 +6,31 @@
 
 	<xsl:template match="/">
 		<!-- creating new root -->
-		<teams>
+		<teamsList>
 			<xsl:for-each
 				select="sportsJournal/news/clubs/club[not(shortname=following::shortname)]/shortname">
 				<xsl:sort select="." data-type="text" order="ascending" />
-				<xsl:variable name="short" select="."/>
-
+				<xsl:variable name="short" select="." />
 				<team>
-					<xsl:copy-of select="../shortname" />
+					<teamid>
+						<xsl:copy-of select="../shortname" />
+					</teamid>
+					<country>
+						<xsl:copy-of select="../country" />
+					</country>
+
+					<newsList>
+						<xsl:for-each select="/sportsJournal/news">
+							<xsl:if test="$short=clubs/club/shortname">
+								<news>
+									<xsl:copy-of select="title" />
+								</news>
+							</xsl:if>
+
+						</xsl:for-each>
+					</newsList>
 				</team>
-				<country>
-					<xsl:copy-of select="../country" />
-				</country>
-
-				<newsList>
-					<xsl:for-each select="/sportsJournal/news">
-					 	<xsl:if test="$short=clubs/club/shortname">
-					 		<news>
-					 			<xsl:copy-of select="title"/>
-					 		</news>
-					 	</xsl:if>
-
-					</xsl:for-each>				
-				</newsList>
 			</xsl:for-each>
-			 
-		</teams>
+		</teamsList>
 	</xsl:template>
 </xsl:stylesheet>
