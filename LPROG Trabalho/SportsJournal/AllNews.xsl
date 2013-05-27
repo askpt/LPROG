@@ -75,7 +75,7 @@
 
 					<!-- displays the title at the top of the page -->
 					<div id="title" style="position:relative; top:30px">
-						<h1 align="center">Sports Journal</h1>
+						<h1 align="center"></h1>
 						<h2 align="center">All News</h2>
 					
 						<!-- displays the total number of news -->

@@ -51,7 +51,7 @@
 				were carried with auxiliary XSLT (Extensible Stylesheet Language Transformations) files. With these 
 				transformations we were able to display not only the entire information present in the XML file in a human-readable format but also allowing the user to perform some filtering (like filtering a particular sports team news or exluding everything but the news of a sports team in a given competetion when 
 				achieving a particular classification). This user-friendly format was built uppon XHTML tecnhology,
-				which means the user can simply open the SportsJournal homepage in any browser an easily navigate 
+				which means the user can simply open the SportsJournal homepage in any browser and easily navigate 
 				through the different available options.
 				</p:paragráfo>
 			</p:bloco>
@@ -64,23 +64,23 @@
 					imperitive to find a viable automation able to satisfy the needs of a common user looking for 
 					the a particular piece of information. With the internet widely spread around the world something
 					that surely isn't lacking nowadays is news sources. Taking this into account, and considering the
-					narrow spectrum of sports news, we created a generalist newspaper where any news could be presented on the screen to an user looking for sports news relating his favourite team or competition. After all, this is common feature in today's world, where subject-specific platforms are able to attract a particular target audience. With the evolution of technology, traditional newspapers start to become obsolete with the opposite increasingly need to support electronic formats that can be 
+					particular area of sports news, we created a generalist newspaper where any news could be presented on the screen to an user looking for sports news relating his favourite team or competition. After all, this is a common feature in today's world, where subject-specific platforms are able to attract a particular target audience. With the evolution of technology, traditional newspapers start to become obsolete with the opposite increasingly need to support electronic formats that can be 
 					accessed from a tablet, cell phone or a personnal computer to access a favourite news site.
 					</p:paragráfo>
 					<p:paragráfo>
-					In this context, we focused to employ an organized data-structure containing several sports news, 
-					with additional tools allowsing an easy filtering and search. This data structure is an XML file
+					In this context, we focused in employing an organized data-structure containing several sports news, 
+					with additional tools allowing an easy filtering and search. This data structure is a XML file
 					containing sports news.
 					</p:paragráfo>
 					<p:paragráfo>
 					Each sports news is written in a given languagem with the possibility for it being actually
 					translated into other languages (what is usually a feature of well-known international newspapers
-					websites). It will also have a reference to it's original author (a journalist associated with the newspaper). and it's issued date.
+					websites). It will also have a reference to it's original author (a journalist associated with the newspaper) and it's issue date.
 					</p:paragráfo>
 					<p:paragráfo>
 					Regarding the content of the news, it can be said that each news has reference to the teams involved
-					and to the classification obtained in the associated competetion. The clubs is associated in it's
-					country of origin and still concerning the team, it has an associated (for instance, when we say
+					and to the classification obtained in the associated competetion. The club is associated with its
+					country of origin and still concerning the team, it has an associated shortname (for instance, when we say
 					 "SLB" we're referring to Sport Lisboa e Benfica, based in Portugal).
 					</p:paragráfo>
 					<p:paragráfo>
@@ -133,7 +133,7 @@
 			<p:transformações id="SEC103" tituloSecção="Transformations to HTML and XML">
 				<p:bloco>
 					<p:paragráfo>
-					As we mentioned above, one of main features of this project is the ability to show sports news in a
+					As we mentioned above, one of the main features of this project is the ability to show sports news in a
 					web browser and, in order to do that, we had to transform the data present in the XML file to an 
 					HTML format. This is achieved using a XSLT stylesheet, that allows an input XML file to be 
 					processed into an output document such as XHTML or XML (2).
@@ -150,9 +150,9 @@
 					<p:paragráfo>
 					All XSLT transformations to XHTML share features in common among them. We have defined different
 					xsl:template elements that match a particular node in the original XML file and further on the 
-					respective filtering is achieved using standard xsl element, such as xsl:for-each elements (to go 
+					respective filtering is achieved using standard xsl elements, such as xsl:for-each elements (to go 
 					through the several news items) combined with xsl:value-of elements (to retrive specific data). 
-					Given the considerable number of available filters, it is possible to go into the details of evety
+					Given the considerable number of available filters, it is not possible to go into the details of evety
 					single filter included, however the XSLT files are well-documented in the most delicate steps to 
 					assure perfect readability in the programmer's perspective. It should be noted that these 
 					transformations to HTML include basic XHTML and javascript code in order to produce the XHTML
@@ -174,27 +174,14 @@
 				In this project with applied XML tecnhology to develop the foundations of a Sports Journal, with all 
 				its news being held in a single (yet replicated) XML file. The structure of this XML file was carefully 
 				designed in order to allow the storage of all relevant data relating a sports news, such as the title, 
-				abstract, authors, teams involved or it's newsbody.  
+				abstract, authors, teams involved or its newsbody.  
 				</p:paragráfo>
 
 				<p:paragráfo>
-				Considering that a single news item includes several tags that in turn containing different pieces of 
+				Considering that a single news item includes several tags that in turn contain different pieces of 
 				information, instead of just printing all that information on the screen we realized that we could 
-				offer a more valuable user experience by allowing different filters. These filters allow to select news 
-				from a given sports team, competition or even it's position on that competetion, saving time to a user 
-				that intends to look only for news concerning his favourite team, for example. However, concerning that 
-				the filtering process is not dynamic, all the filters available in this project implied the presence of 
-				as many XML and XSLT files, as a filter itlsef consists in an unique XSLT file that transforms one of 
-				the several replicated XML files into readable XHTML output. This limitation concerns the technology 
-				used in the scope of this project: considering that we're doing a client-sided filtering only, to 
-				ensure multiple filters of the same data we had no other choice but replicating the original XML file, 
-				with each copy being associated with a unique XSLT file responsible for the transformation to XHTML.
-				</p:paragráfo>
-
-				<p:paragráfo>
-				Taking into account that a single news item includes several tags that in turn containing different pieces of 
-				information, instead of just printing all that information on the screen we realized that we could 
-				offer a more valuable user experience by allowing different filters. These filters allow to select news 
+				offer a more valuable user experience by allowing different filters. These filters allow the selection 
+				of news 
 				from a given sports team, competition or even it's position on that competetion, saving time to a user 
 				that intends to look only for news concerning his favourite team, for example. However, concerning that 
 				the filtering process is not dynamic, all the filters available in this project implied the presence of 
@@ -216,6 +203,25 @@
 				</p:paragráfo>
 
 				<p:paragráfo>
+				Nevertheless, with this project we managed to employ XML technology in the context a sports journal, 
+				with the design and implementation of a XML document capable to store sports news, like a 
+				title, abstract, newsbody and source information. Together with this XML we developed the corresponding 
+				XSD file that validates all the data present in the XML. In order to present all the information stored 
+				in the XML file, we conducted a series of XML to XHTML transformations using XSLT in order to allow 
+				data display in a more convenient way to the user, who can use a simple web browser to load all 
+				the different XML files that will be displayed as XHTML due to the refered transformations. We 
+				performed several XML to XHTML transformations, each concerning a specific news-filtering process, due 
+				to the inability of employing a dynamic search process. That is, we had to define these filters in a 
+				static way, hard-coded in individual XSLT files, which in turn are associated to replicates of the 
+				original XML file. These filters allow the visualization of specific news items concerning a given 
+				sports team, a particular competetion or even both combined with the final position achieved by the 
+				team in that sports competition. We also achieved a XML to XML transformation, also using a XSLT file, 
+				where we managed to refactor the original hierarchical structure of the original XML file into a 
+				completely new structure, though yelding the exact same data.  
+				</p:paragráfo>
+
+
+				<p:paragráfo>
 				
 				</p:paragráfo>
 			</p:bloco>
@@ -230,9 +236,7 @@
 
 				<p:título idRef="RefB_B">p:Linguagens e Programação: XSLT e XPath</p:título>
 				<p:dataPublicação>p:2013</p:dataPublicação>
-				<p:autor>p:Constantino Martins e Paulo Matos</p:autor>
-				
-
+				<p:autor>p:Constantino Martins e Paulo Matos</p:autor>	
 			</p:refBibliográfica>
 			
 		</p:referências>
@@ -240,6 +244,10 @@
 	<p:anexos tituloSecção="Tag Tree" id="ANX001">
 		<p:bloco>
 			<p:figura src="files/tagtree.jpg" descrição="Figure 1: hierachichal structure of the xml file."/>			
+		</p:bloco>
+		<hr />
+		<p:bloco>
+			<p:figura src="files/tagtree_generated.jpg" descrição="Figure 2: the new structure of the XML file."/>			
 		</p:bloco>
 	</p:anexos>
 </p:relatório>
