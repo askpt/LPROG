@@ -25,7 +25,7 @@
 			<p:número>1111168</p:número>
 			<p:mail>1111168@isep.ipp.pt</p:mail>
 		</p:autor>
-		<p:data>2001-05-26</p:data>
+		<p:data>2013-05-26</p:data>
 		<p:turmaPL>2DC</p:turmaPL>
 		<p:profPL>NFM</p:profPL>
 		<p:logotipoDEI>files/logo_DEI_simbolo.png</p:logotipoDEI>
@@ -36,13 +36,23 @@
 		<p:introdução id="SEC001" tituloSecção="Introduction">
 			<p:bloco>
 				<p:paragráfo>
-				The way of recording information in these days it’s still a complex issue. There are several competing formats, such as JSON (JavaScript Object Notation) or XML (eXtensible Markup Language), but for this work, was imposed to us the obligation of using XML.	
+				The way of recording information in these days it’s still a complex issue. There are several competing formats, such as JSON (JavaScript Object Notation) or XML (eXtensible Markup Language), but for this work we were asked to work with the XML technology.	
 				</p:paragráfo>
 				<p:paragráfo>
-				The XML is the basis for another file formats, such as XHTML (eXtensible Hypertext Markup Language), because of that, it became a language highly powerful.
+				It should be stressed that XML is the basis for many file formats, such as XHTML (eXtensible Hypertext Markup Language) and, due to that, we can already foresee that potential of this format that 
+				is both human- and machine-readable. The design goals of xml emphasize simplicity, generality and usability over different systems (1). It consists in a textual data format with strong support via 
+				Unicode for virtually all spoken languages of the world and although the design of XML focuses on
+				documents, it is widely used for the representantion of arbitrary data structures, namely in web
+				services.
 				</p:paragráfo>
 				<p:paragráfo>
-				We were proposed creating an XML properly validated by an XSD (XML Schema Definition), and is capable of managing a Sports Journal, which can be converted to other file formats, including HTML (HyperText Markup Language) and also with some filtering (for classification table for club, etc.)..
+				In this project we were proposed to create an XML, properly validated by an XSD file (XML Schema Definition), capable to manage data of a sports journal. This data consists in several news, 
+				which can be converted to other file formats, including HTML and XML itself. These transformations
+				were carried with auxiliary XSLT (Extensible Stylesheet Language Transformations) files. With these 
+				transformations we were able to display not only the entire information present in the XML file in a human-readable format but also allowing the user to perform some filtering (like filtering a particular sports team news or exluding everything but the news of a sports team in a given competetion when 
+				achieving a particular classification). This user-friendly format was built uppon XHTML tecnhology,
+				which means the user can simply open the SportsJournal homepage in any browser an easily navigate 
+				through the different available options.
 				</p:paragráfo>
 			</p:bloco>
 		</p:introdução>
@@ -50,63 +60,110 @@
 			<p:análise id="SEC101" tituloSecção="Analysis of the proposed problem">
 				<p:bloco>
 					<p:paragráfo>
-					The need to feel informed about the news of the world, meant that we had to find a viable alternative. For this, we created the generalist newspaper where all "news" would be printed on paper. After that, there were those who decided not to make a general newspaper, but by theme (sports, financial) in order to have more news related to that subject and to attract the target audience. With the evolution of technology, the paper starts to become into disuse and increasingly the supporters of the newspapers use the tablet or computer to access their favourite news site.
+					The need to be constantly updated about the what's happening in the world means that it is
+					imperitive to find a viable automation able to satisfy the needs of a common user looking for 
+					the a particular piece of information. With the internet widely spread around the world something
+					that surely isn't lacking nowadays is news sources. Taking this into account, and considering the
+					narrow spectrum of sports news, we created a generalist newspaper where any news could be presented on the screen to an user looking for sports news relating his favourite team or competition. After all, this is common feature in today's world, where subject-specific platforms are able to attract a particular target audience. With the evolution of technology, traditional newspapers start to become obsolete with the opposite increasingly need to support electronic formats that can be 
+					accessed from a tablet, cell phone or a personnal computer to access a favourite news site.
 					</p:paragráfo>
 					<p:paragráfo>
-					In this context, have emerged a necessity to have an organized information in order to provide improved tools, either filtering or research.
+					In this context, we focused to employ an organized data-structure containing several sports news, 
+					with additional tools allowsing an easy filtering and search. This data structure is an XML file
+					containing sports news.
 					</p:paragráfo>
 					<p:paragráfo>
-					Each sports news, is written in a certain language may or may not be translated into several languages (usually happens only in international newspapers), will also have its author news, which is usually a journalist associated with the newspaper, although there are also those who compose opinions public and the same appear in the newspaper. In case the date, it was decided to put the date of issuance of the news and not the date of the written notice.
+					Each sports news is written in a given languagem with the possibility for it being actually
+					translated into other languages (what is usually a feature of well-known international newspapers
+					websites). It will also have a reference to it's original author (a journalist associated with the newspaper). and it's issued date.
 					</p:paragráfo>
 					<p:paragráfo>
-					Regarding the content of the news, it can be said that each club has its news, which in turn has a rating associated with that participates in the league which is a particular sport, and the club an office in a particular country. Still on the club, it can be said generally that a club has an acronym associated, for example, when we say SLB, clearly referring to the Sport Lisboa e Benfica, based in Portugal.
+					Regarding the content of the news, it can be said that each news has reference to the teams involved
+					and to the classification obtained in the associated competetion. The clubs is associated in it's
+					country of origin and still concerning the team, it has an associated (for instance, when we say
+					 "SLB" we're referring to Sport Lisboa e Benfica, based in Portugal).
 					</p:paragráfo>
 					<p:paragráfo>
-					To facilitate research and to be easier to relate a story with each other, we chose to assign an identifier to the news.
+					In order to relate a story with each other, an unique identifier was assingned to every indiviual
+					news item.
 					</p:paragráfo>
 				</p:bloco>
 			</p:análise>
 			<p:linguagem id="SEC102" tituloSecção="Language used to create the XML">
 				<p:bloco>
 					<p:paragráfo>
-					For this problem, each news has an id attribute (in this format “AAAAA-9999-9999”, the AAAAA can be any letters A-Z with a variable size from 2 to 5, the 9999 can be any number from 0-9, with fixed size of 4, the first set of 9999 we choose to enter the year of publication of the notice). This same id will also be used to refer the related and similar news.
+					For this problem, each news has an id attribute (in the format “AAAAA-9999-9999”, with AAAAA being any letters A-Z, with a variable size from 2 to 5, and the 9999 being any number from 0-9, with fixed size of 4; for the first set of 9999 we chose to enter the year of publication of the news
+					item). This same id will also be used to refer the related or similar news.
 					</p:paragráfo>
 					<p:paragráfo>
-					Each news will have the following elements: date / time, author, source, title, abstract, photos, club, sports, championship, news and other news body, which will be explained below.
+					Each news will have the following elements: date / time, author, source, title, abstract, photos, club, sports, championship and news body, which will be explained below.
 					</p:paragráfo>
 					<p:paragráfo>
-					The date / time is divided into 5 elements of type integer, as follows: year, month, day, hour and minute. We believe that there was no need to insert the seconds since sometimes that was omitted in the main information sources.
+					The date / time is divided into 5 elements of type integer, as follows: year, month, day, hour and minute. We believe that there was no need to insert the seconds since sometimes that is omitted in the main information sources.
 					</p:paragráfo>
 					<p:paragráfo>
-					The author has two elements, namely the name and email address. The name is the type text, while the email contains a validation to verify if that email entered was correct.
+					The author has two elements, namely the name and email address. The name is text-type, while the email contains a regular-expression-based validation to verify if that email entered is correct.
 					</p:paragráfo>
 					<p:paragráfo>
-					The source contains two elements they being the source name and the URI of the source. The name is the type text and URI is the type URI.
+					The source contains two elements being the source name and the source's URI. The name is text-type  and the URI is the URI-type.
 					</p:paragráfo>
 					<p:paragráfo>
-					The title, abstract and body of the news, are all of the same type. As we have been asked that news could be in several languages, these elements have sub elements that specify what language they are written. Was only possible to define news in Portuguese, English, French, Italian and Spanish. To add a new language, you have to add the type of languages the respective element.
+					The title, abstract and body of the news are all of the same type. Assuming that any news item 
+					can be in more than one language, these elements have sub elements that specify in which language they were originally written. Therefore, it is possible to define news in Portuguese, English, French, Italian and Spanish. Adding a new language is accomplished by adding the type of languages 
+					to the respective element.
 					</p:paragráfo>
 					<p:paragráfo>
-					The photo contains two elements diversified, the main image and other images, but with the same attributes, namely the href (will report the location of the image), width and height (the appropriate size of the image). The difference lies in the number of images that they can be placed, and there can only be one main image and an unlimited number of other pictures.
+					The photo tag consists in two elements, the main image and other images, but with the same attributes, namely the href (which reports the location of the image), width and height. The difference lies in the number of images that can be placed, and there can only be one main image 
+					opposed to and an unlimited number of other pictures.
 					</p:paragráfo>
 					<p:paragráfo>
-					The club contains four elements, namely the name, short name, the country and the current position in the championship. The name element is the type text and element position is the type integer. The name small has a limitation that it can only accept 3 to 5 upper case letters only, and the country only accepts three capital letters.
+					The club contains four elements, namely the name, short name, the country and the current position in the championship. The name element is the text-type and position is an integer-type element. The shortname is limited to accept 3 to 5 upper case letters only, and the country only accepts three capital letters.
 					</p:paragráfo>
 					<p:paragráfo>
-					The sport element is the type text, and there is no restriction.
+					The sport element is the a text element with no associated restriction.
 					</p:paragráfo>
 					<p:paragráfo>
-					The element championship has an attribute location, which should be placed the code of the country in three capital letters, and the element name is the type string.
+					The element championship has an attribute called location, where should be placed the code of the country in three capital letters, and the element name is of the string type.
 					</p:paragráfo>
 					<p:paragráfo>
-					The element other news, was subdivided into 2 equal elements, the related and similar news. In both cases, they accept the element related or similar (as the element we're talking about) with an attribute, the id of the news that we are referring to, and complies with the id of the news.
+					The element other news, was subdivided into two sibling elements, the related and similar news. In both cases, they accept the element related or similar as an attribute that consists on the id of the news that we are referring to.
 					</p:paragráfo>
 				</p:bloco>
 			</p:linguagem>
 			<p:transformações id="SEC103" tituloSecção="Transformations to HTML and XML">
 				<p:bloco>
 					<p:paragráfo>
-					Transf
+					As we mentioned above, one of main features of this project is the ability to show sports news in a
+					web browser and, in order to do that, we had to transform the data present in the XML file to an 
+					HTML format. This is achieved using a XSLT stylesheet, that allows an input XML file to be 
+					processed into an output document such as XHTML or XML (2).
+					</p:paragráfo>
+
+					<p:paragráfo>
+					However, this project also allows the user the ability to filter data. These filters are static and 
+					not dynamic, which means that the filtered news items are already pre-defined using their respective
+					XSLT files. With the presence of multiple filters it was necessary to add several identical copies
+					of the original XML file, each refering to a unique XSLT that performs the respective filtering, as
+					a single XML file can only refer to a single XSLT file.
+					</p:paragráfo>
+
+					<p:paragráfo>
+					All XSLT transformations to XHTML share features in common among them. We have defined different
+					xsl:template elements that match a particular node in the original XML file and further on the 
+					respective filtering is achieved using standard xsl element, such as xsl:for-each elements (to go 
+					through the several news items) combined with xsl:value-of elements (to retrive specific data). 
+					Given the considerable number of available filters, it is possible to go into the details of evety
+					single filter included, however the XSLT files are well-documented in the most delicate steps to 
+					assure perfect readability in the programmer's perspective. It should be noted that these 
+					transformations to HTML include basic XHTML and javascript code in order to produce the XHTML
+					pages such as this one.	
+					</p:paragráfo>
+
+					<p:paragráfo>
+					Concerning the XML to XML transformation (available in this project as "XML export"), is was also
+					used a XSLT transformation, however in this transformation the main idea consisted in the production
+					of a new XML structure. In this feature we show that our initial XML file (Figure 1) can be casted
+					into a completely different one and this new structure is illustrated in Figure 2. 
 					</p:paragráfo>
 				</p:bloco>
 			</p:transformações>
@@ -114,24 +171,75 @@
 		<p:conclusão id="SEC201" tituloSecção="Conclusion">
 			<p:bloco>
 				<p:paragráfo>
-					Conc
-					</p:paragráfo>
+				In this project with applied XML tecnhology to develop the foundations of a Sports Journal, with all 
+				its news being held in a single (yet replicated) XML file. The structure of this XML file was carefully 
+				designed in order to allow the storage of all relevant data relating a sports news, such as the title, 
+				abstract, authors, teams involved or it's newsbody.  
+				</p:paragráfo>
+
+				<p:paragráfo>
+				Considering that a single news item includes several tags that in turn containing different pieces of 
+				information, instead of just printing all that information on the screen we realized that we could 
+				offer a more valuable user experience by allowing different filters. These filters allow to select news 
+				from a given sports team, competition or even it's position on that competetion, saving time to a user 
+				that intends to look only for news concerning his favourite team, for example. However, concerning that 
+				the filtering process is not dynamic, all the filters available in this project implied the presence of 
+				as many XML and XSLT files, as a filter itlsef consists in an unique XSLT file that transforms one of 
+				the several replicated XML files into readable XHTML output. This limitation concerns the technology 
+				used in the scope of this project: considering that we're doing a client-sided filtering only, to 
+				ensure multiple filters of the same data we had no other choice but replicating the original XML file, 
+				with each copy being associated with a unique XSLT file responsible for the transformation to XHTML.
+				</p:paragráfo>
+
+				<p:paragráfo>
+				Taking into account that a single news item includes several tags that in turn containing different pieces of 
+				information, instead of just printing all that information on the screen we realized that we could 
+				offer a more valuable user experience by allowing different filters. These filters allow to select news 
+				from a given sports team, competition or even it's position on that competetion, saving time to a user 
+				that intends to look only for news concerning his favourite team, for example. However, concerning that 
+				the filtering process is not dynamic, all the filters available in this project implied the presence of 
+				as many XML and XSLT files, as a filter itlsef consists in an unique XSLT file that transforms one of 
+				the several replicated XML files into readable XHTML output. This limitation concerns the technology 
+				used in the scope of this project: considering that we're doing a client-sided filtering only, to 
+				ensure multiple filters of the same data we had no other choice but replicating the original XML file, 
+				with each copy being associated with a unique XSLT file responsible for the transformation to XHTML.
+				</p:paragráfo>
+
+				<p:paragráfo>
+				We have some other limitations to report, namely concerning the HTML and javascript code. We didn't
+				invest much time in developing optimized HTML and javascript code as the main goal of this project 
+				concerns operating with XML technology, however we managed to produce, on the side, supporting code 
+				to display XML transformations in a user-friendly perspective. Therefore, the HTML layout is 
+				rather simple 
+				and the all javascript functions may not be fully optimized, specially concerning it's performance in 
+				different web browsers. Safari was the only browser where all HTML functionalities were tested so we antecipate eventual bugs when navigating through this project in other web browsers.
+				</p:paragráfo>
+
+				<p:paragráfo>
+				
+				</p:paragráfo>
 			</p:bloco>
 		</p:conclusão>
 		
 		<!-- need to add the referencies of the report -->
 		<p:referências>
 			<p:refBibliográfica idRef="RefB_A">
-				<p:título>p:título</p:título>
-				<p:dataPublicação>p:dataPublicação</p:dataPublicação>
-				<p:autor>p:autor</p:autor>
+				<p:título>p:XML 1.0 Origin and Goals</p:título>
+				<p:dataPublicação>p:July 2009</p:dataPublicação>
+				<p:autor>p:W3C</p:autor>
+
+				<p:título idRef="RefB_B">p:Linguagens e Programação: XSLT e XPath</p:título>
+				<p:dataPublicação>p:2013</p:dataPublicação>
+				<p:autor>p:Constantino Martins e Paulo Matos</p:autor>
+				
+
 			</p:refBibliográfica>
 			
 		</p:referências>
 	</p:corpo>
 	<p:anexos tituloSecção="Tag Tree" id="ANX001">
 		<p:bloco>
-			<p:figura src="files/tagtree.jpg" descrição="Tag tree of the xml"/>			
+			<p:figura src="files/tagtree.jpg" descrição="Figure 1: hierachichal structure of the xml file."/>			
 		</p:bloco>
 	</p:anexos>
 </p:relatório>
