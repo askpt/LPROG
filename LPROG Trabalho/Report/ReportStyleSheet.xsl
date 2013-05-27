@@ -26,7 +26,7 @@
 
 								<!-- LI for menu Home -->
 								<li>
-									<a href="#">HOME</a>
+									<a href="../SportsJournal/html/welcome.html">HOME</a>
 									<ul>
 										<!-- uncomment below to add menu option -->
 										<!-- <li><a href="pageNotFound.htm">Upload file</a></li> -->
@@ -62,7 +62,7 @@
 									<a href="#">EXPORT</a>
 									<ul>
 										<li>
-											<a href="../SportsJournal/pageNotFound.htm">Export to xml</a>
+											<a href="../SportsJournal/exportXML.xml">Export to xml</a>
 										</li>
 										<!-- uncomment below to add menu option -->
 										<!-- <li><a href="pageNotFound.htm">Delete Label</a></li> -->
@@ -74,7 +74,7 @@
 									<a href="#">ABOUT</a>
 									<ul>
 										<li>
-											<a href="../SportsJournal/pageNotFound.htm">Report</a>
+											<a href="#">Report</a>
 										</li>
 										<hr />
 										<li>
@@ -195,7 +195,7 @@
 	</xsl:template>
 
 	<xsl:template match="p:referências">
-		<h3>Referencies</h3>
+		<h3>References</h3>
 		<xsl:for-each select="p:refBibliográfica">
 			<p>
 				<xsl:value-of select="@idRef" />
